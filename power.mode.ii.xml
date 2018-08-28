@@ -1,0 +1,8 @@
+<application>
+  <component name="PowerModeII">
+    <option name="customBamImageFolder" value="D:\Developer\IntelliJ IDEA 2018.1.1\bin" />
+    <option name="customFlameImageFolder" value="D:\Developer\IntelliJ IDEA 2018.1.1\bin" />
+    <option name="enabled" value="false" />
+    <option name="soundsFolder" value="D:\Developer\IntelliJ IDEA 2018.1.1\bin" />
+  </component>
+</application>
