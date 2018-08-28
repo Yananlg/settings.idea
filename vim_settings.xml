@@ -1,0 +1,43 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Workspace/insure-user/user-common/src/main/resources/mybatis/mapper/UserOauthTrailMapper.xml" timestamp="1496646687148">
+        <mark key="[" line="17" column="12" />
+        <mark key="]" line="17" column="12" />
+        <mark key="." line="17" column="12" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="&quot;" type="4">
+        <text>u</text>
+      </register>
+      <register name="-" type="4">
+        <text>u</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+    <editor>
+      <key-repeat enabled="true" />
+    </editor>
+  </component>
+</application>
