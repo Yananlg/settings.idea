@@ -1,6 +1,19 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value=" the number of parties currently blocked in await" />
+      <item value="Returns the number of parties currently waiting at the barrier. This method is primarily useful for debugging and assertions. " />
+      <item value="Returns the number of parties currently waiting at the barrier." />
+      <item value="instead" />
+      <item value="preferable" />
+      <item value="threads need to re-synchronize in some other way,      and choose one to perform the reset.  It may be preferable to instead create a new barrier for subsequent use" />
+      <item value="Note that resets after a breakage has occurred for other reasons can be complicated to  carry out; " />
+      <item value="Resets the barrier to its initial state. If any parties are * currently waiting at the barrier, they will return with a * {@link BrokenBarrierException}. Note that resets &lt;em&gt;after&lt;/em&gt; * a breakage has occurred for other reasons can be complicated to * carry out; threads need to re-synchronize in some other way, * and choose one to perform the reset. It may be preferable to * instead create a new barrier for subsequent use." />
+      <item value="if one or more parties broke out of this * barrier due to interruption or timeout since * construction or the last reset, or a barrier action * failed due to an exception; {@code false} otherwise" />
+      <item value="Queries if this barrier is in a broken state." />
+      <item value="Returns the number of parties required to trip this barrier." />
+      <item value="This method is typically used for debugging and testing purposes" />
+      <item value="Returns the current count" />
       <item value="is interrupted while waiting" />
       <item value="while waiting" />
       <item value="has its interrupted status set on entry to this method" />
