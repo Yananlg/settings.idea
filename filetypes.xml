@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.classpath;.git;.hg;.project;.settings;.svn;.vscode;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="mysql" type="PLAIN_TEXT" />
+      <mapping ext="lombok" type="PLAIN_TEXT" />
+      <mapping ext="1提测" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
