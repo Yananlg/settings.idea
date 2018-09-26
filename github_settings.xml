@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="9c1ee9d1-1ff1-4857-8834-6d2a1a0eb3ea" name="yananlg">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="yananlg" />
     <option name="AUTH_TYPE" value="BASIC" />

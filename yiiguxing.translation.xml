@@ -32,13 +32,13 @@
   </component>
   <component name="Settings">
     <option name="foldOriginal" value="true" />
+    <option name="ignoreRegExp" value="" />
     <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Source Code Pro" />
     <option name="primaryFontFamily" value="Microsoft YaHei" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="0b9675ec9310c20e" />
-        <option name="appKeyConfigured" value="true" />
       </youdao-translate>
     </option>
   </component>
