@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP. Note: When using the 'nowrap' option it is also necessary to provide an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native library in order to support certain optimizations. @param nowrap if true then support GZIP compatible compression" />
+      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP. Note: When using the 'nowrap' option it is also necessary to provide an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native library in order to support certain optimizations." />
+      <item value="* Creates a new decompressor. If the parameter 'nowrap' is true then * the ZLIB header and checksum fields will not be used. This provides * compatibility with the compression format used by both GZIP and PKZIP. * &lt;p&gt; * Note: When using the 'nowrap' option it is also necessary to provide * an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native * library in order to support certain optimizations." />
+      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP." />
+      <item value="Note: When using the 'nowrap' option it is also necessary to provide * an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native * library in order to support certain optimizations." />
+      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then * the ZLIB header and checksum fields will not be used. This provides * compatibility with the compression format used by both GZIP and PKZIP." />
       <item value=" the number of parties currently blocked in await" />
       <item value="Returns the number of parties currently waiting at the barrier. This method is primarily useful for debugging and assertions. " />
       <item value="Returns the number of parties currently waiting at the barrier." />
@@ -29,10 +35,16 @@
       <item value="SIZED" />
       <item value="/** * Characteristic value signifying that the value returned from * {@code estimateSize()} prior to traversal or splitting represents a * finite size that, in the absence of structural source modification, * represents an exact count of the number of elements that would be * encountered by a complete traversal. * * @apiNote Most Spliterators for Collections, that cover all elements of a * {@code Collection} report this characteristic. Sub-spliterators, such as * those for {@link HashSet}, that cover a sub-set of elements and * approximate their reported size do not. */" />
     </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="6" />
+      </map>
+    </option>
   </component>
   <component name="Settings">
     <option name="foldOriginal" value="true" />
-    <option name="ignoreRegExp" value="" />
+    <option name="ignoreRegExp" value="[\*]|(&lt;p&gt;)" />
     <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Source Code Pro" />
     <option name="primaryFontFamily" value="Microsoft YaHei" />
