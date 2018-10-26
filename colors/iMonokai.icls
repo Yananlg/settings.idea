@@ -7,17 +7,9 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro Medium" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </console-font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
