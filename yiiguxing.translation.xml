@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="weixin info" />
       <item value="asynchronous" />
       <item value="object that prepares the request" />
       <item value="object that extracts the return value from the response" />
