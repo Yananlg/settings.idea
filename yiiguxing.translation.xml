@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Consider defining a bean of type 'org.springframework.scheduling.TaskScheduler' in your configuration." />
       <item value="This conditional is intentionally not in an autoconfig (usually a bad idea) because // it is used to detect a BindingService in the parent context (which we know // already exists)." />
       <item value="Indicates whether or not this instance should register its information with eureka server for discovery by others. In some cases, you do not want your instances to be discovered whereas you just want do discover other instances." />
       <item value="is Access Token Expired" />
@@ -49,8 +50,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="16" />
-        <entry key="ENGLISH" value="17" />
+        <entry key="CHINESE" value="17" />
+        <entry key="ENGLISH" value="18" />
       </map>
     </option>
   </component>
