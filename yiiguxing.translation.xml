@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If the property is not contained in the {@link Environment} at all, the {@link #matchIfMissing()} attribute is consulted. By default missing attributes do not match." />
+      <item value="It is better to use a custom condition for such cases." />
       <item value="Consider defining a bean of type 'org.springframework.scheduling.TaskScheduler' in your configuration." />
       <item value="This conditional is intentionally not in an autoconfig (usually a bad idea) because // it is used to detect a BindingService in the parent context (which we know // already exists)." />
       <item value="Indicates whether or not this instance should register its information with eureka server for discovery by others. In some cases, you do not want your instances to be discovered whereas you just want do discover other instances." />
@@ -50,8 +52,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="19" />
+        <entry key="ENGLISH" value="20" />
       </map>
     </option>
   </component>
