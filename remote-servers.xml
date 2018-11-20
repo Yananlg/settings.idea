@@ -7,7 +7,7 @@
     </remote-server>
     <remote-server name="Docker.192.168.10.175" type="docker">
       <configuration>
-        <option name="apiUrl" value="tcp://192.168.10.175:5000" />
+        <option name="apiUrl" value="tcp://192.168.10.175:2375" />
       </configuration>
     </remote-server>
     <remote-server name="Docker.192.168.10.174" type="docker">
