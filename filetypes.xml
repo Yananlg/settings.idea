@@ -7,6 +7,8 @@
       <mapping pattern="Dockfile" type="PLAIN_TEXT" />
       <mapping pattern="mysql" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
+      <mapping ext="provides" type="PLAIN_TEXT" />
+      <mapping ext="factor" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="1提测" type="PLAIN_TEXT" />
     </extensionMap>
