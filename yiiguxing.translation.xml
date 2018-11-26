@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Custom servers are possible, but not supported by the community. Please use our &lt;a href=&quot;https://github.com/openzipkin/zipkin#quick-start&quot;&gt;default server build&lt;/a&gt; first. If you find something missing, please &lt;a href=&quot;https://gitter.im/openzipkin/zipkin&quot;&gt;gitter&lt;/a&gt; us about it before making a custom server. If you decide to make a custom server, you accept responsibility for troubleshooting your build or configuration problems, even if such problems are a reaction to a change made by the OpenZipkin maintainers. In other words, custom servers are possible, but not supported." />
       <item value="If the property is not contained in the {@link Environment} at all, the {@link #matchIfMissing()} attribute is consulted. By default missing attributes do not match." />
       <item value="It is better to use a custom condition for such cases." />
       <item value="Consider defining a bean of type 'org.springframework.scheduling.TaskScheduler' in your configuration." />
@@ -52,8 +53,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="19" />
-        <entry key="ENGLISH" value="20" />
+        <entry key="CHINESE" value="20" />
+        <entry key="ENGLISH" value="21" />
       </map>
     </option>
   </component>
