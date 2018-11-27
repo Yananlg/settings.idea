@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Request subscription to recipient's presence" />
+      <item value="subscription" />
+      <item value="available" />
+      <item value="presence" />
       <item value="Custom servers are possible, but not supported by the community. Please use our &lt;a href=&quot;https://github.com/openzipkin/zipkin#quick-start&quot;&gt;default server build&lt;/a&gt; first. If you find something missing, please &lt;a href=&quot;https://gitter.im/openzipkin/zipkin&quot;&gt;gitter&lt;/a&gt; us about it before making a custom server. If you decide to make a custom server, you accept responsibility for troubleshooting your build or configuration problems, even if such problems are a reaction to a change made by the OpenZipkin maintainers. In other words, custom servers are possible, but not supported." />
       <item value="If the property is not contained in the {@link Environment} at all, the {@link #matchIfMissing()} attribute is consulted. By default missing attributes do not match." />
       <item value="It is better to use a custom condition for such cases." />
@@ -47,14 +51,11 @@
       <item value="A {@link SortedMap} extended with navigation methods returning the * closest matches for given search targets. Methods * {@code lowerEntry}, {@code floorEntry}, {@code ceilingEntry}, * and {@code higherEntry} return {@code Map.Entry} objects * associated with keys respectively less than, less than or equal, * greater than or equal, and greater than a given key, returning * {@code null} if there is no such key. Similarly, methods * {@code lowerKey}, {@code floorKey}, {@code ceilingKey}, and * {@code higherKey} return only the associated keys. All of these * methods are designed for locating, not traversing entries. * * &lt;p&gt;A {@code NavigableMap} may be accessed and traversed in either * ascending or descending key order. The {@code descendingMap} * method returns a view of the map with the senses of all relational * and directional methods inverted. The performance of ascending * operations and views is likely to be faster than that of descending * ones. Methods {@code subMap}, {@code headMap}, * and {@code tailMap} differ from the like-named {@code * SortedMap} methods in accepting additional arguments describing * whether lower and upper bounds are inclusive versus exclusive. * Submaps of any {@code NavigableMap} must implement the {@code * NavigableMap} interface." />
       <item value="/** * Returns a canonical representation for the string object. * &lt;p&gt; * A pool of strings, initially empty, is maintained privately by the * class {@code String}. * &lt;p&gt; * When the intern method is invoked, if the pool already contains a * string equal to this {@code String} object as determined by * the {@link #equals(Object)} method, then the string from the pool is * returned. Otherwise, this {@code String} object is added to the * pool and a reference to this {@code String} object is returned. * &lt;p&gt; * It follows that for any two strings {@code s} and {@code t}, * {@code s.intern() == t.intern()} is {@code true} * if and only if {@code s.equals(t)} is {@code true}. * &lt;p&gt; * All literal strings and string-valued constant expressions are * interned. String literals are defined in section 3.10.5 of the * &lt;cite&gt;The Java&amp;trade; Language Specification&lt;/cite&gt;. * * @return a string that has the same contents as this string, but is * guaranteed to be from a pool of unique strings. */" />
       <item value="html" />
-      <item value="signifying" />
-      <item value="SIZED" />
-      <item value="/** * Characteristic value signifying that the value returned from * {@code estimateSize()} prior to traversal or splitting represents a * finite size that, in the absence of structural source modification, * represents an exact count of the number of elements that would be * encountered by a complete traversal. * * @apiNote Most Spliterators for Collections, that cover all elements of a * {@code Collection} report this characteristic. Sub-spliterators, such as * those for {@link HashSet}, that cover a sub-set of elements and * approximate their reported size do not. */" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="20" />
-        <entry key="ENGLISH" value="21" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
       </map>
     </option>
   </component>
