@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="representing" />
+      <item value="localprep" />
       <item value="Request subscription to recipient's presence" />
       <item value="subscription" />
       <item value="available" />
@@ -49,13 +51,11 @@
       <item value="/** * Decrements the count of the latch, releasing all waiting threads if * the count reaches zero. * * &lt;p&gt;If the current count is greater than zero then it is decremented. * If the new count is zero then all waiting threads are re-enabled for * thread scheduling purposes. * * &lt;p&gt;If the current count equals zero then nothing happens. */" />
       <item value="Inserts the specified element into this priority queue. * As the queue is unbounded, this method will never block or * return {@code false}. * * @param e the element to add * @param timeout This parameter is ignored as the method never blocks * @param unit This parameter is ignored as the method never blocks * @return {@code true} (as specified by * {@link BlockingQueue#offer(Object,long,TimeUnit) BlockingQueue.offer}) * @throws ClassCastException if the specified element cannot be compared * with elements currently in the priority queue according to the * priority queue's ordering * @throws NullPointerException if the specified element is null" />
       <item value="A {@link SortedMap} extended with navigation methods returning the * closest matches for given search targets. Methods * {@code lowerEntry}, {@code floorEntry}, {@code ceilingEntry}, * and {@code higherEntry} return {@code Map.Entry} objects * associated with keys respectively less than, less than or equal, * greater than or equal, and greater than a given key, returning * {@code null} if there is no such key. Similarly, methods * {@code lowerKey}, {@code floorKey}, {@code ceilingKey}, and * {@code higherKey} return only the associated keys. All of these * methods are designed for locating, not traversing entries. * * &lt;p&gt;A {@code NavigableMap} may be accessed and traversed in either * ascending or descending key order. The {@code descendingMap} * method returns a view of the map with the senses of all relational * and directional methods inverted. The performance of ascending * operations and views is likely to be faster than that of descending * ones. Methods {@code subMap}, {@code headMap}, * and {@code tailMap} differ from the like-named {@code * SortedMap} methods in accepting additional arguments describing * whether lower and upper bounds are inclusive versus exclusive. * Submaps of any {@code NavigableMap} must implement the {@code * NavigableMap} interface." />
-      <item value="/** * Returns a canonical representation for the string object. * &lt;p&gt; * A pool of strings, initially empty, is maintained privately by the * class {@code String}. * &lt;p&gt; * When the intern method is invoked, if the pool already contains a * string equal to this {@code String} object as determined by * the {@link #equals(Object)} method, then the string from the pool is * returned. Otherwise, this {@code String} object is added to the * pool and a reference to this {@code String} object is returned. * &lt;p&gt; * It follows that for any two strings {@code s} and {@code t}, * {@code s.intern() == t.intern()} is {@code true} * if and only if {@code s.equals(t)} is {@code true}. * &lt;p&gt; * All literal strings and string-valued constant expressions are * interned. String literals are defined in section 3.10.5 of the * &lt;cite&gt;The Java&amp;trade; Language Specification&lt;/cite&gt;. * * @return a string that has the same contents as this string, but is * guaranteed to be from a pool of unique strings. */" />
-      <item value="html" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="24" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE" value="26" />
+        <entry key="ENGLISH" value="27" />
       </map>
     </option>
   </component>
