@@ -5,6 +5,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="Dockerfile-redis" type="PLAIN_TEXT" />
       <mapping pattern="Dockfile" type="PLAIN_TEXT" />
+      <mapping pattern="user" type="PLAIN_TEXT" />
       <mapping pattern="mysql" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
       <mapping ext="provides" type="PLAIN_TEXT" />
