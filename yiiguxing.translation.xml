@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Datatype-specific additional piece of configuration that may be used to further refine formatting aspects. This may, for example, determine low-level format String used for {@link java.util.Date} serialization; however, exact use is determined by specific &lt;code&gt;JsonSerializer&lt;/code&gt;" />
+      <item value="indicates" />
+      <item value="Value that indicates shape should not be structural" />
       <item value="representing" />
       <item value="localprep" />
       <item value="Request subscription to recipient's presence" />
@@ -48,14 +51,11 @@
       <item value="The count reaches zero due to invocations of the * {@link #countDown} method" />
       <item value="If the current count is greater than zero then the current * thread becomes disabled for thread scheduling purposes and lies * dormant until one of two things happen" />
       <item value="/** * Causes the current thread to wait until the latch has counted down to * zero, unless the thread is {@linkplain Thread#interrupt interrupted}. * * &lt;p&gt;If the current count is zero then this method returns immediately. * * &lt;p&gt;If the current count is greater than zero then the current * thread becomes disabled for thread scheduling purposes and lies * dormant until one of two things happen: * &lt;ul&gt; * &lt;li&gt;The count reaches zero due to invocations of the * {@link #countDown} method; or * &lt;li&gt;Some other thread {@linkplain Thread#interrupt interrupts} * the current thread. * &lt;/ul&gt; * * &lt;p&gt;If the current thread: * &lt;ul&gt; * &lt;li&gt;has its interrupted status set on entry to this method; or * &lt;li&gt;is {@linkplain Thread#interrupt interrupted} while waiting, * &lt;/ul&gt; * then {@link InterruptedException} is thrown and the current thread's * interrupted status is cleared. * * @throws InterruptedException if the current thread is interrupted * while waiting" />
-      <item value="/** * Decrements the count of the latch, releasing all waiting threads if * the count reaches zero. * * &lt;p&gt;If the current count is greater than zero then it is decremented. * If the new count is zero then all waiting threads are re-enabled for * thread scheduling purposes. * * &lt;p&gt;If the current count equals zero then nothing happens. */" />
-      <item value="Inserts the specified element into this priority queue. * As the queue is unbounded, this method will never block or * return {@code false}. * * @param e the element to add * @param timeout This parameter is ignored as the method never blocks * @param unit This parameter is ignored as the method never blocks * @return {@code true} (as specified by * {@link BlockingQueue#offer(Object,long,TimeUnit) BlockingQueue.offer}) * @throws ClassCastException if the specified element cannot be compared * with elements currently in the priority queue according to the * priority queue's ordering * @throws NullPointerException if the specified element is null" />
-      <item value="A {@link SortedMap} extended with navigation methods returning the * closest matches for given search targets. Methods * {@code lowerEntry}, {@code floorEntry}, {@code ceilingEntry}, * and {@code higherEntry} return {@code Map.Entry} objects * associated with keys respectively less than, less than or equal, * greater than or equal, and greater than a given key, returning * {@code null} if there is no such key. Similarly, methods * {@code lowerKey}, {@code floorKey}, {@code ceilingKey}, and * {@code higherKey} return only the associated keys. All of these * methods are designed for locating, not traversing entries. * * &lt;p&gt;A {@code NavigableMap} may be accessed and traversed in either * ascending or descending key order. The {@code descendingMap} * method returns a view of the map with the senses of all relational * and directional methods inverted. The performance of ascending * operations and views is likely to be faster than that of descending * ones. Methods {@code subMap}, {@code headMap}, * and {@code tailMap} differ from the like-named {@code * SortedMap} methods in accepting additional arguments describing * whether lower and upper bounds are inclusive versus exclusive. * Submaps of any {@code NavigableMap} must implement the {@code * NavigableMap} interface." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="26" />
-        <entry key="ENGLISH" value="27" />
+        <entry key="CHINESE" value="29" />
+        <entry key="ENGLISH" value="30" />
       </map>
     </option>
   </component>
