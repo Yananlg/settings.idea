@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Set a specific leeway window in seconds in which the Not Before (&quot;nbf&quot;) Claim will still be valid. Not Before Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
+      <item value="Define the default window in seconds in which the Not Before, Issued At and Expires At Claims will still be valid. Setting a specific leeway value on a given Claim will override this value for that Claim." />
+      <item value="if leeway is negative." />
+      <item value="the window in seconds in which the Expires At Claim will still be valid." />
+      <item value="Expiration Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
+      <item value="et a specific leeway window in seconds in which the Expires At (&quot;exp&quot;) Claim will still be valid." />
       <item value="Require a specific JWT Id (&quot;jti&quot;) claim." />
       <item value="Add a specific Not Before (&quot;nbf&quot;) claim to the Payload." />
       <item value="Audience" />
@@ -45,17 +51,11 @@
       <item value="threads need to re-synchronize in some other way,      and choose one to perform the reset.  It may be preferable to instead create a new barrier for subsequent use" />
       <item value="Note that resets after a breakage has occurred for other reasons can be complicated to  carry out; " />
       <item value="Resets the barrier to its initial state. If any parties are * currently waiting at the barrier, they will return with a * {@link BrokenBarrierException}. Note that resets &lt;em&gt;after&lt;/em&gt; * a breakage has occurred for other reasons can be complicated to * carry out; threads need to re-synchronize in some other way, * and choose one to perform the reset. It may be preferable to * instead create a new barrier for subsequent use." />
-      <item value="if one or more parties broke out of this * barrier due to interruption or timeout since * construction or the last reset, or a barrier action * failed due to an exception; {@code false} otherwise" />
-      <item value="Queries if this barrier is in a broken state." />
-      <item value="Returns the number of parties required to trip this barrier." />
-      <item value="This method is typically used for debugging and testing purposes" />
-      <item value="Returns the current count" />
-      <item value="is interrupted while waiting" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="34" />
-        <entry key="ENGLISH" value="35" />
+        <entry key="CHINESE" value="40" />
+        <entry key="ENGLISH" value="41" />
       </map>
     </option>
   </component>
