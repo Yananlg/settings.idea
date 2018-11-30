@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Add a specific Not Before (&quot;nbf&quot;) claim to the Payload." />
+      <item value="Audience" />
+      <item value="Add a specific Subject (&quot;sub&quot;) claim to the Payload." />
+      <item value="Add a specific Issuer (&quot;iss&quot;) claim to the Payload." />
       <item value="Datatype-specific additional piece of configuration that may be used to further refine formatting aspects. This may, for example, determine low-level format String used for {@link java.util.Date} serialization; however, exact use is determined by specific &lt;code&gt;JsonSerializer&lt;/code&gt;" />
       <item value="indicates" />
       <item value="Value that indicates shape should not be structural" />
@@ -47,15 +51,11 @@
       <item value="Returns the current count" />
       <item value="is interrupted while waiting" />
       <item value="while waiting" />
-      <item value="has its interrupted status set on entry to this method" />
-      <item value="The count reaches zero due to invocations of the * {@link #countDown} method" />
-      <item value="If the current count is greater than zero then the current * thread becomes disabled for thread scheduling purposes and lies * dormant until one of two things happen" />
-      <item value="/** * Causes the current thread to wait until the latch has counted down to * zero, unless the thread is {@linkplain Thread#interrupt interrupted}. * * &lt;p&gt;If the current count is zero then this method returns immediately. * * &lt;p&gt;If the current count is greater than zero then the current * thread becomes disabled for thread scheduling purposes and lies * dormant until one of two things happen: * &lt;ul&gt; * &lt;li&gt;The count reaches zero due to invocations of the * {@link #countDown} method; or * &lt;li&gt;Some other thread {@linkplain Thread#interrupt interrupts} * the current thread. * &lt;/ul&gt; * * &lt;p&gt;If the current thread: * &lt;ul&gt; * &lt;li&gt;has its interrupted status set on entry to this method; or * &lt;li&gt;is {@linkplain Thread#interrupt interrupted} while waiting, * &lt;/ul&gt; * then {@link InterruptedException} is thrown and the current thread's * interrupted status is cleared. * * @throws InterruptedException if the current thread is interrupted * while waiting" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="29" />
-        <entry key="ENGLISH" value="30" />
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="34" />
       </map>
     </option>
   </component>
