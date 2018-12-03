@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="literal" />
+      <item value="when used in pipeline / transaction" />
       <item value="Set a specific leeway window in seconds in which the Not Before (&quot;nbf&quot;) Claim will still be valid. Not Before Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
       <item value="Define the default window in seconds in which the Not Before, Issued At and Expires At Claims will still be valid. Setting a specific leeway value on a given Claim will override this value for that Claim." />
       <item value="if leeway is negative." />
@@ -49,13 +51,11 @@
       <item value="instead" />
       <item value="preferable" />
       <item value="threads need to re-synchronize in some other way,      and choose one to perform the reset.  It may be preferable to instead create a new barrier for subsequent use" />
-      <item value="Note that resets after a breakage has occurred for other reasons can be complicated to  carry out; " />
-      <item value="Resets the barrier to its initial state. If any parties are * currently waiting at the barrier, they will return with a * {@link BrokenBarrierException}. Note that resets &lt;em&gt;after&lt;/em&gt; * a breakage has occurred for other reasons can be complicated to * carry out; threads need to re-synchronize in some other way, * and choose one to perform the reset. It may be preferable to * instead create a new barrier for subsequent use." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="40" />
-        <entry key="ENGLISH" value="41" />
+        <entry key="CHINESE" value="42" />
+        <entry key="ENGLISH" value="43" />
       </map>
     </option>
   </component>
