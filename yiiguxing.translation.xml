@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="It is recommended to create separate format instances for each thread. If multiple threads access a format concurrently, it must be synchronized externally." />
+      <item value="Number formats are generally not synchronized." />
       <item value="literal" />
       <item value="when used in pipeline / transaction" />
       <item value="Set a specific leeway window in seconds in which the Not Before (&quot;nbf&quot;) Claim will still be valid. Not Before Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
@@ -49,13 +51,11 @@
       <item value="Returns the number of parties currently waiting at the barrier. This method is primarily useful for debugging and assertions. " />
       <item value="Returns the number of parties currently waiting at the barrier." />
       <item value="instead" />
-      <item value="preferable" />
-      <item value="threads need to re-synchronize in some other way,      and choose one to perform the reset.  It may be preferable to instead create a new barrier for subsequent use" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="42" />
-        <entry key="ENGLISH" value="43" />
+        <entry key="CHINESE" value="44" />
+        <entry key="ENGLISH" value="45" />
       </map>
     </option>
   </component>
