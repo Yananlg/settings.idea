@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="For backward compatibility" />
       <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="It is recommended to create separate format instances for each thread. If multiple threads access a format concurrently, it must be synchronized externally." />
       <item value="Number formats are generally not synchronized." />
@@ -50,12 +51,11 @@
       <item value="Creates a new decompressor. If the parameter 'nowrap' is true then * the ZLIB header and checksum fields will not be used. This provides * compatibility with the compression format used by both GZIP and PKZIP." />
       <item value=" the number of parties currently blocked in await" />
       <item value="Returns the number of parties currently waiting at the barrier. This method is primarily useful for debugging and assertions. " />
-      <item value="Returns the number of parties currently waiting at the barrier." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="45" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="CHINESE" value="47" />
+        <entry key="ENGLISH" value="48" />
       </map>
     </option>
   </component>
