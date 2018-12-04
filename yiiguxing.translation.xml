@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specifies a reference to the corresponding type definition, overrides any other metadata specified" />
+      <item value="An array of the sub types inheriting from this model." />
+      <item value="This is the name of the field used as a discriminator. Based on this field, it would be possible to assert which sub type needs to be used." />
+      <item value="upports model inheritance and polymorphism." />
+      <item value="Classes will be introspected automatically as they are used as types in operations, but you may want to manipulate the structure of the models." />
       <item value="For backward compatibility" />
       <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="It is recommended to create separate format instances for each thread. If multiple threads access a format concurrently, it must be synchronized externally." />
@@ -46,16 +51,11 @@
       <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP. Note: When using the 'nowrap' option it is also necessary to provide an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native library in order to support certain optimizations. @param nowrap if true then support GZIP compatible compression" />
       <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP. Note: When using the 'nowrap' option it is also necessary to provide an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native library in order to support certain optimizations." />
       <item value="* Creates a new decompressor. If the parameter 'nowrap' is true then * the ZLIB header and checksum fields will not be used. This provides * compatibility with the compression format used by both GZIP and PKZIP. * &lt;p&gt; * Note: When using the 'nowrap' option it is also necessary to provide * an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native * library in order to support certain optimizations." />
-      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then the ZLIB header and checksum fields will not be used. This provides compatibility with the compression format used by both GZIP and PKZIP." />
-      <item value="Note: When using the 'nowrap' option it is also necessary to provide * an extra &quot;dummy&quot; byte as input. This is required by the ZLIB native * library in order to support certain optimizations." />
-      <item value="Creates a new decompressor. If the parameter 'nowrap' is true then * the ZLIB header and checksum fields will not be used. This provides * compatibility with the compression format used by both GZIP and PKZIP." />
-      <item value=" the number of parties currently blocked in await" />
-      <item value="Returns the number of parties currently waiting at the barrier. This method is primarily useful for debugging and assertions. " />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="52" />
+        <entry key="ENGLISH" value="53" />
       </map>
     </option>
   </component>
