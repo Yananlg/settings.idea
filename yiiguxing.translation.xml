@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="Value that indicates that only properties with non-null values are to be included." />
       <item value="Specifies a reference to the corresponding type definition, overrides any other metadata specified" />
       <item value="An array of the sub types inheriting from this model." />
@@ -8,7 +9,6 @@
       <item value="upports model inheritance and polymorphism." />
       <item value="Classes will be introspected automatically as they are used as types in operations, but you may want to manipulate the structure of the models." />
       <item value="For backward compatibility" />
-      <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="It is recommended to create separate format instances for each thread. If multiple threads access a format concurrently, it must be synchronized externally." />
       <item value="Number formats are generally not synchronized." />
       <item value="literal" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="54" />
+        <entry key="ENGLISH" value="55" />
       </map>
     </option>
   </component>
