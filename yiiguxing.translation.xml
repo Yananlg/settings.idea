@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Defines callback methods to customize the Java-based configuration for Spring MVC enabled via {@code @EnableWebMvc}. {@code @EnableWebMvc}-annotated configuration classes may implement this interface to be called back and given a chance to customize the default configuration." />
       <item value="Declares a container wrapping the response. Valid values are &quot;List&quot;, &quot;Set&quot; or &quot;Map&quot;. Any other value will be ignored." />
       <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
       <item value="Corresponds to the `summary` field of the operation. Provides a brief description of this operation. Should be 120 characters or less for proper visibility in Swagger-UI." />
@@ -50,12 +51,11 @@
       <item value="asynchronous" />
       <item value="object that prepares the request" />
       <item value="object that extracts the return value from the response" />
-      <item value="/ The response type of the operation. In JAX-RS applications, the return type of the method would automatically be used, unless it is {@code javax.ws.rs.core.Response}. In that case, the operation return type would default to `void` as the actual response type cannot be known. Setting this property would override any automatically-derived data type. If the value used is a class representing a primitive ({@code Integer}, {@code Long}, ...) the corresponding primitive type will be used. /" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="58" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="59" />
+        <entry key="ENGLISH" value="60" />
       </map>
     </option>
   </component>
