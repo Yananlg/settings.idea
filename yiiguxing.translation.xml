@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This allows for the possibility that {@link InputStream#read(byte[], int, int)} may not read as many bytes as requested (most likely because of reaching EOF)." />
+      <item value="Reads the requested number of bytes or fail if there are not enough left." />
       <item value="Return whether one or more of the given profiles is active or, in the case of no explicit active profiles, whether one or more of the given profiles is included in the set of default profiles. If a profile begins with '!' the logic is inverted, i.e. the method will return true if the given profile is &lt;em&gt;not&lt;/em&gt; active. For example, &lt;pre class=&quot;code&quot;&gt;env.acceptsProfiles(&quot;p1&quot;, &quot;!p2&quot;)&lt;/pre&gt; will return {@code true} if profile 'p1' is active or 'p2' is not active. @throws IllegalArgumentException if called with zero arguments or if any profile is {@code null}, empty or whitespace-only" />
       <item value="ObjectMapper provides functionality for reading and writing JSON, either to and from basic POJOs (Plain Old Java Objects), or to and from a general-purpose JSON Tree Model ({@link JsonNode}), as well as related functionality for performing conversions. It is also highly customizable to work both with different styles of JSON content, and to support more advanced Object concepts such as polymorphism and Object identity. &lt;code&gt;ObjectMapper&lt;/code&gt; also acts as a factory for more advanced {@link ObjectReader} and {@link ObjectWriter} classes. Mapper (and {@link ObjectReader}s, {@link ObjectWriter}s it constructs) will use instances of {@link JsonParser} and {@link JsonGenerator} for implementing actual reading/writing of JSON. Note that although most read and write methods are exposed through this class, some of the functionality is only exposed via {@link ObjectReader} and {@link ObjectWriter}: specifically, reading/writing of longer sequences of values is only available through {@link ObjectReader#readValues(InputStream)} and {@link ObjectWriter#writeValues(OutputStream)}." />
       <item value="Whether to force the encoding to the configured charset on HTTP responses." />
@@ -49,13 +51,11 @@
       <item value="Custom servers are possible, but not supported by the community. Please use our &lt;a href=&quot;https://github.com/openzipkin/zipkin#quick-start&quot;&gt;default server build&lt;/a&gt; first. If you find something missing, please &lt;a href=&quot;https://gitter.im/openzipkin/zipkin&quot;&gt;gitter&lt;/a&gt; us about it before making a custom server. If you decide to make a custom server, you accept responsibility for troubleshooting your build or configuration problems, even if such problems are a reaction to a change made by the OpenZipkin maintainers. In other words, custom servers are possible, but not supported." />
       <item value="If the property is not contained in the {@link Environment} at all, the {@link #matchIfMissing()} attribute is consulted. By default missing attributes do not match." />
       <item value="It is better to use a custom condition for such cases." />
-      <item value="Consider defining a bean of type 'org.springframework.scheduling.TaskScheduler' in your configuration." />
-      <item value="This conditional is intentionally not in an autoconfig (usually a bad idea) because // it is used to detect a BindingService in the parent context (which we know // already exists)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="67" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="70" />
       </map>
     </option>
   </component>
