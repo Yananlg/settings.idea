@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Execute the annotated method with a fixed period in milliseconds between the end of the last invocation and the start of the next. @return the delay in milliseconds" />
       <item value="matches when the specified classes are on the classpath." />
       <item value="This allows for the possibility that {@link InputStream#read(byte[], int, int)} may not read as many bytes as requested (most likely because of reaching EOF)." />
       <item value="Reads the requested number of bytes or fail if there are not enough left." />
@@ -50,12 +51,11 @@
       <item value="available" />
       <item value="presence" />
       <item value="Custom servers are possible, but not supported by the community. Please use our &lt;a href=&quot;https://github.com/openzipkin/zipkin#quick-start&quot;&gt;default server build&lt;/a&gt; first. If you find something missing, please &lt;a href=&quot;https://gitter.im/openzipkin/zipkin&quot;&gt;gitter&lt;/a&gt; us about it before making a custom server. If you decide to make a custom server, you accept responsibility for troubleshooting your build or configuration problems, even if such problems are a reaction to a change made by the OpenZipkin maintainers. In other words, custom servers are possible, but not supported." />
-      <item value="If the property is not contained in the {@link Environment} at all, the {@link #matchIfMissing()} attribute is consulted. By default missing attributes do not match." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="71" />
+        <entry key="ENGLISH" value="72" />
       </map>
     </option>
   </component>
