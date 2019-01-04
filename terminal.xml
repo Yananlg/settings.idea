@@ -1,6 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="D:\Developer\NetSarang\Xshell 6\Xshell.exe" />
-    <option name="myTabName" value="iTerm2" />
+    <option name="myShellPath" value="D:\Developer\Git\bin\bash.exe" />
+    <option name="myTabName" value="GitBash" />
   </component>
 </application>
