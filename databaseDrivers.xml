@@ -8,11 +8,11 @@
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="derby.remote">
+    <driver id="derby.embedded">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="derby.embedded">
+    <driver id="derby.remote">
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
@@ -46,7 +46,7 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/8.0.13/mysql-connector-java-8.0.13.jar</url>
       </library>
-      <code-style-scheme-name>Default</code-style-scheme-name>
+      <code-style-scheme-name>MyDefault</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" />
@@ -67,11 +67,11 @@
       <option name="auto-sync" value="true" />
       <option name="schema-control" value="MANUAL" />
     </driver>
-    <driver id="hsqldb.remote">
+    <driver id="hsqldb.local">
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="hsqldb.local">
+    <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
@@ -89,6 +89,10 @@
     </driver>
     <driver id="clickhouse">
       <artifact name="ClickHouse" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="cassandra">
+      <artifact name="Cassandra" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
   </component>
