@@ -4,17 +4,18 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="dockerfile" type="Dockerfile" />
-      <mapping pattern="mysql" type="PLAIN_TEXT" />
-      <mapping pattern="user" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-redis" type="PLAIN_TEXT" />
-      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping pattern="Dockfile" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping ext="1提测" type="PLAIN_TEXT" />
-      <mapping ext="factor" type="PLAIN_TEXT" />
+      <mapping pattern="user" type="PLAIN_TEXT" />
+      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern="mysql" type="PLAIN_TEXT" />
       <mapping ext="lombok" type="PLAIN_TEXT" />
-      <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="provides" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="factor" type="PLAIN_TEXT" />
+      <mapping ext="me" type="PLAIN_TEXT" />
+      <mapping ext="1提测" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
