@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="can access the protected client endpoints" />
+      <item value="These two are needed so that the server" />
       <item value="Note that while some implementations of {@code InputStream} will return the total number of bytes in the stream, many will not. It is never correct to use the return value of this method to allocate a buffer intended to hold all data in this stream." />
       <item value="Returns an estimate of the number of bytes that can be read (or skipped over) from this input stream without blocking by the next invocation of a method for this input stream. The next invocation might be the same thread or another thread. A single read or skip of this many bytes will not block, but may read or skip fewer bytes." />
       <item value="Return the name of the parameter in the multipart form. @return the name of the parameter (never {@code null} or empty)" />
@@ -49,13 +51,11 @@
       <item value="Add a specific Subject (&quot;sub&quot;) claim to the Payload." />
       <item value="Add a specific Issuer (&quot;iss&quot;) claim to the Payload." />
       <item value="Datatype-specific additional piece of configuration that may be used to further refine formatting aspects. This may, for example, determine low-level format String used for {@link java.util.Date} serialization; however, exact use is determined by specific &lt;code&gt;JsonSerializer&lt;/code&gt;" />
-      <item value="indicates" />
-      <item value="Value that indicates shape should not be structural" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="79" />
+        <entry key="CHINESE" value="80" />
+        <entry key="ENGLISH" value="81" />
       </map>
     </option>
   </component>
