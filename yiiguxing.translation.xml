@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="distributed" />
       <item value="can access the protected client endpoints" />
       <item value="These two are needed so that the server" />
       <item value="Note that while some implementations of {@code InputStream} will return the total number of bytes in the stream, many will not. It is never correct to use the return value of this method to allocate a buffer intended to hold all data in this stream." />
@@ -50,7 +51,6 @@
       <item value="Audience" />
       <item value="Add a specific Subject (&quot;sub&quot;) claim to the Payload." />
       <item value="Add a specific Issuer (&quot;iss&quot;) claim to the Payload." />
-      <item value="Datatype-specific additional piece of configuration that may be used to further refine formatting aspects. This may, for example, determine low-level format String used for {@link java.util.Date} serialization; however, exact use is determined by specific &lt;code&gt;JsonSerializer&lt;/code&gt;" />
     </histories>
     <option name="languageScores">
       <map>
