@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="View or views that annotated element is part of. Views are identified by classes, and use expected class inheritance relationship: child views contain all elements parent views have, for example." />
+      <item value="which would specify that property annotated would be included when processing (serializing, deserializing) View identified by &lt;code&gt;BasicView.class&lt;/code&gt; (or its sub-class). If multiple View class identifiers are included, property will be part of all of them." />
+      <item value="Annotation used for indicating view(s) that the property that is defined by method or field annotated is part of." />
+      <item value="that is defined by method or field annotated is part of" />
+      <item value="Annotation used for indicating view(s) that the property&#10;   that is defined by method or field annotated is part of." />
+      <item value="maximum number of fractional digits accepted for this number" />
+      <item value="maximum number of integral digits accepted for this number" />
       <item value="condition" />
       <item value="instance" />
       <item value="individual" />
@@ -44,18 +51,11 @@
       <item value="This is the name of the field used as a discriminator. Based on this field, it would be possible to assert which sub type needs to be used." />
       <item value="upports model inheritance and polymorphism." />
       <item value="Classes will be introspected automatically as they are used as types in operations, but you may want to manipulate the structure of the models." />
-      <item value="For backward compatibility" />
-      <item value="It is recommended to create separate format instances for each thread. If multiple threads access a format concurrently, it must be synchronized externally." />
-      <item value="Number formats are generally not synchronized." />
-      <item value="literal" />
-      <item value="when used in pipeline / transaction" />
-      <item value="Set a specific leeway window in seconds in which the Not Before (&quot;nbf&quot;) Claim will still be valid. Not Before Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
-      <item value="Define the default window in seconds in which the Not Before, Issued At and Expires At Claims will still be valid. Setting a specific leeway value on a given Claim will override this value for that Claim." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="88" />
-        <entry key="ENGLISH" value="89" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="96" />
       </map>
     </option>
   </component>
@@ -73,7 +73,6 @@
       </google-translate>
     </option>
     <option name="ignoreRegExp" value="[\*]|(&lt;p&gt;)" />
-    <option name="keepFormat" value="true" />
     <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Source Code Pro" />
     <option name="primaryFontFamily" value="Microsoft YaHei" />
