@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specify whether to accept and convert {@code null} values for all caches&#10;&#9;   in this cache manager.&#10;&#9;    Default is &quot;true&quot;, despite Caffeine itself not supporting {@code null} values.&#10;&#9;   An internal holder object will be used to store user-level {@code null}s." />
+      <item value="/  &#10;&#9;   Specify whether to accept and convert {@code null} values for all caches&#10;&#9;   in this cache manager.&#10;&#9;    Default is &quot;true&quot;, despite Caffeine itself not supporting {@code null} values.&#10;&#9;   An internal holder object will be used to store user-level {@code null}s.&#10;&#9;  /" />
+      <item value="accept" />
+      <item value="to" />
+      <item value="Specify whether to accept and convert {@code null} values for all caches in this cache manager." />
       <item value="distributed" />
       <item value="can access the protected client endpoints" />
       <item value="These two are needed so that the server" />
@@ -46,25 +51,33 @@
       <item value="the window in seconds in which the Expires At Claim will still be valid." />
       <item value="Expiration Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
       <item value="et a specific leeway window in seconds in which the Expires At (&quot;exp&quot;) Claim will still be valid." />
-      <item value="Require a specific JWT Id (&quot;jti&quot;) claim." />
-      <item value="Add a specific Not Before (&quot;nbf&quot;) claim to the Payload." />
-      <item value="Audience" />
-      <item value="Add a specific Subject (&quot;sub&quot;) claim to the Payload." />
-      <item value="Add a specific Issuer (&quot;iss&quot;) claim to the Payload." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="80" />
-        <entry key="ENGLISH" value="81" />
+        <entry key="CHINESE" value="84" />
+        <entry key="ENGLISH" value="85" />
       </map>
     </option>
   </component>
   <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="20190222000270023" />
+        <option name="appKeyConfigured" value="true" />
+      </app-key>
+    </option>
     <option name="foldOriginal" value="true" />
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="true" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="[\*]|(&lt;p&gt;)" />
+    <option name="keepFormat" value="true" />
     <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Source Code Pro" />
     <option name="primaryFontFamily" value="Microsoft YaHei" />
+    <option name="translator" value="fanyi.baidu" />
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="0b9675ec9310c20e" />
