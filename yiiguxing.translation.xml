@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Return the class that declares the underlying Method or Constructor." />
       <item value="purposes" />
       <item value="Create AOP advice for method validation purposes, to be applied with a pointcut for the specified 'validated' annotation. @param validator the JSR-303 Validator to delegate to @return the interceptor to use (typically, but not necessarily, a {@link MethodValidationInterceptor} or subclass thereof)" />
       <item value="Set the JSR-303 Validator to delegate to for validating methods. Default is the default ValidatorFactory's default Validator. /" />
@@ -50,12 +51,11 @@
       <item value="Corresponds to the 'notes' field of the operation. A verbose description of the operation." />
       <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="Value that indicates that only properties with non-null values are to be included." />
-      <item value="Specifies a reference to the corresponding type definition, overrides any other metadata specified" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="99" />
-        <entry key="ENGLISH" value="100" />
+        <entry key="CHINESE" value="100" />
+        <entry key="ENGLISH" value="101" />
       </map>
     </option>
   </component>
@@ -64,7 +64,6 @@
       <app-key>
         <option name="appId" value="20190222000270023" />
         <option name="appKeyConfigured" value="true" />
-        <option name="primaryLanguage" value="CHINESE" />
       </app-key>
     </option>
     <option name="foldOriginal" value="true" />
@@ -76,7 +75,6 @@
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="0b9675ec9310c20e" />
-        <option name="primaryLanguage" value="AUTO" />
       </youdao-translate>
     </option>
   </component>
