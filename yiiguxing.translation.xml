@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="alpha-numeric" />
+      <item value="Alphabetic" />
       <item value="Return the class that declares the underlying Method or Constructor." />
       <item value="purposes" />
       <item value="Create AOP advice for method validation purposes, to be applied with a pointcut for the specified 'validated' annotation. @param validator the JSR-303 Validator to delegate to @return the interceptor to use (typically, but not necessarily, a {@link MethodValidationInterceptor} or subclass thereof)" />
@@ -49,13 +51,12 @@
       <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
       <item value="Corresponds to the `summary` field of the operation. Provides a brief description of this operation. Should be 120 characters or less for proper visibility in Swagger-UI." />
       <item value="Corresponds to the 'notes' field of the operation. A verbose description of the operation." />
-      <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
-      <item value="Value that indicates that only properties with non-null values are to be included." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="102" />
+        <entry key="ENGLISH" value="102" />
+        <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
   </component>
