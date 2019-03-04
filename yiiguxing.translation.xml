@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="should never execute because this implementation relies on parent class to access cache, which //is where all sessions reside - it is the cache implementation that determines if the //cache is memory only or disk-persistent, etc." />
       <item value="Prepends the prefix to the start of the string if the string does not already start with any of the prefixes." />
       <item value="similar" />
       <item value="alpha-numeric" />
@@ -50,12 +51,11 @@
       <item value="Specifies the domain within which this cookie should be presented. The form of the domain name is specified by RFC 2109. A domain name begins with a dot (&lt;code&gt;.foo.com&lt;/code&gt;) and means that the cookie is visible to servers in a specified Domain Name System (DNS) zone (for example, &lt;code&gt;www.foo.com&lt;/code&gt;, but not &lt;code&gt;a.b.foo.com&lt;/code&gt;). By default, cookies are only returned to the server that sent them." />
       <item value="Defines callback methods to customize the Java-based configuration for Spring MVC enabled via {@code @EnableWebMvc}. {@code @EnableWebMvc}-annotated configuration classes may implement this interface to be called back and given a chance to customize the default configuration." />
       <item value="Declares a container wrapping the response. Valid values are &quot;List&quot;, &quot;Set&quot; or &quot;Map&quot;. Any other value will be ignored." />
-      <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="103" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="104" />
+        <entry key="ENGLISH" value="105" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
