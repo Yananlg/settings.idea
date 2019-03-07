@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The string representation of the expected value for the properties. If not specified, the property must &lt;strong&gt;not&lt;/strong&gt; be equal to {@code false}." />
       <item value="since Shiro 1.1. Hash salting is now expected to be based on if the {@link AuthenticationInfo} returned from the {@code Realm} is a {@link SaltedAuthenticationInfo} instance and its {@link org.apache.shiro.authc.SaltedAuthenticationInfo#getCredentialsSalt() getCredentialsSalt()} method returns a non-null value. This method and the 1.0 behavior still exists for backwards compatibility if the {@code Realm} does not return {@code SaltedAuthenticationInfo} instances, but &lt;b&gt;it is highly recommended that {@code Realm} implementations that support hashed credentials start returning {@link SaltedAuthenticationInfo SaltedAuthenticationInfo} instances as soon as possible&lt;/b&gt;." />
       <item value="This is because salts should always be obtained from the stored account information and never be interpreted based on user/Subject-entered data. User-entered data is easier to compromise for attackers, whereas account-unique (and secure randomly-generated) salts never disseminated to the end-user are almost impossible to break. This method will be removed in Shiro 2.0." />
       <item value="A value of {@code true} will cause this class to decode the system credential from Hex, a value of {@code false} will cause this class to decode the system credential from Base64." />
@@ -50,12 +51,11 @@
       <item value="Whether to force the encoding to the configured charset on HTTP responses." />
       <item value="Whether to force the encoding to the configured charset on HTTP requests. Defaults to true when &quot;force&quot; has not been specified." />
       <item value="Whether to force the encoding to the configured charset on HTTP requests and responses." />
-      <item value="Enable SwaggerBootstrapUi enhanced annotation and use @EnableSwagger2 annotation together." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="108" />
-        <entry key="ENGLISH" value="109" />
+        <entry key="CHINESE" value="109" />
+        <entry key="ENGLISH" value="110" />
         <entry key="VIETNAMESE" value="1" />
       </map>
     </option>
