@@ -65,9 +65,15 @@
       <app-key>
         <option name="appId" value="20190222000270023" />
         <option name="appKeyConfigured" value="true" />
+        <option name="primaryLanguage" value="CHINESE" />
       </app-key>
     </option>
     <option name="foldOriginal" value="true" />
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="false" />
+      </google-translate>
+    </option>
     <option name="ignoreRegExp" value="[\*]|(&lt;p&gt;)" />
     <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Source Code Pro" />
@@ -76,6 +82,7 @@
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="0b9675ec9310c20e" />
+        <option name="primaryLanguage" value="AUTO" />
       </youdao-translate>
     </option>
   </component>
