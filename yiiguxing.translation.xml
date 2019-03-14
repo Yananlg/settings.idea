@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Determines the interfaces implemented by the class or interface represented by this object." />
       <item value="xlsPrefix + fileName" />
       <item value="description" />
       <item value="The string representation of the expected value for the properties. If not specified, the property must &lt;strong&gt;not&lt;/strong&gt; be equal to {@code false}." />
@@ -50,12 +51,11 @@
       <item value="Reads the requested number of bytes or fail if there are not enough left." />
       <item value="Return whether one or more of the given profiles is active or, in the case of no explicit active profiles, whether one or more of the given profiles is included in the set of default profiles. If a profile begins with '!' the logic is inverted, i.e. the method will return true if the given profile is &lt;em&gt;not&lt;/em&gt; active. For example, &lt;pre class=&quot;code&quot;&gt;env.acceptsProfiles(&quot;p1&quot;, &quot;!p2&quot;)&lt;/pre&gt; will return {@code true} if profile 'p1' is active or 'p2' is not active. @throws IllegalArgumentException if called with zero arguments or if any profile is {@code null}, empty or whitespace-only" />
       <item value="ObjectMapper provides functionality for reading and writing JSON, either to and from basic POJOs (Plain Old Java Objects), or to and from a general-purpose JSON Tree Model ({@link JsonNode}), as well as related functionality for performing conversions. It is also highly customizable to work both with different styles of JSON content, and to support more advanced Object concepts such as polymorphism and Object identity. &lt;code&gt;ObjectMapper&lt;/code&gt; also acts as a factory for more advanced {@link ObjectReader} and {@link ObjectWriter} classes. Mapper (and {@link ObjectReader}s, {@link ObjectWriter}s it constructs) will use instances of {@link JsonParser} and {@link JsonGenerator} for implementing actual reading/writing of JSON. Note that although most read and write methods are exposed through this class, some of the functionality is only exposed via {@link ObjectReader} and {@link ObjectWriter}: specifically, reading/writing of longer sequences of values is only available through {@link ObjectReader#readValues(InputStream)} and {@link ObjectWriter#writeValues(OutputStream)}." />
-      <item value="Whether to force the encoding to the configured charset on HTTP responses." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="111" />
-        <entry key="ENGLISH" value="111" />
+        <entry key="ENGLISH" value="112" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
