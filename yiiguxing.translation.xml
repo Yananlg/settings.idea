@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates a new auxiliary resource file for writing and returns a file object for it. The file may be located along with the newly created source files, newly created binary files, or other supported location. The locations {@link StandardLocation#CLASS_OUTPUT CLASS_OUTPUT} and {@link StandardLocation#SOURCE_OUTPUT SOURCE_OUTPUT} must be supported. The resource may be named relative to some package (as are source and class files), and from there by a relative pathname. In a loose sense, the full pathname of the new file will be the concatenation of {@code location}, {@code pkg}, and {@code relativeName}." />
+      <item value="Creates a new source file and returns an object to allow writing to it. The file's name and path (relative to the {@linkplain StandardLocation#SOURCE_OUTPUT root output location for source files}) are based on the type to be declared in that file. If more than one type is being declared, the name of the principal top-level type (the public one, for example) should be used. A source file can also be created to hold information about a package, including package annotations. To create a source file for a named package, have {@code name} be the package's name followed by {@code &quot;.package-info&quot;}; to create a source file for an unnamed package, use {@code &quot;package-info&quot;}." />
+      <item value="Returns an implementation of some utility methods for operating on types." />
+      <item value="Returns the messager used to report errors, warnings, and other notices." />
+      <item value="Returns the processor-specific options passed to the annotation processing tool. Options are returned in the form of a map from option name to option value. For an option with no value, the corresponding value in the map is {@code null}." />
+      <item value="Returns the filer used to create new source, class, or auxiliary files." />
+      <item value="Returns an implementation of some utility methods for operating on elements" />
       <item value="Determines the interfaces implemented by the class or interface represented by this object." />
       <item value="xlsPrefix + fileName" />
       <item value="description" />
@@ -44,18 +51,11 @@
       <item value="Return the original filename in the client's filesystem. This may contain path information depending on the browser used, but it typically will not with any other than Opera. @return the original filename, or the empty String if no file has been chosen in the multipart form, or {@code null} if not defined or not available" />
       <item value="Number of milliseconds to delay before the first execution of a {@link #fixedRate()} or {@link #fixedDelay()} task." />
       <item value="The string representation of the expected value for the properties. If not specified, the property must &lt;strong&gt;not&lt;/strong&gt; be equal to {@code false}. @return the expected value" />
-      <item value="Convenience annotation for clients to enable Eureka discovery configuration (specifically). Use this (optionally) in case you want discovery and know for sure that it is Eureka you want. All it does is turn on discovery and let the autoconfiguration find the eureka classes if they are available (i.e. you need Eureka on the classpath as well)" />
-      <item value="Execute the annotated method with a fixed period in milliseconds between the end of the last invocation and the start of the next. @return the delay in milliseconds" />
-      <item value="matches when the specified classes are on the classpath." />
-      <item value="This allows for the possibility that {@link InputStream#read(byte[], int, int)} may not read as many bytes as requested (most likely because of reaching EOF)." />
-      <item value="Reads the requested number of bytes or fail if there are not enough left." />
-      <item value="Return whether one or more of the given profiles is active or, in the case of no explicit active profiles, whether one or more of the given profiles is included in the set of default profiles. If a profile begins with '!' the logic is inverted, i.e. the method will return true if the given profile is &lt;em&gt;not&lt;/em&gt; active. For example, &lt;pre class=&quot;code&quot;&gt;env.acceptsProfiles(&quot;p1&quot;, &quot;!p2&quot;)&lt;/pre&gt; will return {@code true} if profile 'p1' is active or 'p2' is not active. @throws IllegalArgumentException if called with zero arguments or if any profile is {@code null}, empty or whitespace-only" />
-      <item value="ObjectMapper provides functionality for reading and writing JSON, either to and from basic POJOs (Plain Old Java Objects), or to and from a general-purpose JSON Tree Model ({@link JsonNode}), as well as related functionality for performing conversions. It is also highly customizable to work both with different styles of JSON content, and to support more advanced Object concepts such as polymorphism and Object identity. &lt;code&gt;ObjectMapper&lt;/code&gt; also acts as a factory for more advanced {@link ObjectReader} and {@link ObjectWriter} classes. Mapper (and {@link ObjectReader}s, {@link ObjectWriter}s it constructs) will use instances of {@link JsonParser} and {@link JsonGenerator} for implementing actual reading/writing of JSON. Note that although most read and write methods are exposed through this class, some of the functionality is only exposed via {@link ObjectReader} and {@link ObjectWriter}: specifically, reading/writing of longer sequences of values is only available through {@link ObjectReader#readValues(InputStream)} and {@link ObjectWriter#writeValues(OutputStream)}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="111" />
-        <entry key="ENGLISH" value="112" />
+        <entry key="CHINESE" value="118" />
+        <entry key="ENGLISH" value="119" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
