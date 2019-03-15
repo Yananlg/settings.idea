@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the interfaces implemented by this service provider" />
       <item value="Creates a new auxiliary resource file for writing and returns a file object for it. The file may be located along with the newly created source files, newly created binary files, or other supported location. The locations {@link StandardLocation#CLASS_OUTPUT CLASS_OUTPUT} and {@link StandardLocation#SOURCE_OUTPUT SOURCE_OUTPUT} must be supported. The resource may be named relative to some package (as are source and class files), and from there by a relative pathname. In a loose sense, the full pathname of the new file will be the concatenation of {@code location}, {@code pkg}, and {@code relativeName}." />
       <item value="Creates a new source file and returns an object to allow writing to it. The file's name and path (relative to the {@linkplain StandardLocation#SOURCE_OUTPUT root output location for source files}) are based on the type to be declared in that file. If more than one type is being declared, the name of the principal top-level type (the public one, for example) should be used. A source file can also be created to hold information about a package, including package annotations. To create a source file for a named package, have {@code name} be the package's name followed by {@code &quot;.package-info&quot;}; to create a source file for an unnamed package, use {@code &quot;package-info&quot;}." />
       <item value="Returns an implementation of some utility methods for operating on types." />
@@ -50,12 +51,11 @@
       <item value="Return the name of the parameter in the multipart form. @return the name of the parameter (never {@code null} or empty)" />
       <item value="Return the original filename in the client's filesystem. This may contain path information depending on the browser used, but it typically will not with any other than Opera. @return the original filename, or the empty String if no file has been chosen in the multipart form, or {@code null} if not defined or not available" />
       <item value="Number of milliseconds to delay before the first execution of a {@link #fixedRate()} or {@link #fixedDelay()} task." />
-      <item value="The string representation of the expected value for the properties. If not specified, the property must &lt;strong&gt;not&lt;/strong&gt; be equal to {@code false}. @return the expected value" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="118" />
-        <entry key="ENGLISH" value="119" />
+        <entry key="CHINESE" value="119" />
+        <entry key="ENGLISH" value="120" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
