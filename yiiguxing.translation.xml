@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the 'primary' principal associated with the specified realm." />
       <item value="the realm from where the principal and credentials were acquired." />
       <item value="monster" />
       <item value="ITERATIONS" />
@@ -50,12 +51,11 @@
       <item value="distributed" />
       <item value="can access the protected client endpoints" />
       <item value="These two are needed so that the server" />
-      <item value="Note that while some implementations of {@code InputStream} will return the total number of bytes in the stream, many will not. It is never correct to use the return value of this method to allocate a buffer intended to hold all data in this stream." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
-        <entry key="ENGLISH" value="124" />
+        <entry key="CHINESE" value="125" />
+        <entry key="ENGLISH" value="126" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
