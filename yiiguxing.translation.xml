@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="CONFLICT" />
+      <item value="Attempts" />
+      <item value="Excessive" />
       <item value="Invoked second (and last) if the body is empty." />
       <item value="increment" />
       <item value="the salt used when hashing the given hashedCredentials" />
@@ -48,14 +51,11 @@
       <item value="instance" />
       <item value="individual" />
       <item value="Set the Caffeine to use for building each individual&#10;&#9;   {@link CaffeineCache} instance." />
-      <item value="Specify whether to accept and convert {@code null} values for all caches&#10;&#9;   in this cache manager.&#10;&#9;    Default is &quot;true&quot;, despite Caffeine itself not supporting {@code null} values.&#10;&#9;   An internal holder object will be used to store user-level {@code null}s." />
-      <item value="/  &#10;&#9;   Specify whether to accept and convert {@code null} values for all caches&#10;&#9;   in this cache manager.&#10;&#9;    Default is &quot;true&quot;, despite Caffeine itself not supporting {@code null} values.&#10;&#9;   An internal holder object will be used to store user-level {@code null}s.&#10;&#9;  /" />
-      <item value="accept" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="130" />
-        <entry key="ENGLISH" value="131" />
+        <entry key="CHINESE" value="133" />
+        <entry key="ENGLISH" value="134" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
