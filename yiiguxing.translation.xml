@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Feature" />
       <item value="Returns this Subject's application-wide uniquely identifying principal, or {@code null} if this Subject is anonymous because it doesn't yet have any associated account data (for example, if they haven't logged in). &lt;p/&gt; The term &lt;em&gt;principal&lt;/em&gt; is just a fancy security term for any identifying attribute(s) of an application user, such as a username, or user id, or public key, or anything else you might use in your application to identify a user. &lt;h4&gt;Uniqueness&lt;/h4&gt; Although given names and family names (first/last) are technically considered principals as well, Shiro expects the object returned from this method to be an identifying attribute unique across your entire application. &lt;p/&gt; This implies that things like given names and family names are usually poor candidates as return values since they are rarely guaranteed to be unique; Things often used for this value:" />
       <item value="Exception thrown if there is a problem during authorization (access control check)." />
       <item value="Authorization FAIL" />
@@ -50,12 +51,11 @@
       <item value="purposes" />
       <item value="Create AOP advice for method validation purposes, to be applied with a pointcut for the specified 'validated' annotation. @param validator the JSR-303 Validator to delegate to @return the interceptor to use (typically, but not necessarily, a {@link MethodValidationInterceptor} or subclass thereof)" />
       <item value="Set the JSR-303 Validator to delegate to for validating methods. Default is the default ValidatorFactory's default Validator. /" />
-      <item value="Set the 'validated' annotation type. The default validated annotation type is the {@link Validated} annotation. This setter property exists so that developers can provide their own (non-Spring-specific) annotation type to indicate that a class is supposed to be validated in the sense of applying method validation." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="147" />
-        <entry key="ENGLISH" value="148" />
+        <entry key="CHINESE" value="148" />
+        <entry key="ENGLISH" value="149" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
