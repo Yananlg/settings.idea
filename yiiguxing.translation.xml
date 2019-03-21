@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The logical operation for the permission check in case multiple roles are specified. AND is the default" />
       <item value="CONFLICT" />
       <item value="Attempts" />
       <item value="Excessive" />
@@ -50,12 +51,11 @@
       <item value="condition" />
       <item value="instance" />
       <item value="individual" />
-      <item value="Set the Caffeine to use for building each individual&#10;&#9;   {@link CaffeineCache} instance." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="133" />
-        <entry key="ENGLISH" value="134" />
+        <entry key="CHINESE" value="134" />
+        <entry key="ENGLISH" value="135" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
