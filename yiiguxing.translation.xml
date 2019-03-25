@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Default implementation will write type prefix, call regular serialization method (since assumption is that value itself does not need JSON Array or Object start/end markers), and then write type suffix. This should work for most cases; some sub-classes may want to change this behavior." />
+      <item value="Alternate constructor that is (alas!) needed to work around kinks of generic type handling" />
+      <item value="Serialization method called when no additional type information is to be included in serialization." />
+      <item value="Set of attribute-backed properties to include when serializing a POJO." />
+      <item value="Annotation that may be used to add &quot;virtual&quot; properties to be written after regular properties (although ordering may be changed using both standard &lt;code&gt;@JsonPropertyOrder&lt;/code&gt; annotation, and properties of this annotation)." />
       <item value="Specifies whether or not to attach the artifact to the project" />
       <item value="Specifies whether the Javadoc generation should be skipped" />
       <item value="Sets the unformatted argument string to be passed to test compiler if fork is set to true." />
@@ -46,16 +51,11 @@
       <item value="since Shiro 1.1. Hash salting is now expected to be based on if the {@link AuthenticationInfo} returned from the {@code Realm} is a {@link SaltedAuthenticationInfo} instance and its {@link org.apache.shiro.authc.SaltedAuthenticationInfo#getCredentialsSalt() getCredentialsSalt()} method returns a non-null value. This method and the 1.0 behavior still exists for backwards compatibility if the {@code Realm} does not return {@code SaltedAuthenticationInfo} instances, but &lt;b&gt;it is highly recommended that {@code Realm} implementations that support hashed credentials start returning {@link SaltedAuthenticationInfo SaltedAuthenticationInfo} instances as soon as possible&lt;/b&gt;." />
       <item value="This is because salts should always be obtained from the stored account information and never be interpreted based on user/Subject-entered data. User-entered data is easier to compromise for attackers, whereas account-unique (and secure randomly-generated) salts never disseminated to the end-user are almost impossible to break. This method will be removed in Shiro 2.0." />
       <item value="A value of {@code true} will cause this class to decode the system credential from Hex, a value of {@code false} will cause this class to decode the system credential from Base64." />
-      <item value="Sets the indicator if this system's stored credential hash is Hex encoded or not." />
-      <item value="should never execute because this implementation relies on parent class to access cache, which //is where all sessions reside - it is the cache implementation that determines if the //cache is memory only or disk-persistent, etc." />
-      <item value="Prepends the prefix to the start of the string if the string does not already start with any of the prefixes." />
-      <item value="similar" />
-      <item value="alpha-numeric" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="153" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE" value="158" />
+        <entry key="ENGLISH" value="159" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
