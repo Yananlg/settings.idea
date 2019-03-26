@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;/code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using database identity column." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using database sequence column." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="delete" />
       <item value="scale" />
       <item value="Default implementation will write type prefix, call regular serialization method (since assumption is that value itself does not need JSON Array or Object start/end markers), and then write type suffix. This should work for most cases; some sub-classes may want to change this behavior." />
@@ -47,15 +51,11 @@
       <item value="Returns the filer used to create new source, class, or auxiliary files." />
       <item value="Returns an implementation of some utility methods for operating on elements" />
       <item value="Determines the interfaces implemented by the class or interface represented by this object." />
-      <item value="xlsPrefix + fileName" />
-      <item value="description" />
-      <item value="The string representation of the expected value for the properties. If not specified, the property must &lt;strong&gt;not&lt;/strong&gt; be equal to {@code false}." />
-      <item value="since Shiro 1.1. Hash salting is now expected to be based on if the {@link AuthenticationInfo} returned from the {@code Realm} is a {@link SaltedAuthenticationInfo} instance and its {@link org.apache.shiro.authc.SaltedAuthenticationInfo#getCredentialsSalt() getCredentialsSalt()} method returns a non-null value. This method and the 1.0 behavior still exists for backwards compatibility if the {@code Realm} does not return {@code SaltedAuthenticationInfo} instances, but &lt;b&gt;it is highly recommended that {@code Realm} implementations that support hashed credentials start returning {@link SaltedAuthenticationInfo SaltedAuthenticationInfo} instances as soon as possible&lt;/b&gt;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="160" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE" value="164" />
+        <entry key="ENGLISH" value="165" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
