@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="annotation.get Class()" />
       <item value="Constraint" />
       <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;/code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
@@ -50,12 +51,11 @@
       <item value="Returns an implementation of some utility methods for operating on types." />
       <item value="Returns the messager used to report errors, warnings, and other notices." />
       <item value="Returns the processor-specific options passed to the annotation processing tool. Options are returned in the form of a map from option name to option value. For an option with no value, the corresponding value in the map is {@code null}." />
-      <item value="Returns the filer used to create new source, class, or auxiliary files." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="166" />
-        <entry key="ENGLISH" value="167" />
+        <entry key="CHINESE" value="167" />
+        <entry key="ENGLISH" value="168" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
