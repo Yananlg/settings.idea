@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="with" />
       <item value="annotation.get Class()" />
       <item value="Constraint" />
       <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
@@ -50,12 +51,11 @@
       <item value="Creates a new source file and returns an object to allow writing to it. The file's name and path (relative to the {@linkplain StandardLocation#SOURCE_OUTPUT root output location for source files}) are based on the type to be declared in that file. If more than one type is being declared, the name of the principal top-level type (the public one, for example) should be used. A source file can also be created to hold information about a package, including package annotations. To create a source file for a named package, have {@code name} be the package's name followed by {@code &quot;.package-info&quot;}; to create a source file for an unnamed package, use {@code &quot;package-info&quot;}." />
       <item value="Returns an implementation of some utility methods for operating on types." />
       <item value="Returns the messager used to report errors, warnings, and other notices." />
-      <item value="Returns the processor-specific options passed to the annotation processing tool. Options are returned in the form of a map from option name to option value. For an option with no value, the corresponding value in the map is {@code null}." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="167" />
-        <entry key="ENGLISH" value="168" />
+        <entry key="CHINESE" value="168" />
+        <entry key="ENGLISH" value="169" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
