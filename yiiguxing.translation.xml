@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Nominal type supported, usually declared type of property for which serializer is used." />
+      <item value="Method for accessing type of Objects this serializer can handle. Note that this information is not guaranteed to be exact -- it may be a more generic (super-type) -- but it should not be incorrect (return a non-related type). Default implementation will return null, which essentially means same as returning &lt;code&gt;Object.class&lt;/code&gt; would; that is, that nothing is known about handled type." />
+      <item value="Note: if {@link #using} is also used it has precedence (since it directly specifies serializer, whereas this would only be used to locate the serializer) and value of this annotation property is ignored." />
+      <item value="Supertype (of declared type, which itself is supertype of runtime type) to use as type when locating serializer to use." />
+      <item value="Serializer class to use for serializing Map keys of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves." />
+      <item value="Serializer class to use for serializing contents (elements of a Collection/array, values of Maps) of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves (as they are typically generic)" />
+      <item value="Serializer class to use for serializing associated value. Depending on what is annotated, value is either an instance of annotated class (used globablly anywhere where class serializer is needed); or only used for serializing property access via a getter method." />
       <item value="Base class that defines public API for writing JSON content. Instances are created using factory methods of" />
       <item value="with" />
       <item value="annotation.get Class()" />
@@ -44,18 +51,11 @@
       <item value="Constructor that takes in an account's identifying principal(s) and its corresponding credentials that verify the principals." />
       <item value="the 'primary' principal associated with the specified realm." />
       <item value="the realm from where the principal and credentials were acquired." />
-      <item value="monster" />
-      <item value="ITERATIONS" />
-      <item value="a fully-qualified class name." />
-      <item value="Returns the interfaces implemented by this service provider" />
-      <item value="Creates a new auxiliary resource file for writing and returns a file object for it. The file may be located along with the newly created source files, newly created binary files, or other supported location. The locations {@link StandardLocation#CLASS_OUTPUT CLASS_OUTPUT} and {@link StandardLocation#SOURCE_OUTPUT SOURCE_OUTPUT} must be supported. The resource may be named relative to some package (as are source and class files), and from there by a relative pathname. In a loose sense, the full pathname of the new file will be the concatenation of {@code location}, {@code pkg}, and {@code relativeName}." />
-      <item value="Creates a new source file and returns an object to allow writing to it. The file's name and path (relative to the {@linkplain StandardLocation#SOURCE_OUTPUT root output location for source files}) are based on the type to be declared in that file. If more than one type is being declared, the name of the principal top-level type (the public one, for example) should be used. A source file can also be created to hold information about a package, including package annotations. To create a source file for a named package, have {@code name} be the package's name followed by {@code &quot;.package-info&quot;}; to create a source file for an unnamed package, use {@code &quot;package-info&quot;}." />
-      <item value="Returns an implementation of some utility methods for operating on types." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="169" />
-        <entry key="ENGLISH" value="170" />
+        <entry key="CHINESE" value="176" />
+        <entry key="ENGLISH" value="177" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
