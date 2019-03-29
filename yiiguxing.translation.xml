@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Valid" />
       <item value="Nominal type supported, usually declared type of property for which serializer is used." />
       <item value="Method for accessing type of Objects this serializer can handle. Note that this information is not guaranteed to be exact -- it may be a more generic (super-type) -- but it should not be incorrect (return a non-related type). Default implementation will return null, which essentially means same as returning &lt;code&gt;Object.class&lt;/code&gt; would; that is, that nothing is known about handled type." />
       <item value="Note: if {@link #using} is also used it has precedence (since it directly specifies serializer, whereas this would only be used to locate the serializer) and value of this annotation property is ignored." />
@@ -50,12 +51,11 @@
       <item value="a Realm's account's identifying principal(s)" />
       <item value="Constructor that takes in an account's identifying principal(s) and its corresponding credentials that verify the principals." />
       <item value="the 'primary' principal associated with the specified realm." />
-      <item value="the realm from where the principal and credentials were acquired." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="176" />
-        <entry key="ENGLISH" value="177" />
+        <entry key="CHINESE" value="177" />
+        <entry key="ENGLISH" value="178" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
