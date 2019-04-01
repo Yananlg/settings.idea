@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
       <item value="Valid" />
       <item value="Nominal type supported, usually declared type of property for which serializer is used." />
       <item value="Method for accessing type of Objects this serializer can handle. Note that this information is not guaranteed to be exact -- it may be a more generic (super-type) -- but it should not be incorrect (return a non-related type). Default implementation will return null, which essentially means same as returning &lt;code&gt;Object.class&lt;/code&gt; would; that is, that nothing is known about handled type." />
@@ -13,7 +14,6 @@
       <item value="with" />
       <item value="annotation.get Class()" />
       <item value="Constraint" />
-      <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;/code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using database identity column." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using database sequence column." />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="177" />
-        <entry key="ENGLISH" value="178" />
+        <entry key="CHINESE" value="178" />
+        <entry key="ENGLISH" value="179" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
