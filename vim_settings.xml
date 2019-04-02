@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Workspace/insure-user/user-common/src/main/resources/mybatis/mapper/UserOauthTrailMapper.xml" timestamp="1496646687148">
@@ -8,10 +8,10 @@
         <mark key="]" line="17" column="12" />
         <mark key="." line="17" column="12" />
       </file>
-      <file name="F:/Workspace/parking-platform/parking-centre/src/main/java/com/shimaowy/parking/centre/controller/CustomerController.java" timestamp="1554194556941">
-        <mark key="[" line="217" column="44" />
-        <mark key="]" line="224" column="26" />
-        <mark key="." line="224" column="26" />
+      <file name="F:/Workspace/parking-platform/parking-centre/src/main/java/com/shimaowy/parking/centre/controller/CustomerController.java" timestamp="1554194603447">
+        <mark key="[" line="224" column="0" />
+        <mark key="]" line="224" column="4" />
+        <mark key="." line="224" column="4" />
         <mark key="^" line="224" column="26" />
       </file>
     </filemarks>
@@ -20,14 +20,14 @@
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="&quot;" type="4">
+        <text>else</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICB9IGVsc2UgaWYoYWN0dWFsQW1vdW50ID49IHNjYWxlUHJpY2VEYXkpIHsK</text>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text>else</text>
       </register>
     </registers>
     <search>

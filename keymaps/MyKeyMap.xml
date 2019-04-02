@@ -95,7 +95,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <mouse-shortcut keystroke="shift control alt button143" />
   </action>
-  <action id="VimPluginToggle" />
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
