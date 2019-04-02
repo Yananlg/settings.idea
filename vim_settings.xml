@@ -1,6 +1,6 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Workspace/insure-user/user-common/src/main/resources/mybatis/mapper/UserOauthTrailMapper.xml" timestamp="1496646687148">
@@ -8,12 +8,23 @@
         <mark key="]" line="17" column="12" />
         <mark key="." line="17" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/baoxian/secure-common/src/main/resources/jdbc.properties" timestamp="1496644458291" />
+      <file name="F:/Workspace/parking-platform/parking-centre/src/main/java/com/shimaowy/parking/centre/controller/CustomerController.java" timestamp="1554194556941">
+        <mark key="[" line="217" column="44" />
+        <mark key="]" line="224" column="26" />
+        <mark key="." line="224" column="26" />
+        <mark key="^" line="224" column="26" />
+      </file>
     </filemarks>
     <jumps />
     <registers>
-      <register name="&quot;" type="4">
-        <text>u</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICB9IGVsc2UgaWYoYWN0dWFsQW1vdW50ID49IHNjYWxlUHJpY2VEYXkpIHsK</text>
       </register>
       <register name="-" type="4">
         <text>u</text>
@@ -35,6 +46,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>

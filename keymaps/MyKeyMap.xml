@@ -1,4 +1,5 @@
 <keymap version="1" name="MyKeyMap" parent="$default">
+  <action id="AceAction" />
   <action id="AceJumpAction">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
@@ -94,9 +95,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <mouse-shortcut keystroke="shift control alt button143" />
   </action>
-  <action id="VimPluginToggle">
-    <keyboard-shortcut first-keystroke="ctrl semicolon" />
-  </action>
+  <action id="VimPluginToggle" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
