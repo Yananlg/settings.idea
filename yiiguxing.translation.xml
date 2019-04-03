@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the array into which the elements of this list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose." />
       <item value="URI or URI-template that the annotated class should be mapped to. @return The URI or URI-template that the annotated class should be mapped" />
       <item value="value(key)" />
       <item value="reserved for international and undocumented" />
@@ -50,12 +51,11 @@
       <item value="Excessive" />
       <item value="Invoked second (and last) if the body is empty." />
       <item value="increment" />
-      <item value="the salt used when hashing the given hashedCredentials" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="181" />
-        <entry key="ENGLISH" value="182" />
+        <entry key="CHINESE" value="182" />
+        <entry key="ENGLISH" value="183" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
