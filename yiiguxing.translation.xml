@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="value(key)" />
       <item value="reserved for international and undocumented" />
       <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
       <item value="Valid" />
@@ -50,12 +51,11 @@
       <item value="increment" />
       <item value="the salt used when hashing the given hashedCredentials" />
       <item value="a Realm's account's identifying principal(s)" />
-      <item value="Constructor that takes in an account's identifying principal(s) and its corresponding credentials that verify the principals." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="179" />
-        <entry key="ENGLISH" value="180" />
+        <entry key="CHINESE" value="180" />
+        <entry key="ENGLISH" value="181" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
