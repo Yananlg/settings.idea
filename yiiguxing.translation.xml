@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="truncated" />
+      <item value="a negative integer, zero, or a positive integer as the first" />
+      <item value="Determines how two dates compare up to no more than the specified most significant field." />
       <item value="The annotated element must be an instant, date or time in the future." />
       <item value="the array into which the elements of this list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose." />
       <item value="URI or URI-template that the annotated class should be mapped to. @return The URI or URI-template that the annotated class should be mapped" />
@@ -48,14 +51,11 @@
       <item value="Exception thrown when attempting to acquire the application's {@code SecurityManager} instance, but Shiro's lookup heuristics cannot find one. This typically indicates an invalid application configuration." />
       <item value="The logical operation for the permission check in case multiple roles are specified. AND is the default" />
       <item value="CONFLICT" />
-      <item value="Attempts" />
-      <item value="Excessive" />
-      <item value="Invoked second (and last) if the body is empty." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="183" />
-        <entry key="ENGLISH" value="184" />
+        <entry key="CHINESE" value="186" />
+        <entry key="ENGLISH" value="187" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
