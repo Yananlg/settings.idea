@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the class (or interface) to restrict property setting to" />
       <item value="add Using POST_11" />
       <item value="unallocated" />
       <item value="The byte value to use in padding the data" />
@@ -50,12 +51,11 @@
       <item value="Exception thrown due to a problem with the account under which an authentication attempt is being executed." />
       <item value="Exception wrapping any potential checked exception thrown when a {@code Subject} executes a {@link java.util.concurrent.Callable}. This is a nicer alternative than forcing calling code to catch a normal checked {@code Exception} when it may not be necessary. &lt;p/&gt; If thrown, the causing exception will always be accessible via the {@link #getCause() getCause()} method." />
       <item value="Exception thrown when attempting to instantiate a Class via reflection, but a suitable constructor (depending on the number of expected arguments) doesn't exist or cannot be obtained." />
-      <item value="Thrown by {@link PermissionResolver#resolvePermission(String)} when the String being parsed is not valid for that resolver." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="188" />
-        <entry key="ENGLISH" value="189" />
+        <entry key="CHINESE" value="189" />
+        <entry key="ENGLISH" value="190" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
