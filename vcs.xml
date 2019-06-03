@@ -118,8 +118,24 @@
           <option name="url" value="http://git.wl.shimaowy.com/parking-platform/parking-cloud.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.hypersmart.cc/hypersmart/shimao/member/member-center.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.hypersmart.cc/hypersmart/shimao/grid-management/grid-management.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.hypersmart.cc/hypersmart/shimao/mdm/mdm-provider.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.hypersmart.cc/hypersmart/shimao/mdm/user-center-provider.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="F:\Workspace" />
+    <option name="cloneParentDir" value="F:\Workspace\hypersmart" />
   </component>
 </application>
