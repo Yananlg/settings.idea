@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="NAMESRV ADD Rhttp" />
       <item value="the class (or interface) to restrict property setting to" />
       <item value="add Using POST_11" />
       <item value="unallocated" />
@@ -50,7 +51,6 @@
       <item value="Exception thrown due to a problem with the credential(s) submitted for an account during the authentication process." />
       <item value="Exception thrown due to a problem with the account under which an authentication attempt is being executed." />
       <item value="Exception wrapping any potential checked exception thrown when a {@code Subject} executes a {@link java.util.concurrent.Callable}. This is a nicer alternative than forcing calling code to catch a normal checked {@code Exception} when it may not be necessary. &lt;p/&gt; If thrown, the causing exception will always be accessible via the {@link #getCause() getCause()} method." />
-      <item value="Exception thrown when attempting to instantiate a Class via reflection, but a suitable constructor (depending on the number of expected arguments) doesn't exist or cannot be obtained." />
     </histories>
     <option name="languageScores">
       <map>
