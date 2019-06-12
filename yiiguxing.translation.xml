@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Producer" />
+      <item value="the position of this API in the resource listing, no longer used." />
       <item value="enter" />
       <item value="NAMESRV ADD Rhttp" />
       <item value="the class (or interface) to restrict property setting to" />
@@ -49,13 +51,11 @@
       <item value="Exception thrown if there is a problem during authorization (access control check)." />
       <item value="Authorization FAIL" />
       <item value="General exception thrown due to an error during the Authentication process." />
-      <item value="Exception thrown due to a problem with the credential(s) submitted for an account during the authentication process." />
-      <item value="Exception thrown due to a problem with the account under which an authentication attempt is being executed." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="190" />
-        <entry key="ENGLISH" value="191" />
+        <entry key="CHINESE" value="192" />
+        <entry key="ENGLISH" value="193" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
