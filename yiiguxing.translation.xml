@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Request to deregister from the previous assigned {@link EventExecutor} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
       <item value="After it is closed it is not possible to reuse it again." />
       <item value="Request to close the {@link Channel} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
       <item value="The annotation used to declare a listener for various types of event, in a given web application context.&lt;br&gt; &lt;br&gt; The class annotated MUST implement one, (or more), of the following interfaces: {@link javax.servlet.http.HttpSessionAttributeListener}," />
@@ -50,12 +51,11 @@
       <item value="Annotation that may be used to add &quot;virtual&quot; properties to be written after regular properties (although ordering may be changed using both standard &lt;code&gt;@JsonPropertyOrder&lt;/code&gt; annotation, and properties of this annotation)." />
       <item value="Specifies whether or not to attach the artifact to the project" />
       <item value="Specifies whether the Javadoc generation should be skipped" />
-      <item value="Sets the unformatted argument string to be passed to test compiler if fork is set to true." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="199" />
-        <entry key="ENGLISH" value="200" />
+        <entry key="CHINESE" value="200" />
+        <entry key="ENGLISH" value="201" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
