@@ -134,6 +134,10 @@
           <option name="url" value="http://git.hypersmart.cc/hypersmart/shimao/mdm/user-center-provider.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitee.com" />
+          <option name="userName" value="chpeng@outlook.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="F:\Workspace\hypersmart" />
