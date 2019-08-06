@@ -37,6 +37,10 @@
     <driver id="sybase.ase">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="mysql.8">
+      <artifact name="MySQL Connector/J 8" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="mysql" driver-class="com.mysql.cj.jdbc.Driver">
       <artifact name="MySQL Connector/J" use="true" version="5.1.46" />
       <option name="auto-sync" value="true" />
@@ -46,7 +50,6 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/8.0.13/mysql-connector-java-8.0.13.jar</url>
       </library>
-      <code-style-scheme-name>MyDefault</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" />
@@ -94,6 +97,32 @@
     <driver id="cassandra">
       <artifact name="Cassandra" use="true" />
       <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="vertica">
+      <artifact name="Vertica" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hive">
+      <artifact name="Hive" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="greenplum">
+      <artifact name="PostgreSQL" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="snowflake">
+      <artifact name="Snowflake" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="com.mysql.jdbc.Driver" name="com.mysql.jdbc.Driver" driver-class="com.mysql.jdbc.Driver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
   </component>
 </application>
