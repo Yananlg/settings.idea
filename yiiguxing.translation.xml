@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the class (or interface) to restrict property setting to" />
       <item value="Request to deregister from the previous assigned {@link EventExecutor} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
       <item value="After it is closed it is not possible to reuse it again." />
       <item value="Request to close the {@link Channel} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
@@ -13,7 +14,6 @@
       <item value="the position of this API in the resource listing, no longer used." />
       <item value="enter" />
       <item value="NAMESRV ADD Rhttp" />
-      <item value="the class (or interface) to restrict property setting to" />
       <item value="add Using POST_11" />
       <item value="unallocated" />
       <item value="The byte value to use in padding the data" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="200" />
-        <entry key="ENGLISH" value="201" />
+        <entry key="CHINESE" value="201" />
+        <entry key="ENGLISH" value="202" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
