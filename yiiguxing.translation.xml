@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The value may indicate a suggestion for a logical component name, to be turned into a Spring bean in case of an autodetected component. @return the suggested component name, if any (or empty String otherwise)" />
+      <item value="Filter that allows access if the current user has the permissions specified by the mapped value, or denies access if the user does not have all of the permissions specified." />
       <item value="if this current instance &lt;em&gt;implies&lt;/em&gt; all the functionality and/or resource access" />
       <item value="Returns {@code true} if this current instance &lt;em&gt;implies&lt;/em&gt; all the functionality and/or resource access described by the specified {@code Permission} argument, {@code false} otherwise." />
       <item value="Always returns &lt;tt&gt;true&lt;/tt&gt;, indicating any Subject granted this permission can do anything." />
@@ -49,13 +51,11 @@
       <item value="annotation.get Class()" />
       <item value="Constraint" />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;/code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
-      <item value="Indicates that the persistence provider must assign primary keys for the entity using database identity column." />
-      <item value="Indicates that the persistence provider must assign primary keys for the entity using database sequence column." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="211" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="CHINESE" value="213" />
+        <entry key="ENGLISH" value="214" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
