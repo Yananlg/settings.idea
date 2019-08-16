@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Annotation to enable JPA repositories. Will scan the package of the annotated configuration class for Spring Data repositories by default." />
       <item value="Bean post processor for Spring that automatically calls the &lt;tt&gt;init()&lt;/tt&gt; and/or &lt;tt&gt;destroy()&lt;/tt&gt; methods on Shiro objects that implement the {@link org.apache.shiro.util.Initializable} or {@link org.apache.shiro.util.Destroyable} interfaces, respectfully. This post processor makes it easier to configure Shiro beans in Spring, since the user never has to worry about whether or not if they have to specify init-method and destroy-method bean attributes.&lt;/p&gt;" />
       <item value="The value may indicate a suggestion for a logical component name, to be turned into a Spring bean in case of an autodetected component. @return the suggested component name, if any (or empty String otherwise)" />
       <item value="Filter that allows access if the current user has the permissions specified by the mapped value, or denies access if the user does not have all of the permissions specified." />
@@ -50,12 +51,11 @@
       <item value="Base class that defines public API for writing JSON content. Instances are created using factory methods of" />
       <item value="with" />
       <item value="annotation.get Class()" />
-      <item value="Constraint" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="214" />
-        <entry key="ENGLISH" value="215" />
+        <entry key="CHINESE" value="215" />
+        <entry key="ENGLISH" value="216" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
