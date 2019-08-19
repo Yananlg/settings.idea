@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Authorization" />
+      <item value="Authentication" />
       <item value="docket" />
       <item value="Annotation to enable JPA repositories. Will scan the package of the annotated configuration class for Spring Data repositories by default." />
       <item value="Bean post processor for Spring that automatically calls the &lt;tt&gt;init()&lt;/tt&gt; and/or &lt;tt&gt;destroy()&lt;/tt&gt; methods on Shiro objects that implement the {@link org.apache.shiro.util.Initializable} or {@link org.apache.shiro.util.Destroyable} interfaces, respectfully. This post processor makes it easier to configure Shiro beans in Spring, since the user never has to worry about whether or not if they have to specify init-method and destroy-method bean attributes.&lt;/p&gt;" />
@@ -49,13 +51,11 @@
       <item value="Serializer class to use for serializing Map keys of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves." />
       <item value="Serializer class to use for serializing contents (elements of a Collection/array, values of Maps) of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves (as they are typically generic)" />
       <item value="Serializer class to use for serializing associated value. Depending on what is annotated, value is either an instance of annotated class (used globablly anywhere where class serializer is needed); or only used for serializing property access via a getter method." />
-      <item value="Base class that defines public API for writing JSON content. Instances are created using factory methods of" />
-      <item value="with" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="216" />
-        <entry key="ENGLISH" value="217" />
+        <entry key="CHINESE" value="218" />
+        <entry key="ENGLISH" value="219" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
