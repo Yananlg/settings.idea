@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Simple CredentialsMatcher implementation. Supports direct (plain) comparison for credentials of type byte[], char[], and Strings, and if the arguments do not match these types, then reverts back to simple &lt;code&gt;Object.equals&lt;/code&gt; comparison. &lt;p/&gt; Hashing comparisons (the most common technique used in secure applications) are not supported by this class, but instead by the {@link org.apache.shiro.authc.credential.HashedCredentialsMatcher HashedCredentialsMatcher}" />
       <item value="Authorization" />
       <item value="Authentication" />
       <item value="docket" />
@@ -50,12 +51,11 @@
       <item value="Supertype (of declared type, which itself is supertype of runtime type) to use as type when locating serializer to use." />
       <item value="Serializer class to use for serializing Map keys of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves." />
       <item value="Serializer class to use for serializing contents (elements of a Collection/array, values of Maps) of annotated property. Can only be used on properties (methods, fields, constructors), and not value classes themselves (as they are typically generic)" />
-      <item value="Serializer class to use for serializing associated value. Depending on what is annotated, value is either an instance of annotated class (used globablly anywhere where class serializer is needed); or only used for serializing property access via a getter method." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="218" />
-        <entry key="ENGLISH" value="219" />
+        <entry key="CHINESE" value="219" />
+        <entry key="ENGLISH" value="220" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
