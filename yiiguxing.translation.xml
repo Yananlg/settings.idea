@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="auditor" />
+      <item value="Interface for components that are aware of the application's current auditor. This will be some kind of user mostly." />
+      <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
       <item value="the class of authentication token instances supported by this realm." />
       <item value="Unless overridden by this method, the default value is {@link org.apache.shiro.authc.UsernamePasswordToken UsernamePasswordToken.class} to support the majority of applications." />
       <item value="Sets the authenticationToken class supported by this realm." />
@@ -48,14 +51,11 @@
       <item value="reserved for international and undocumented" />
       <item value="Returns the underlying source used to find the home directory. This is usually the jar file or a directory. Can return {@code null} if the source cannot be determined." />
       <item value="Valid" />
-      <item value="Nominal type supported, usually declared type of property for which serializer is used." />
-      <item value="Method for accessing type of Objects this serializer can handle. Note that this information is not guaranteed to be exact -- it may be a more generic (super-type) -- but it should not be incorrect (return a non-related type). Default implementation will return null, which essentially means same as returning &lt;code&gt;Object.class&lt;/code&gt; would; that is, that nothing is known about handled type." />
-      <item value="Note: if {@link #using} is also used it has precedence (since it directly specifies serializer, whereas this would only be used to locate the serializer) and value of this annotation property is ignored." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="222" />
-        <entry key="ENGLISH" value="223" />
+        <entry key="CHINESE" value="225" />
+        <entry key="ENGLISH" value="226" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
