@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The response type of the operation. In JAX-RS applications, the return type of the method would automatically be used, unless it is {@code javax.ws.rs.core.Response}. In that case, the operation return type would default to `void` as the actual response type cannot be known. Setting this property would override any automatically-derived data type. If the value used is a class representing a primitive ({@code Integer}, {@code Long}, ...) the corresponding primitive type will be used." />
+      <item value="Declares a container wrapping the response. Valid values are &quot;List&quot;, &quot;Set&quot; or &quot;Map&quot;. Any other value will be ignored." />
+      <item value="Specifies a reference to the response type. The specified reference can be either local or remote and will be used as-is, and will override any specified response() class." />
       <item value="left unbound" />
       <item value="left" />
       <item value="Modify the application context's internal bean definition registry after its standard initialization. All regular bean definitions will have been loaded, but no beans will have been instantiated yet. This allows for adding further bean definitions before the next post-processing phase kicks in." />
@@ -48,14 +51,11 @@
       <item value="unallocated" />
       <item value="The byte value to use in padding the data" />
       <item value="truncated" />
-      <item value="a negative integer, zero, or a positive integer as the first" />
-      <item value="Determines how two dates compare up to no more than the specified most significant field." />
-      <item value="The annotated element must be an instant, date or time in the future." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="231" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="CHINESE" value="234" />
+        <entry key="ENGLISH" value="235" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
