@@ -40,6 +40,7 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="32424a" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="INDENT_GUIDE" value="383830" />
     <option name="METHOD_SEPARATORS_COLOR" value="5b5a4e" />
@@ -461,8 +462,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f8f8f2" />
-        <option name="BACKGROUND" value="383830" />
+        <option name="FOREGROUND" value="787871" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
