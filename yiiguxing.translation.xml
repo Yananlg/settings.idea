@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
+      <item value="Corresponds to the 'notes' field of the operation. A verbose description of the operation." />
+      <item value="Corresponds to the `summary` field of the operation. Provides a brief description of this operation. Should be 120 characters or less for proper visibility in Swagger-UI." />
       <item value="The annotation type {@code java.lang.annotation.Repeatable} is used to indicate that the annotation type whose declaration it (meta-)annotates is &lt;em&gt;repeatable&lt;/em&gt;. The value of {@code @Repeatable} indicates the &lt;em&gt;containing annotation type&lt;/em&gt; for the repeatable annotation type." />
       <item value="Amount of time before asynchronous request handling times out. If this value is not set, the default timeout of the underlying implementation is used, e.g. 10 seconds on Tomcat with Servlet 3." />
       <item value="the absolute path within the classpath" />
@@ -48,14 +51,11 @@
       <item value="includes" />
       <item value="consumed" />
       <item value="Producer" />
-      <item value="the position of this API in the resource listing, no longer used." />
-      <item value="enter" />
-      <item value="NAMESRV ADD Rhttp" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="239" />
+        <entry key="CHINESE" value="241" />
+        <entry key="ENGLISH" value="242" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
