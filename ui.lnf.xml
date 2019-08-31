@@ -1,6 +1,11 @@
 <application>
+  <component name="DependencyUISettings">
+    <option name="UI_FLATTEN_PACKAGES" value="false" />
+    <option name="UI_SHOW_MODULE_GROUPS" value="false" />
+    <option name="UI_COMPACT_EMPTY_MIDDLE_PACKAGES" value="false" />
+    <option name="SCOPE_TYPE" value="file" />
+  </component>
   <component name="UISettings">
-    <option name="smoothScrolling" value="true" />
-    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1255" />
   </component>
 </application>

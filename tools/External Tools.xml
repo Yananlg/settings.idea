@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="VSCode" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\Developer\Microsoft VS Code\Code.exe" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="D:/Developer/Microsoft VS Code" />
+    </exec>
+  </tool>
+  <tool name="ClassView" description="查看 Java 字节码（Class）文件" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="javap" />
+      <option name="PARAMETERS" value="-c $FileClass$.class" />
+      <option name="WORKING_DIRECTORY" value="$OutputPath$" />
+    </exec>
+  </tool>
+</toolSet>

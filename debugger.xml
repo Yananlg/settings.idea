@@ -1,5 +1,9 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
+    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
+    <option name="WATCH_RETURN_VALUES" value="true" />
+    <option name="AUTO_VARIABLES_MODE" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -76,8 +80,18 @@
       <option name="INCLUDE" value="true" />
     </filter>
   </component>
+  <component name="NodeRendererSettings">
+    <Renderer ID="ClassRenderer">
+      <option name="SHOW_STATIC" value="true" />
+    </Renderer>
+    <Renderer ID="PrimitiveRenderer">
+      <option name="SHOW_HEX_VALUE" value="true" />
+    </Renderer>
+  </component>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <show-values-inline>false</show-values-inline>
+    </data-views>
     <general />
     <debuggers>
       <debugger id="javascript">
