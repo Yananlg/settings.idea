@@ -1,4 +1,8 @@
 <application>
+  <component name="MaterialDDLCThemeConfig">
+    <option name="userId" value="7405db08:16ceacf7fce:-8000" />
+    <option name="version" value="4.2.1" />
+  </component>
   <component name="MaterialThemeConfig">
     <option name="arrowsStyle" value="Arrows" />
     <option name="compactSidebar" value="true" />

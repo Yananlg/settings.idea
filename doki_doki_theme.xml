@@ -1,0 +1,8 @@
+<application>
+  <component name="DokiDokiThemeConfig">
+    <option name="firstTime" value="false" />
+    <option name="selectedTheme" value="MONIKA" />
+    <option name="isWizardShown" value="true" />
+    <option name="isFirstTime" value="false" />
+  </component>
+</application>

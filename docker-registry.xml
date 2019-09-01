@@ -1,6 +1,6 @@
 <application>
   <component name="DockerRegistry">
-    <DockerRegistry email="">
+    <DockerRegistry email="" password="">
       <option name="address" value="192.168.10.175:5000" />
       <option name="name" value="Docker Registry" />
       <option name="username" value="" />
