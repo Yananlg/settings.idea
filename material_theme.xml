@@ -1,22 +1,28 @@
 <application>
   <component name="MaterialDDLCThemeConfig">
+    <option name="pristineConfig" value="false" />
+    <option name="settingsSelectedTab" value="6" />
+    <option name="accentColor" value="fd7c4b" />
+    <option name="selectedTheme" value="syrena" />
     <option name="userId" value="7405db08:16ceacf7fce:-8000" />
     <option name="version" value="4.2.1" />
   </component>
   <component name="MaterialThemeConfig">
-    <option name="arrowsStyle" value="Arrows" />
+    <option name="arrowsStyle" value="Darcula" />
     <option name="compactSidebar" value="true" />
     <option name="highlightColorEnabled" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="monochromeIcons" value="true" />
     <option name="pristineConfig" value="false" />
-    <option name="statusBarTheme" value="false" />
+    <option name="indicatorStyle" value="Dot" />
     <option name="customSidebarHeight" value="26" />
     <option name="leftTreeIndent" value="10" />
     <option name="rightTreeIndent" value="6" />
-    <option name="settingsSelectedTab" value="3" />
+    <option name="settingsSelectedTab" value="6" />
+    <option name="tabsHeight" value="24" />
     <option name="selectedTheme" value="CUSTOM" />
     <option name="userId" value="6efe8ed4:167dde00d1e:-8000" />
-    <option name="version" value="3.10.0" />
+    <option name="version" value="4.4.6" />
   </component>
 </application>
