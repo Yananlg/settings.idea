@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Cascade all operations" />
+      <item value="Cascade persist operation" />
+      <item value="Cascade merge operation" />
+      <item value="Cascade remove operation" />
+      <item value="Cascade refresh operation" />
+      <item value="Cascade detach operation" />
       <item value="anon" />
       <item value="Increment an integer value stored as string value under {@code key} by {@code delta}." />
       <item value="a Map with the matching beans, containing the bean names as keys and the corresponding bean instances as values" />
@@ -45,17 +51,11 @@
       <item value="Matches string ending with pattern" />
       <item value="Matches string starting with pattern" />
       <item value="Matches the exact string" />
-      <item value="the class (or interface) to restrict property setting to" />
-      <item value="Request to deregister from the previous assigned {@link EventExecutor} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
-      <item value="After it is closed it is not possible to reuse it again." />
-      <item value="Request to close the {@link Channel} and notify the {@link ChannelFuture} once the operation completes, either because the operation was successful or because of an error." />
-      <item value="The annotation used to declare a listener for various types of event, in a given web application context.&lt;br&gt; &lt;br&gt; The class annotated MUST implement one, (or more), of the following interfaces: {@link javax.servlet.http.HttpSessionAttributeListener}," />
-      <item value="The PreDestroy annotation is used on methods as a callback notification to signal that the instance is in the process of being removed by the container. The method annotated with PreDestroy is typically used to release resources that it has been holding. This annotation MUST be supported by all container managed objects that support PostConstruct except the application client container in Java EE 5. The method on which the PreDestroy annotation is applied MUST fulfill all of the following criteria: &lt;ul&gt; &lt;li&gt;The method MUST NOT have any parameters except in the case of interceptors in which case it takes an InvocationContext object as defined by the Interceptors specification.&lt;/li&gt; &lt;li&gt;The method defined on an interceptor class MUST HAVE one of the following signatures: void &amp;#060;METHOD&amp;#062;(InvocationContext) Object &amp;#060;METHOD&amp;#062;(InvocationContext) throws Exception &lt;i&gt;Note: A PreDestroy interceptor method must not throw application exceptions, but it may be declared to throw checked exceptions including the java.lang.Exception if the same interceptor method interposes on business or timeout methods in addition to lifecycle events. If a PreDestroy interceptor method returns a value, it is ignored by the container.&lt;/i&gt; &lt;/li&gt; &lt;li&gt;The method defined on a non-interceptor class MUST HAVE the following signature: void &amp;#060;METHOD&amp;#062;() &lt;/li&gt; &lt;li&gt;The method on which PreDestroy is applied MAY be public, protected, package private or private.&lt;/li&gt; &lt;li&gt;The method MUST NOT be static.&lt;/li&gt; &lt;li&gt;The method MAY be final.&lt;/li&gt; &lt;li&gt;If the method throws an unchecked exception it is ignored except in the case of EJBs where the EJB can handle exceptions.&lt;/li&gt; &lt;/ul&gt;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="245" />
-        <entry key="ENGLISH" value="246" />
+        <entry key="CHINESE" value="251" />
+        <entry key="ENGLISH" value="252" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
