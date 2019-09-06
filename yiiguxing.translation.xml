@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="account" />
       <item value="The name of the foreign key column. The table in which it is found depends upon the context." />
       <item value="The name of the column referenced by this foreign key column." />
       <item value="tinyint" />
@@ -50,12 +51,11 @@
       <item value="implies" />
       <item value="Returns an account's authorization-specific information for the specified {@code principals}, or {@code null} if no account could be found. The resulting {@code AuthorizationInfo} object is used by the other method implementations in this class to automatically perform access control checks for the corresponding {@code Subject}. &lt;p/&gt; This implementation obtains the actual {@code AuthorizationInfo} object from the subclass's implementation of {@link #doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection) doGetAuthorizationInfo}, and then caches it for efficient reuse if caching is enabled (see below). &lt;p/&gt; Invocations of this method should be thought of as completely orthogonal to acquiring {@link #getAuthenticationInfo(org.apache.shiro.authc.AuthenticationToken) authenticationInfo}, since either could occur in any order. &lt;p/&gt; For example, in &amp;quot;Remember Me&amp;quot; scenarios, the user identity is remembered (and assumed) for their current session and an authentication attempt during that session might never occur. But because their identity would be remembered, that is sufficient enough information to call this method to execute any necessary authorization checks. For this reason, authentication and authorization should be loosely coupled and not depend on each other. &lt;h3&gt;Caching&lt;/h3&gt; The {@code AuthorizationInfo} values returned from this method are cached for efficient reuse if caching is enabled. Caching is enabled automatically when an {@link #setAuthorizationCache authorizationCache} instance has been explicitly configured, or if a {@link #setCacheManager cacheManager} has been configured, which will be used to lazily create the {@code authorizationCache} as needed. &lt;p/&gt; If caching is enabled, the authorization cache will be checked first and if found, will return the cached {@code AuthorizationInfo} immediately. If caching is disabled, or there is a cache miss, the authorization info will be looked up from the underlying data store via the {@link #doGetAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection)} method, which must be implemented by subclasses. &lt;h4&gt;Changed Data&lt;/h4&gt; If caching is enabled and if any authorization data for an account is changed at runtime, such as adding or removing roles and/or permissions, the subclass implementation should clear the cached AuthorizationInfo for that account via the {@link #clearCachedAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection) clearCachedAuthorizationInfo} method. This ensures that the next call to {@code getAuthorizationInfo(PrincipalCollection)} will acquire the account's fresh authorization data, where it will then be cached for efficient reuse. This ensures that stale authorization data will not be reused." />
       <item value="Treats strings as regular expression patterns" />
-      <item value="Matches string containing pattern" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="254" />
-        <entry key="ENGLISH" value="255" />
+        <entry key="CHINESE" value="255" />
+        <entry key="ENGLISH" value="256" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
