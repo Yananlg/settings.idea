@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="nilin contact" />
       <item value="Ambiguous" />
       <item value="A converter converts a source object of type {@code S} to a target of type {@code T}." />
       <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
@@ -50,12 +51,11 @@
       <item value="Filter that allows access if the current user has the permissions specified by the mapped value, or denies access if the user does not have all of the permissions specified." />
       <item value="if this current instance &lt;em&gt;implies&lt;/em&gt; all the functionality and/or resource access" />
       <item value="Returns {@code true} if this current instance &lt;em&gt;implies&lt;/em&gt; all the functionality and/or resource access described by the specified {@code Permission} argument, {@code false} otherwise." />
-      <item value="Always returns &lt;tt&gt;true&lt;/tt&gt;, indicating any Subject granted this permission can do anything." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="259" />
-        <entry key="ENGLISH" value="260" />
+        <entry key="CHINESE" value="260" />
+        <entry key="ENGLISH" value="261" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
