@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="message" />
       <item value="datetime" />
       <item value="Annotation to allow {@link String} based type aliases to be used when writing type information for" />
       <item value="Demarcates a property to be used as version field to implement optimistic locking on entities." />
@@ -50,12 +51,11 @@
       <item value="Authorization" />
       <item value="Authentication" />
       <item value="docket" />
-      <item value="Annotation to enable JPA repositories. Will scan the package of the annotated configuration class for Spring Data repositories by default." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="265" />
-        <entry key="ENGLISH" value="266" />
+        <entry key="CHINESE" value="266" />
+        <entry key="ENGLISH" value="267" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
