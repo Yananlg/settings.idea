@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A container object which may or may not contain a non-null value. If a value is present, {@code isPresent()} will return {@code true} and {@code get()} will return the value." />
       <item value="message" />
       <item value="datetime" />
       <item value="Annotation to allow {@link String} based type aliases to be used when writing type information for" />
@@ -50,12 +51,11 @@
       <item value="Simple CredentialsMatcher implementation. Supports direct (plain) comparison for credentials of type byte[], char[], and Strings, and if the arguments do not match these types, then reverts back to simple &lt;code&gt;Object.equals&lt;/code&gt; comparison. &lt;p/&gt; Hashing comparisons (the most common technique used in secure applications) are not supported by this class, but instead by the {@link org.apache.shiro.authc.credential.HashedCredentialsMatcher HashedCredentialsMatcher}" />
       <item value="Authorization" />
       <item value="Authentication" />
-      <item value="docket" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="266" />
-        <entry key="ENGLISH" value="267" />
+        <entry key="CHINESE" value="267" />
+        <entry key="ENGLISH" value="268" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
