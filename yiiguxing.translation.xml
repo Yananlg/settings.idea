@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Introspecting table system_menu" />
+      <item value="Introspecting" />
       <item value="the number of kilobytes, positive or negative" />
       <item value="Obtain a {@link DataSize} representing the specified number of kilobytes" />
       <item value="kilobytes" />
@@ -49,13 +51,11 @@
       <item value="Interface for components that are aware of the application's current auditor. This will be some kind of user mostly." />
       <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
       <item value="the class of authentication token instances supported by this realm." />
-      <item value="Unless overridden by this method, the default value is {@link org.apache.shiro.authc.UsernamePasswordToken UsernamePasswordToken.class} to support the majority of applications." />
-      <item value="Sets the authenticationToken class supported by this realm." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="270" />
-        <entry key="ENGLISH" value="271" />
+        <entry key="CHINESE" value="272" />
+        <entry key="ENGLISH" value="273" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
