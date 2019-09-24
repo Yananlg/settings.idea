@@ -89,9 +89,7 @@
     </Renderer>
   </component>
   <component name="XDebuggerSettings">
-    <data-views>
-      <show-values-inline>false</show-values-inline>
-    </data-views>
+    <data-views />
     <general />
     <debuggers>
       <debugger id="javascript">
