@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="flat" />
       <item value="blurry" />
       <item value="Introspecting table system_menu" />
       <item value="Introspecting" />
@@ -50,12 +51,11 @@
       <item value="algorithm" />
       <item value="auditor" />
       <item value="Interface for components that are aware of the application's current auditor. This will be some kind of user mostly." />
-      <item value="Abstract base class for auditable entities. Stores the audition values in persistent fields." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="273" />
-        <entry key="ENGLISH" value="274" />
+        <entry key="CHINESE" value="274" />
+        <entry key="ENGLISH" value="275" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
