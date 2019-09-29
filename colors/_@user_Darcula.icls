@@ -3,14 +3,28 @@
     <property name="created">2018-12-24T09:41:47</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-09-27T11:00:43</property>
+    <property name="modified">2019-09-29T18:50:08</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
     <option name="FILESTATUS_HIJACKED" value="b28c00" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="607d8b" />
     <option name="FILESTATUS_OBSOLETE" value="7c7c00" />
     <option name="FILESTATUS_SUPPRESSED" value="" />
     <option name="FILESTATUS_SWITCHED" value="8978f" />
   </colors>
+  <attributes>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
