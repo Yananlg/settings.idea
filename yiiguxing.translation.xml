@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the application's login URL to apply to as a convenience to all discovered link AccessControlFilter instances." />
+      <item value="If a filter already has already been explicitly configured with a value, it will &lt;em&gt;not&lt; em&gt; receive this value. Individual filter configuration overrides this global convenience property." />
+      <item value="Sets the application's login URL to be assigned to all acquired Filters that subclass link AccessControlFilter . This is a convenience mechanism: for all configured link #setFilters filters , as well for any default ones ( code authc , code user , etc), this value will be passed on to each Filter via the link AccessControlFilter#setLoginUrl(String) method&lt;b&gt; &lt; b&gt;. This eliminates the need to configure the 'loginUrl' property manually on each filter instance, and instead that can be configured once via this attribute." />
       <item value="authorized" />
       <item value="a String array contains all Hanyu Pinyin presentations with tone numbers; return empty string for non-Chinese character" />
       <item value="Retain the characters that cannot be converted into pinyin characters" />
@@ -48,14 +51,11 @@
       <item value="a Map with the matching beans, containing the bean names as keys and the corresponding bean instances as values" />
       <item value="Modify the application context's internal bean factory after its standard initialization. All bean definitions will have been loaded, but no beans will have been instantiated yet. This allows for overriding or adding properties even to eager-initializing beans. @param beanFactory the bean factory used by the application context" />
       <item value="Corresponds to the 'notes' field of the operation. A verbose description of the operation." />
-      <item value="Corresponds to the `summary` field of the operation. Provides a brief description of this operation. Should be 120 characters or less for proper visibility in Swagger-UI." />
-      <item value="The annotation type {@code java.lang.annotation.Repeatable} is used to indicate that the annotation type whose declaration it (meta-)annotates is &lt;em&gt;repeatable&lt;/em&gt;. The value of {@code @Repeatable} indicates the &lt;em&gt;containing annotation type&lt;/em&gt; for the repeatable annotation type." />
-      <item value="Amount of time before asynchronous request handling times out. If this value is not set, the default timeout of the underlying implementation is used, e.g. 10 seconds on Tomcat with Servlet 3." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="297" />
-        <entry key="ENGLISH" value="297" />
+        <entry key="CHINESE" value="299" />
+        <entry key="ENGLISH" value="300" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
