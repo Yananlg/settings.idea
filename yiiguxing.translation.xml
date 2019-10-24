@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Increases padding to include border if true" />
+      <item value="Holds value of property table." />
+      <item value="Fixed height of the cell." />
       <item value="Interface allowing pluggable session ID generation strategies to be used with various link SessionDAO implementations. &lt;h2&gt;Usage&lt; h2&gt; SessionIdGenerators are usually only used when ID generation is separate from creating the Session record in the EIS data store. Some EIS data stores, such as relational databases, can generate the id at the same time the record is created, such as when using auto-generated primary keys. In these cases, a SessionIdGenerator does not need to be configured. &lt;p &gt; However, if you want to customize how session IDs are created before persisting the Session record into the data store, you can implement this interface and typically inject it into an link AbstractSessionDAO instance." />
       <item value="Generates a new ID to be applied to the specified code Session instance." />
       <item value="the application's login URL to apply to as a convenience to all discovered link AccessControlFilter instances." />
@@ -48,14 +51,11 @@
       <item value="Cascade remove operation" />
       <item value="Cascade refresh operation" />
       <item value="Cascade detach operation" />
-      <item value="anon" />
-      <item value="Increment an integer value stored as string value under {@code key} by {@code delta}." />
-      <item value="a Map with the matching beans, containing the bean names as keys and the corresponding bean instances as values" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="302" />
-        <entry key="ENGLISH" value="302" />
+        <entry key="CHINESE" value="304" />
+        <entry key="ENGLISH" value="305" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
