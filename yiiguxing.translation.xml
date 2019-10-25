@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This represents a type of border" />
+      <item value="This represents a rectangle without borders." />
       <item value="Enables Disables the border on the specified sides. The border is specified as an integer bitwise combination of the constants: &lt;CODE&gt;LEFT, RIGHT, TOP, BOTTOM&lt; CODE&gt;." />
       <item value="Holds value of property rowspan." />
       <item value="Setter for property rowspan." />
@@ -49,13 +51,11 @@
       <item value="kilobytes" />
       <item value="A container object which may or may not contain a non-null value. If a value is present, {@code isPresent()} will return {@code true} and {@code get()} will return the value." />
       <item value="message" />
-      <item value="datetime" />
-      <item value="Annotation to allow {@link String} based type aliases to be used when writing type information for" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="324" />
-        <entry key="ENGLISH" value="325" />
+        <entry key="CHINESE" value="326" />
+        <entry key="ENGLISH" value="327" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
