@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A possible value for paragraph alignment. This specifies that the text is aligned to the left indent and extra whitespace should be placed on the right." />
+      <item value="A possible value for paragraph alignment. This specifies that the text is aligned to the right indent and extra whitespace should be placed on the left." />
+      <item value="Does the same as ALIGN_JUSTIFIED but the last line is also spread out." />
+      <item value="A possible value for paragraph alignment. This specifies that extra whitespace should be spread out through the rows of the paragraph with the text lined up with the left and right indent except on the last line which should be aligned to the left." />
+      <item value="TABBING" />
+      <item value="Sets the spacing before." />
+      <item value="Sets the indentation on the left side." />
+      <item value="Sets the alignment of this paragraph." />
+      <item value="Breaks this Paragraph up in different parts, separating paragraphs, lists and tables from each other." />
+      <item value="Creates a shallow clone of the Paragraph." />
+      <item value="leading" />
       <item value="Increases padding to include border if true" />
       <item value="Holds value of property table." />
       <item value="Fixed height of the cell." />
@@ -40,22 +51,11 @@
       <item value="Ambiguous" />
       <item value="A converter converts a source object of type {@code S} to a target of type {@code T}." />
       <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. A non-empty value will override the value received from {@link Api#value()} or {@link Api#tags()} for this operation." />
-      <item value="Allows declaring data binding disabled directly on an {@code @ModelAttribute} method parameter or on the attribute returned from an {@code @ModelAttribute} method, both of which would prevent data binding for that attribute. By default this is set to {@code true} in which case data binding applies. Set this to {@code false} to disable data binding." />
-      <item value="account" />
-      <item value="The name of the foreign key column. The table in which it is found depends upon the context." />
-      <item value="The name of the column referenced by this foreign key column." />
-      <item value="tinyint" />
-      <item value="Cascade all operations" />
-      <item value="Cascade persist operation" />
-      <item value="Cascade merge operation" />
-      <item value="Cascade remove operation" />
-      <item value="Cascade refresh operation" />
-      <item value="Cascade detach operation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="304" />
-        <entry key="ENGLISH" value="305" />
+        <entry key="CHINESE" value="316" />
+        <entry key="ENGLISH" value="317" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
