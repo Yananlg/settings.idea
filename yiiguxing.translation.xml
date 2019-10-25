@@ -1,9 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Enables Disables the border on the specified sides. The border is specified as an integer bitwise combination of the constants: &lt;CODE&gt;LEFT, RIGHT, TOP, BOTTOM&lt; CODE&gt;." />
       <item value="Holds value of property rowspan." />
       <item value="Setter for property rowspan." />
-      <item value="Enables Disables the border on the specified sides. The border is specified as an integer bitwise combination of the constants: &lt;CODE&gt;LEFT, RIGHT, TOP, BOTTOM&lt; CODE&gt;." />
       <item value="Sets the borderwidth of the table." />
       <item value="SEPARATOR" />
       <item value="Vertical" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="323" />
-        <entry key="ENGLISH" value="324" />
+        <entry key="CHINESE" value="324" />
+        <entry key="ENGLISH" value="325" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
