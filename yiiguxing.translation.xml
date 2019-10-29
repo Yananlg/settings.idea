@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Adds a language to th document. Required for PDF UA compatible documents." />
       <item value="The graphic state dictionary." />
       <item value="pivot" />
       <item value="Shows text right, left or center aligned with rotation." />
@@ -50,12 +51,11 @@
       <item value="Specify whether or not date/time parsing is to be lenient. With lenient parsing, the parser may use heuristics to interpret inputs that do not precisely match this object's format. With strict parsing, inputs must match this object's format." />
       <item value="flat" />
       <item value="blurry" />
-      <item value="Introspecting table system_menu" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="332" />
-        <entry key="ENGLISH" value="333" />
+        <entry key="CHINESE" value="333" />
+        <entry key="ENGLISH" value="334" />
         <entry key="GERMAN" value="2" />
         <entry key="VIETNAMESE" value="1" />
       </map>
