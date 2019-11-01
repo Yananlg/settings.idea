@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt; code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
+      <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="when used in pipeline transaction" />
       <item value="Get the time to live for code key in and convert it to the given link TimeUnit ." />
       <item value="Copyright (c) Nils Adermann, Jordi Boggiano" />
@@ -49,13 +51,11 @@
       <item value="Sets the application's login URL to be assigned to all acquired Filters that subclass link AccessControlFilter . This is a convenience mechanism: for all configured link #setFilters filters , as well for any default ones ( code authc , code user , etc), this value will be passed on to each Filter via the link AccessControlFilter#setLoginUrl(String) method&lt;b&gt; &lt; b&gt;. This eliminates the need to configure the 'loginUrl' property manually on each filter instance, and instead that can be configured once via this attribute." />
       <item value="authorized" />
       <item value="a String array contains all Hanyu Pinyin presentations with tone numbers; return empty string for non-Chinese character" />
-      <item value="Retain the characters that cannot be converted into pinyin characters" />
-      <item value="terms" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="342" />
-        <entry key="ENGLISH" value="343" />
+        <entry key="CHINESE" value="344" />
+        <entry key="ENGLISH" value="345" />
         <entry key="GERMAN" value="2" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
