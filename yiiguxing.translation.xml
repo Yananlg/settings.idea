@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="draw" />
       <item value="Creates a &lt;i&gt;mutable&lt; i&gt; code HashMap instance with the same mappings as the specified map. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if mutability is not required, use link ImmutableMap#copyOf(Map) instead. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if code K is an link Enum type, use link #newEnumMap instead. &lt;p&gt;&lt;b&gt;Note for Java 7 and later:&lt; b&gt; this method is now unnecessary and should be treated as deprecated. Instead, use the code HashMap constructor directly, taking advantage of the new &lt;a href=&quot;http: goo.gl iz2Wi&quot;&gt;&quot;diamond&quot; syntax&lt; a&gt;. param map the mappings to be placed in the new map return a new code HashMap initialized with the mappings from code map" />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt; code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
@@ -50,12 +51,11 @@
       <item value="the application's login URL to apply to as a convenience to all discovered link AccessControlFilter instances." />
       <item value="If a filter already has already been explicitly configured with a value, it will &lt;em&gt;not&lt; em&gt; receive this value. Individual filter configuration overrides this global convenience property." />
       <item value="Sets the application's login URL to be assigned to all acquired Filters that subclass link AccessControlFilter . This is a convenience mechanism: for all configured link #setFilters filters , as well for any default ones ( code authc , code user , etc), this value will be passed on to each Filter via the link AccessControlFilter#setLoginUrl(String) method&lt;b&gt; &lt; b&gt;. This eliminates the need to configure the 'loginUrl' property manually on each filter instance, and instead that can be configured once via this attribute." />
-      <item value="authorized" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="346" />
-        <entry key="ENGLISH" value="346" />
+        <entry key="ENGLISH" value="347" />
         <entry key="GERMAN" value="2" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
