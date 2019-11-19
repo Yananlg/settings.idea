@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="a pattern string describing this date format." />
+      <item value="Returns a pattern string describing this date format." />
       <item value="Adds or subtracts the specified amount of time to the given calendar field, based on the calendar's rules. For example, to subtract 5 days from the current time of the calendar, you can achieve it by calling: &lt;p&gt;&lt;code&gt;add(Calendar.DAY_OF_MONTH, -5)&lt;code&gt;." />
       <item value="Returns a stream consisting of the elements of this stream that match the given predicate." />
       <item value="draw" />
@@ -49,14 +51,12 @@
       <item value="Holds value of property table." />
       <item value="Fixed height of the cell." />
       <item value="Interface allowing pluggable session ID generation strategies to be used with various link SessionDAO implementations. &lt;h2&gt;Usage&lt; h2&gt; SessionIdGenerators are usually only used when ID generation is separate from creating the Session record in the EIS data store. Some EIS data stores, such as relational databases, can generate the id at the same time the record is created, such as when using auto-generated primary keys. In these cases, a SessionIdGenerator does not need to be configured. &lt;p &gt; However, if you want to customize how session IDs are created before persisting the Session record into the data store, you can implement this interface and typically inject it into an link AbstractSessionDAO instance." />
-      <item value="Generates a new ID to be applied to the specified code Session instance." />
-      <item value="the application's login URL to apply to as a convenience to all discovered link AccessControlFilter instances." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="348" />
+        <entry key="CHINESE" value="349" />
         <entry key="ENGLISH" value="349" />
-        <entry key="GERMAN" value="2" />
+        <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
