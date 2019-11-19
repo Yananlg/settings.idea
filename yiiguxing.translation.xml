@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Adds or subtracts the specified amount of time to the given calendar field, based on the calendar's rules. For example, to subtract 5 days from the current time of the calendar, you can achieve it by calling: &lt;p&gt;&lt;code&gt;add(Calendar.DAY_OF_MONTH, -5)&lt;code&gt;." />
       <item value="Returns a stream consisting of the elements of this stream that match the given predicate." />
       <item value="draw" />
       <item value="Creates a &lt;i&gt;mutable&lt; i&gt; code HashMap instance with the same mappings as the specified map. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if mutability is not required, use link ImmutableMap#copyOf(Map) instead. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if code K is an link Enum type, use link #newEnumMap instead. &lt;p&gt;&lt;b&gt;Note for Java 7 and later:&lt; b&gt; this method is now unnecessary and should be treated as deprecated. Instead, use the code HashMap constructor directly, taking advantage of the new &lt;a href=&quot;http: goo.gl iz2Wi&quot;&gt;&quot;diamond&quot; syntax&lt; a&gt;. param map the mappings to be placed in the new map return a new code HashMap initialized with the mappings from code map" />
@@ -50,12 +51,11 @@
       <item value="Interface allowing pluggable session ID generation strategies to be used with various link SessionDAO implementations. &lt;h2&gt;Usage&lt; h2&gt; SessionIdGenerators are usually only used when ID generation is separate from creating the Session record in the EIS data store. Some EIS data stores, such as relational databases, can generate the id at the same time the record is created, such as when using auto-generated primary keys. In these cases, a SessionIdGenerator does not need to be configured. &lt;p &gt; However, if you want to customize how session IDs are created before persisting the Session record into the data store, you can implement this interface and typically inject it into an link AbstractSessionDAO instance." />
       <item value="Generates a new ID to be applied to the specified code Session instance." />
       <item value="the application's login URL to apply to as a convenience to all discovered link AccessControlFilter instances." />
-      <item value="If a filter already has already been explicitly configured with a value, it will &lt;em&gt;not&lt; em&gt; receive this value. Individual filter configuration overrides this global convenience property." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="347" />
-        <entry key="ENGLISH" value="348" />
+        <entry key="CHINESE" value="348" />
+        <entry key="ENGLISH" value="349" />
         <entry key="GERMAN" value="2" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
