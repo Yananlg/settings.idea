@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The path to the Eureka dashboard (relative to the servlet path). Defaults to &quot;&quot;" />
       <item value="solve" />
       <item value="array length is evaluated" />
       <item value="a pattern string describing this date format." />
@@ -50,12 +51,11 @@
       <item value="Creates a shallow clone of the Paragraph." />
       <item value="leading" />
       <item value="Increases padding to include border if true" />
-      <item value="Holds value of property table." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="350" />
-        <entry key="ENGLISH" value="351" />
+        <entry key="CHINESE" value="351" />
+        <entry key="ENGLISH" value="352" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
