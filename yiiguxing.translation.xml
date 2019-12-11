@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Determine if given code key exists." />
       <item value="mode" />
       <item value="Increment an integer value stored as string value under code key by code delta." />
       <item value="lease Renewal Interval In Seconds" />
@@ -50,12 +51,11 @@
       <item value="Sets the spacing before." />
       <item value="Sets the indentation on the left side." />
       <item value="Sets the alignment of this paragraph." />
-      <item value="Breaks this Paragraph up in different parts, separating paragraphs, lists and tables from each other." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="354" />
-        <entry key="ENGLISH" value="355" />
+        <entry key="CHINESE" value="355" />
+        <entry key="ENGLISH" value="356" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
