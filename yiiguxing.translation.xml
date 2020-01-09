@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Request Param" />
       <item value="Useful constant for the highest precedence value." />
       <item value="Called immediately before the run method finishes, when the application context has been refreshed and all link CommandLineRunner CommandLineRunners and link ApplicationRunner ApplicationRunners have been called." />
       <item value="The context has been refreshed and the application has started but link CommandLineRunner CommandLineRunners and link ApplicationRunner ApplicationRunners have not been called." />
@@ -50,14 +51,14 @@
       <item value="Vertical" />
       <item value="Horizonta" />
       <item value="A possible value for paragraph alignment. This specifies that the text is aligned to the left indent and extra whitespace should be placed on the right." />
-      <item value="A possible value for paragraph alignment. This specifies that the text is aligned to the right indent and extra whitespace should be placed on the left." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="361" />
+        <entry key="CHINESE" value="362" />
         <entry key="ENGLISH" value="362" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
+        <entry key="PORTUGUESE" value="1" />
         <entry key="ITALIAN" value="1" />
         <entry key="VIETNAMESE" value="1" />
       </map>
