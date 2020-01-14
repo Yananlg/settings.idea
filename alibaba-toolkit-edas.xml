@@ -17,6 +17,7 @@
                   <option name="regionName" value="华北 1(青岛)" />
                 </EdasRegionModel>
               </option>
+              <option name="serverPort" value="" />
               <option name="sshGatewayIp" value="" />
               <option name="sshPassword" value="" />
               <option name="sshUser" value="" />

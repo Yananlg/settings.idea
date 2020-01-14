@@ -1,6 +1,6 @@
 <application>
   <component name="RegionStore">
-    <option name="regionId" value="cn-beijing" />
-    <option name="regionName" value="华北 2 (北京)" />
+    <option name="regionId" value="cn-shanghai" />
+    <option name="regionName" value="华东 2 (上海)" />
   </component>
 </application>
