@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns code true if the iteration has more elements. (In other words, returns code true if link #next would return an element rather than throwing an exception.)" />
       <item value="Request Param" />
       <item value="Useful constant for the highest precedence value." />
       <item value="Called immediately before the run method finishes, when the application context has been refreshed and all link CommandLineRunner CommandLineRunners and link ApplicationRunner ApplicationRunners have been called." />
@@ -50,12 +51,11 @@
       <item value="SEPARATOR" />
       <item value="Vertical" />
       <item value="Horizonta" />
-      <item value="A possible value for paragraph alignment. This specifies that the text is aligned to the left indent and extra whitespace should be placed on the right." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="362" />
-        <entry key="ENGLISH" value="362" />
+        <entry key="ENGLISH" value="363" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
