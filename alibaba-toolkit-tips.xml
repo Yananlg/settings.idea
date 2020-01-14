@@ -1,5 +1,6 @@
 <application>
   <component name="TipsStore">
-    <option name="firstStartUp" value="false" />
+    <option name="globalFirstStartUp" value="false" />
+    <entry projectName="F:/Workspace/parking-platform" firstStartUp="false" />
   </component>
 </application>
