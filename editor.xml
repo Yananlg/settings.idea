@@ -9,7 +9,7 @@
     <option name="FONT_SIZE" value="16" />
     <option name="FONT_FAMILY" value="Source Code Pro" />
     <option name="LINE_SPACING" value="1.0" />
-    <option name="SECONDARY_FONT_FAMILY" value="Droid Sans Mono" />
+    <option name="SECONDARY_FONT_FAMILY" value="Microsoft YaHei UI" />
   </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
