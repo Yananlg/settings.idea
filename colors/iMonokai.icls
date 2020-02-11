@@ -2,13 +2,13 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="description" />
-    <property name="modified">2020-02-11T10:55:51</property>
+    <property name="modified">2020-02-11T11:25:41</property>
     <property name="vendorMail" />
     <property name="vendorName" />
     <property name="vendorUrl">http://</property>
     <property name="version">0.1</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
+  <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="16" />
@@ -23,7 +23,7 @@
     <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <console-font>
-    <option name="EDITOR_FONT_NAME" value="Source_Code_Pro-YaHei Hybrid" />
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
     <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
