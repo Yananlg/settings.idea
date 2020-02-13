@@ -8,28 +8,39 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt 8" />
   </action>
   <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="alt 2" />
+    <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
-  <action id="ActivateHierarchyToolWindow" />
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
   <action id="ActivateMessagesToolWindow" />
   <action id="ActivateRunToolWindow" />
   <action id="ActivateSVNRepositoriesToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
-  <action id="ActivateStructureToolWindow" />
-  <action id="ActivateTerminalToolWindow" />
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="alt 3" />
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="AddNewFavoritesList">
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
