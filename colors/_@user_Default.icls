@@ -3,32 +3,31 @@
     <property name="created">2019-02-26T11:14:48</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-09-01T11:52:22</property>
+    <property name="modified">2020-02-19T09:07:49</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <colors>
-    <option name="FILESTATUS_ADDED" value="91b859" />
+    <option name="FILESTATUS_ADDED" value="50a14e" />
     <option name="FILESTATUS_COPIED" value="629755" />
-    <option name="FILESTATUS_DELETED" value="808080" />
-    <option name="FILESTATUS_HIJACKED" value="ffb62c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
-    <option name="FILESTATUS_MERGED" value="7c4dff" />
-    <option name="FILESTATUS_MODIFIED" value="39adb5" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="39adb5" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="39adb5" />
-    <option name="FILESTATUS_OBSOLETE" value="" />
+    <option name="FILESTATUS_DELETED" value="a0a1a7" />
+    <option name="FILESTATUS_HIJACKED" value="a626a4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="a0a1a7" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="9da5b4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ffffff" />
+    <option name="FILESTATUS_MERGED" value="4078f2" />
+    <option name="FILESTATUS_MODIFIED" value="986801" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
     <option name="FILESTATUS_RENAMED" value="3a8484" />
-    <option name="FILESTATUS_SUPPRESSED" value="b0bec5" />
-    <option name="FILESTATUS_SWITCHED" value="7c4dff" />
+    <option name="FILESTATUS_SUPPRESSED" value="383a42" />
+    <option name="FILESTATUS_SWITCHED" value="4078f2" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="91b859" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6182b8" />
+    <option name="FILESTATUS_addedOutside" value="50a14e" />
+    <option name="FILESTATUS_changelistConflict" value="ff6347" />
+    <option name="FILESTATUS_modifiedOutside" value="986801" />
   </colors>
   <attributes>
     <option name="HTML_CODE">
