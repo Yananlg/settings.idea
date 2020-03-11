@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Require a specific Audience (&quot;aud&quot;) claim." />
+      <item value="the window in seconds in which the Expires At Claim will still be valid." />
+      <item value="Require a specific Array Claim to contain at least the given items." />
+      <item value="Set a specific leeway window in seconds in which the Expires At (&quot;exp&quot;) Claim will still be valid. Expiration Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
+      <item value="Require a specific Subject (&quot;sub&quot;) claim." />
+      <item value="the required Issuer value. If multiple values are given, the claim must at least match one of them" />
+      <item value="Require a specific Issuer (&quot;iss&quot;) claim." />
       <item value="Returns a new String composed of copies of the code CharSequence elements joined together with a copy of the specified code delimiter." />
       <item value="Specify whether or not datetime parsing is to be lenient. With lenient parsing, the parser may use heuristics to interpret inputs that do not precisely match this object's format. With strict parsing, inputs must match this object's format." />
       <item value="Interface to be implemented by any bean that wishes to be notified of the link Environment that it runs in." />
@@ -44,18 +51,11 @@
       <item value="Shows text right, left or center aligned with rotation." />
       <item value="Use this method to writes the reader to the document and free the memory used by it. The main use is when concatenating multiple documents to keep the memory usage restricted to the current appending document." />
       <item value="true if the font is to be embedded in the PDF" />
-      <item value="the encoding to be applied to this font" />
-      <item value="This represents a type of border" />
-      <item value="This represents a rectangle without borders." />
-      <item value="Enables Disables the border on the specified sides. The border is specified as an integer bitwise combination of the constants: &lt;CODE&gt;LEFT, RIGHT, TOP, BOTTOM&lt; CODE&gt;." />
-      <item value="Holds value of property rowspan." />
-      <item value="Setter for property rowspan." />
-      <item value="Sets the borderwidth of the table." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="365" />
-        <entry key="ENGLISH" value="366" />
+        <entry key="CHINESE" value="372" />
+        <entry key="ENGLISH" value="373" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
