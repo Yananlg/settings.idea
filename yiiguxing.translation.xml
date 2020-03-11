@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specify whether or not datetime parsing is to be lenient. With lenient parsing, the parser may use heuristics to interpret inputs that do not precisely match this object's format. With strict parsing, inputs must match this object's format." />
       <item value="Interface to be implemented by any bean that wishes to be notified of the link Environment that it runs in." />
       <item value="Returns code true if the iteration has more elements. (In other words, returns code true if link #next would return an element rather than throwing an exception.)" />
       <item value="Request Param" />
@@ -50,12 +51,11 @@
       <item value="Setter for property rowspan." />
       <item value="Sets the borderwidth of the table." />
       <item value="SEPARATOR" />
-      <item value="Vertical" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="363" />
-        <entry key="ENGLISH" value="364" />
+        <entry key="CHINESE" value="364" />
+        <entry key="ENGLISH" value="365" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
