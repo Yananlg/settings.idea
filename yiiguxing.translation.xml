@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="SneakyThrow does not silently swallow, wrap into RuntimeException, or otherwise modify any exceptions of the listed checked exception types. The JVM does not check for the consistency of the checked exception system; javac does, and this annotation lets you opt out of its mechanism." />
+      <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that statements in your method body declare they generate." />
       <item value="Audience" />
       <item value="Fully qualified name of the physical naming strategy." />
       <item value="Fully qualified name of the implicit naming strategy." />
@@ -49,13 +51,11 @@
       <item value="Specifies the exact version of QR code to be encoded." />
       <item value="This enum encapsulates the four error correction levels defined by the QR code standard.&lt; p&gt;" />
       <item value="This object renders a QR Code as a BitMatrix 2D array of greyscale values." />
-      <item value="Adds a language to th document. Required for PDF UA compatible documents." />
-      <item value="The graphic state dictionary." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="377" />
-        <entry key="ENGLISH" value="378" />
+        <entry key="CHINESE" value="379" />
+        <entry key="ENGLISH" value="380" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
