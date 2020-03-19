@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Generates a constructor with required arguments. Required arguments are final fields and fields with constraints such as code NonNull." />
+      <item value="If you specify a static constructor name, then the generated constructor will be private, and instead a static factory method is created that other classes can use to create instances. We suggest the name: &quot;of&quot;, like so:" />
+      <item value="Generates a lot of code which fits with a class that is a representation of an immutable entity. &lt;p&gt; Equivalent to code Getter FieldDefaults(makeFinal=true, level=AccessLevel.PRIVATE) AllArgsConstructor ToString EqualsAndHashCode. &lt;p&gt; Complete documentation is found at &lt;a href=&quot;https:projectlombok.orgfeaturesValue&quot;&gt;the project lombok features page for &amp;#64;Value&lt;a&gt;." />
       <item value="Characters will be chosen from the set of all characters." />
       <item value="Characters will be chosen from the set of Latin alphabetic characters (a-z, A-Z)" />
       <item value="Creates a random string whose length is the number of characters specified." />
@@ -48,14 +51,11 @@
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="when used in pipeline transaction" />
       <item value="Get the time to live for code key in and convert it to the given link TimeUnit ." />
-      <item value="Copyright (c) Nils Adermann, Jordi Boggiano" />
-      <item value="terms and conditions and or require certain notices as described below." />
-      <item value="The third party licensors of these components may provide additional license rights," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="385" />
-        <entry key="ENGLISH" value="386" />
+        <entry key="CHINESE" value="388" />
+        <entry key="ENGLISH" value="389" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
