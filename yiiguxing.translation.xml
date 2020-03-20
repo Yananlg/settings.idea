@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. &lt;p&gt; A non-empty value will override the value provided in link #value()." />
+      <item value="the position of this API in the resource listing, no longer used." />
       <item value="Generates a constructor with required arguments. Required arguments are final fields and fields with constraints such as code NonNull." />
       <item value="If you specify a static constructor name, then the generated constructor will be private, and instead a static factory method is created that other classes can use to create instances. We suggest the name: &quot;of&quot;, like so:" />
       <item value="Generates a lot of code which fits with a class that is a representation of an immutable entity. &lt;p&gt; Equivalent to code Getter FieldDefaults(makeFinal=true, level=AccessLevel.PRIVATE) AllArgsConstructor ToString EqualsAndHashCode. &lt;p&gt; Complete documentation is found at &lt;a href=&quot;https:projectlombok.orgfeaturesValue&quot;&gt;the project lombok features page for &amp;#64;Value&lt;a&gt;." />
@@ -49,13 +51,11 @@
       <item value="Creates a &lt;i&gt;mutable&lt; i&gt; code HashMap instance with the same mappings as the specified map. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if mutability is not required, use link ImmutableMap#copyOf(Map) instead. &lt;p&gt;&lt;b&gt;Note:&lt; b&gt; if code K is an link Enum type, use link #newEnumMap instead. &lt;p&gt;&lt;b&gt;Note for Java 7 and later:&lt; b&gt; this method is now unnecessary and should be treated as deprecated. Instead, use the code HashMap constructor directly, taking advantage of the new &lt;a href=&quot;http: goo.gl iz2Wi&quot;&gt;&quot;diamond&quot; syntax&lt; a&gt;. param map the mappings to be placed in the new map return a new code HashMap initialized with the mappings from code map" />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt; code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
-      <item value="when used in pipeline transaction" />
-      <item value="Get the time to live for code key in and convert it to the given link TimeUnit ." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="388" />
-        <entry key="ENGLISH" value="389" />
+        <entry key="CHINESE" value="390" />
+        <entry key="ENGLISH" value="391" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
