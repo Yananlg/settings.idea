@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="D D D" />
       <item value="primitive" />
       <item value="Jackson visibility thresholds that can be used to limit which methods (and fields) are auto-detected." />
       <item value="One of the constants on Jackson's PropertyNamingStrategy. Can also be a fully-qualified class name of a PropertyNamingStrategy subclass." />
@@ -50,7 +51,6 @@
       <item value="Determine if given code key exists." />
       <item value="mode" />
       <item value="Increment an integer value stored as string value under code key by code delta." />
-      <item value="lease Renewal Interval In Seconds" />
     </histories>
     <option name="languageScores">
       <map>
