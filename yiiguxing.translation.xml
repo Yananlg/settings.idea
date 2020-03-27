@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Jackson visibility thresholds that can be used to limit which methods (and fields) are auto-detected." />
+      <item value="One of the constants on Jackson's PropertyNamingStrategy. Can also be a fully-qualified class name of a PropertyNamingStrategy subclass." />
+      <item value="Joda date time format string. If not configured, &quot;date-format&quot; is used as a fallback if it is configured with a format string." />
       <item value="A list of link DynamicParameters available to the API operation. Only parameters annotated with link org.springframework.web.bind.annotation.RequestBody annotation are supported" />
       <item value="Help Java development engineers build powerful Swagger documents&lt;p&gt; &lt;p&gt;This annotation belongs to the enhanced annotation of link ApiOperation, which is unique to swagger-bootstrap-ui and provides Swagger's extended attributes.&lt;p&gt;" />
       <item value="This annotation belongs to the enhanced annotation of link ApiOperation, which is unique to swagger-bootstrap-ui and provides Swagger's extended attributes." />
@@ -48,14 +51,11 @@
       <item value="Increment an integer value stored as string value under code key by code delta." />
       <item value="lease Renewal Interval In Seconds" />
       <item value="The path to the Eureka dashboard (relative to the servlet path). Defaults to &quot;&quot;" />
-      <item value="solve" />
-      <item value="array length is evaluated" />
-      <item value="a pattern string describing this date format." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="398" />
-        <entry key="ENGLISH" value="399" />
+        <entry key="CHINESE" value="401" />
+        <entry key="ENGLISH" value="402" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
