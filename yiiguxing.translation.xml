@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates a new link Sort for the given link Orders." />
       <item value="Returns whether the current link Pageable contains pagination information." />
       <item value="Returns a link Pageable instance representing no pagination setup." />
       <item value="Returns the current link Sort or the given one if the current one is unsorted. param sort must not be literal null." />
@@ -50,12 +51,11 @@
       <item value="Require a specific Array Claim to contain at least the given items." />
       <item value="Set a specific leeway window in seconds in which the Expires At (&quot;exp&quot;) Claim will still be valid. Expiration Date is always verified when the value is present. This method overrides the value set with acceptLeeway" />
       <item value="Require a specific Subject (&quot;sub&quot;) claim." />
-      <item value="the required Issuer value. If multiple values are given, the claim must at least match one of them" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="417" />
-        <entry key="ENGLISH" value="418" />
+        <entry key="CHINESE" value="418" />
+        <entry key="ENGLISH" value="419" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
