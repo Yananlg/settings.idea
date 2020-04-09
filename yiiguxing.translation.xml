@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If two code ConstraintValidators refer to the same type, an exception will occur. &lt;p&gt; At most one code ConstraintValidator targeting the array of parameters of methods or constructors (aka cross-parameter) is accepted. If two or more are present, an exception will occur." />
+      <item value="When building a constraint that is both generic and cross-parameter, the constraint annotation must host the code validationAppliesTo() property. A constraint is generic if it targets the annotated element and is cross-parameter if it targets the array of parameters of a method or constructor." />
+      <item value="Marks an annotation as being a Bean Validation constraint. &lt;p&gt; A given constraint annotation must be annotated by a code Constraint annotation which refers to its list of constraint validation implementations. &lt;p&gt; Each constraint annotation must host the following attributes: &lt;ul&gt; &lt;li&gt;code String message() default [...]; which should default to an error message key made of the fully-qualified class name of the constraint followed by code .message. For example code &quot;com.acme.constraints.NotSafe.message&quot;&lt;li&gt; &lt;li&gt;code Class&lt;?&gt;[] groups() default ; for user to customize the targeted groups&lt;li&gt; &lt;li&gt;code Class&lt;? extends Payload&gt;[] payload() default ; for extensibility purposes&lt;li&gt; &lt;ul&gt; &lt;p&gt;" />
+      <item value="Marks an annotation as being a Bean Validation constraint. &lt;p&gt; A given constraint annotation must be annotated by a code Constraint annotation which refers to its list of constraint validation implementations. &lt;p&gt; Each constraint annotation must host the following attributes: &lt;ul&gt; &lt;li&gt;code String message() default [...]; which should default to an error message key made of the fully-qualified class name of the constraint followed by code .message. For example code &quot;com.acme.constraints.NotSafe.message&quot;&lt;li&gt; &lt;li&gt;code Class&lt;?&gt;[] groups() default ; for user to customize the targeted groups&lt;li&gt; &lt;li&gt;code Class&lt;? extends Payload&gt;[] payload() default ; for extensibility purposes&lt;li&gt; &lt;ul&gt; &lt;p&gt; When building a constraint that is both generic and cross-parameter, the constraint annotation must host the code validationAppliesTo() property. A constraint is generic if it targets the annotated element and is cross-parameter if it targets the array of parameters of a method or constructor. &lt;pre&gt; ConstraintTarget validationAppliesTo() default ConstraintTarget.IMPLICIT; &lt;pre&gt; This property allows the constraint user to choose whether the constraint targets the return type of the executable or its array of parameters. A constraint is both generic and cross-parameter if &lt;ul&gt; &lt;li&gt;two kinds of code ConstraintValidators are attached to the constraint, one targeting link ValidationTarget#ANNOTATED_ELEMENT and one targeting link ValidationTarget#PARAMETERS,&lt;li&gt; &lt;li&gt;or if a code ConstraintValidator targets both code ANNOTATED_ELEMENT and code PARAMETERS.&lt;li&gt; &lt;ul&gt; Such dual constraints are rare. See link SupportedValidationTarget for more info. &lt;p&gt; Here is an example of constraint definition: &lt;pre&gt; &amp;#64;Documented &amp;#64;Constraint(validatedBy = OrderNumberValidator.class) &amp;#64;Target( METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER, TYPE_USE ) &amp;#64;Retention(RUNTIME) public &amp;#64;interface OrderNumber String message() default &quot;com.acme.constraint.OrderNumber.message&quot;; Class&amp;lt;?&amp;gt;[] groups() default ; Class&amp;lt;? extends Payload&amp;gt;[] payload() default ; &lt;pre&gt;" />
       <item value="proved plate" />
       <item value="idle" />
       <item value="Threshold after which files are written to disk." />
@@ -47,15 +51,11 @@
       <item value="Lets the data store decide what to do with nulls." />
       <item value="SneakyThrow does not silently swallow, wrap into RuntimeException, or otherwise modify any exceptions of the listed checked exception types. The JVM does not check for the consistency of the checked exception system; javac does, and this annotation lets you opt out of its mechanism." />
       <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that statements in your method body declare they generate." />
-      <item value="Audience" />
-      <item value="Fully qualified name of the physical naming strategy." />
-      <item value="Fully qualified name of the implicit naming strategy." />
-      <item value="declared" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="423" />
-        <entry key="ENGLISH" value="424" />
+        <entry key="CHINESE" value="427" />
+        <entry key="ENGLISH" value="428" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
