@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Store specific default." />
+      <item value="containing" />
       <item value="If two code ConstraintValidators refer to the same type, an exception will occur. &lt;p&gt; At most one code ConstraintValidator targeting the array of parameters of methods or constructors (aka cross-parameter) is accepted. If two or more are present, an exception will occur." />
       <item value="When building a constraint that is both generic and cross-parameter, the constraint annotation must host the code validationAppliesTo() property. A constraint is generic if it targets the annotated element and is cross-parameter if it targets the array of parameters of a method or constructor." />
       <item value="Marks an annotation as being a Bean Validation constraint. &lt;p&gt; A given constraint annotation must be annotated by a code Constraint annotation which refers to its list of constraint validation implementations. &lt;p&gt; Each constraint annotation must host the following attributes: &lt;ul&gt; &lt;li&gt;code String message() default [...]; which should default to an error message key made of the fully-qualified class name of the constraint followed by code .message. For example code &quot;com.acme.constraints.NotSafe.message&quot;&lt;li&gt; &lt;li&gt;code Class&lt;?&gt;[] groups() default ; for user to customize the targeted groups&lt;li&gt; &lt;li&gt;code Class&lt;? extends Payload&gt;[] payload() default ; for extensibility purposes&lt;li&gt; &lt;ul&gt; &lt;p&gt;" />
@@ -49,13 +51,11 @@
       <item value="A hint to the used data store to order entries with null values after non null entries." />
       <item value="A hint to the used data store to order entries with null values before non null entries." />
       <item value="Lets the data store decide what to do with nulls." />
-      <item value="SneakyThrow does not silently swallow, wrap into RuntimeException, or otherwise modify any exceptions of the listed checked exception types. The JVM does not check for the consistency of the checked exception system; javac does, and this annotation lets you opt out of its mechanism." />
-      <item value="SneakyThrow will avoid javac's insistence that you either catch or throw onward any checked exceptions that statements in your method body declare they generate." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="427" />
-        <entry key="ENGLISH" value="428" />
+        <entry key="CHINESE" value="429" />
+        <entry key="ENGLISH" value="430" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
