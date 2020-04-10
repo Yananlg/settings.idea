@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="(Optional) Whether to apply the remove operation to entities that have been removed from the relationship and to cascade the remove operation to those entities." />
+      <item value="(Optional) Whether the association is optional. If set to false then a non-null relationship must always exist." />
+      <item value="(Optional) Whether the association should be lazily loaded or must be eagerly fetched. The EAGER strategy is a requirement on the persistence provider runtime that the associated entity must be eagerly fetched. The LAZY strategy is a hint to the persistence provider runtime." />
+      <item value="(Optional) The operations that must be cascaded to the target of the association. &lt;p&gt; By default no operations are cascaded." />
+      <item value="(Optional) The entity class that is the target of the association. &lt;p&gt; Defaults to the type of the field or property that stores the association." />
       <item value="typical" />
       <item value="sort" />
       <item value="Reports the result of constraint violations." />
@@ -46,16 +51,11 @@
       <item value="A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. &lt;p&gt; A non-empty value will override the value provided in link #value()." />
       <item value="the position of this API in the resource listing, no longer used." />
       <item value="Generates a constructor with required arguments. Required arguments are final fields and fields with constraints such as code NonNull." />
-      <item value="If you specify a static constructor name, then the generated constructor will be private, and instead a static factory method is created that other classes can use to create instances. We suggest the name: &quot;of&quot;, like so:" />
-      <item value="Generates a lot of code which fits with a class that is a representation of an immutable entity. &lt;p&gt; Equivalent to code Getter FieldDefaults(makeFinal=true, level=AccessLevel.PRIVATE) AllArgsConstructor ToString EqualsAndHashCode. &lt;p&gt; Complete documentation is found at &lt;a href=&quot;https:projectlombok.orgfeaturesValue&quot;&gt;the project lombok features page for &amp;#64;Value&lt;a&gt;." />
-      <item value="Characters will be chosen from the set of all characters." />
-      <item value="Characters will be chosen from the set of Latin alphabetic characters (a-z, A-Z)" />
-      <item value="Creates a random string whose length is the number of characters specified." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="432" />
-        <entry key="ENGLISH" value="433" />
+        <entry key="CHINESE" value="437" />
+        <entry key="ENGLISH" value="438" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
