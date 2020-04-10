@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="typical" />
       <item value="sort" />
       <item value="Reports the result of constraint violations." />
       <item value="Store specific default." />
@@ -50,12 +51,11 @@
       <item value="Characters will be chosen from the set of all characters." />
       <item value="Characters will be chosen from the set of Latin alphabetic characters (a-z, A-Z)" />
       <item value="Creates a random string whose length is the number of characters specified." />
-      <item value="A hint to the used data store to order entries with null values after non null entries." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="431" />
-        <entry key="ENGLISH" value="432" />
+        <entry key="CHINESE" value="432" />
+        <entry key="ENGLISH" value="433" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
