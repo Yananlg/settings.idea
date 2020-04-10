@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Annotation used to indicate that associated property is part of two-way linkage between fields; and that its role is &quot;child&quot; (or &quot;back&quot;) link. Value type of the property must be a bean: it can not be a Collection, Map, Array or enumeration. Linkage is handled such that the property annotated with this annotation is not serialized; and during deserialization, its value is set to instance that has the &quot;managed&quot; (forward) link. &lt;p&gt; All references have logical name to allow handling multiple linkages; typical case would be that where nodes have both parentchild and sibling linkages. If so, pairs of references should be named differently. It is an error for a class to have multiple back references with same name, even if types pointed are different. &lt;p&gt; Note: only methods and fields can be annotated with this annotation: constructor arguments should NOT be annotated, as they can not be either managed or back references." />
+      <item value="Use an outer join to load the related entities, collections or joins." />
+      <item value="Use a secondary select for each individual entity, collection, or join load." />
+      <item value="Fetch options on associations. Defines more of the &quot;how&quot; of fetching, whereas JPA link javax.persistence.FetchType focuses on the &quot;when&quot;." />
+      <item value="Available for collections only.  When accessing a non-initialized collection, this fetch mode will trigger loading all elements of all collections of the same role for all owners associated with the persistence context using a single secondary select." />
       <item value="(Optional) The name of the primary key generator to use as specified in the link SequenceGenerator or link TableGenerator annotation. &lt;p&gt; Defaults to the id generator supplied by persistence provider." />
       <item value="Specifies a composite primary key class that is mapped to multiple fields or properties of the entity. &lt;p&gt; The names of the fields or properties in the primary key class and the primary key fields or properties of the entity must correspond and their types must be the same." />
       <item value="selection specifying the item that is to be returned in the query result" />
@@ -46,16 +51,11 @@
       <item value="Jackson visibility thresholds that can be used to limit which methods (and fields) are auto-detected." />
       <item value="One of the constants on Jackson's PropertyNamingStrategy. Can also be a fully-qualified class name of a PropertyNamingStrategy subclass." />
       <item value="Joda date time format string. If not configured, &quot;date-format&quot; is used as a fallback if it is configured with a format string." />
-      <item value="A list of link DynamicParameters available to the API operation. Only parameters annotated with link org.springframework.web.bind.annotation.RequestBody annotation are supported" />
-      <item value="Help Java development engineers build powerful Swagger documents&lt;p&gt; &lt;p&gt;This annotation belongs to the enhanced annotation of link ApiOperation, which is unique to swagger-bootstrap-ui and provides Swagger's extended attributes.&lt;p&gt;" />
-      <item value="This annotation belongs to the enhanced annotation of link ApiOperation, which is unique to swagger-bootstrap-ui and provides Swagger's extended attributes." />
-      <item value="Help Java development engineers build powerful Swagger documents" />
-      <item value="A brief description of why this parameteroperation is ignored" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="442" />
-        <entry key="ENGLISH" value="443" />
+        <entry key="CHINESE" value="447" />
+        <entry key="ENGLISH" value="448" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
