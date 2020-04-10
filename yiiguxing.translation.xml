@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="unless" />
+      <item value="Returns a collection containing all the elements in &lt;code&gt;collection&lt;code&gt; that are also in &lt;code&gt;retain&lt;code&gt;. The cardinality of an element &lt;code&gt;e&lt;code&gt; in the returned collection is the same as the cardinality of &lt;code&gt;e&lt;code&gt; in &lt;code&gt;collection&lt;code&gt; unless &lt;code&gt;retain&lt;code&gt; does not contain &lt;code&gt;e&lt;code&gt;, in which case the cardinality is zero. This method is useful if you do not wish to modify the collection &lt;code&gt;c&lt;code&gt; and thus cannot call &lt;code&gt;c.retainAll(retain);&lt;code&gt;. &lt;p&gt;" />
       <item value="Annotation used to indicate that associated property is part of two-way linkage between fields; and that its role is &quot;child&quot; (or &quot;back&quot;) link. Value type of the property must be a bean: it can not be a Collection, Map, Array or enumeration. Linkage is handled such that the property annotated with this annotation is not serialized; and during deserialization, its value is set to instance that has the &quot;managed&quot; (forward) link. &lt;p&gt; All references have logical name to allow handling multiple linkages; typical case would be that where nodes have both parentchild and sibling linkages. If so, pairs of references should be named differently. It is an error for a class to have multiple back references with same name, even if types pointed are different. &lt;p&gt; Note: only methods and fields can be annotated with this annotation: constructor arguments should NOT be annotated, as they can not be either managed or back references." />
       <item value="Use an outer join to load the related entities, collections or joins." />
       <item value="Use a secondary select for each individual entity, collection, or join load." />
@@ -49,13 +51,11 @@
       <item value="D D D" />
       <item value="primitive" />
       <item value="Jackson visibility thresholds that can be used to limit which methods (and fields) are auto-detected." />
-      <item value="One of the constants on Jackson's PropertyNamingStrategy. Can also be a fully-qualified class name of a PropertyNamingStrategy subclass." />
-      <item value="Joda date time format string. If not configured, &quot;date-format&quot; is used as a fallback if it is configured with a format string." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="447" />
-        <entry key="ENGLISH" value="448" />
+        <entry key="CHINESE" value="449" />
+        <entry key="ENGLISH" value="450" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
