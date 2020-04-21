@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Set whether to ignore an invalid value for the locale parameter." />
       <item value="The headers of the mapped request, narrowing the primary mapping. &lt;p&gt;Same format for any environment: a sequence of &quot;My-Header=myValue&quot; style expressions, with a request only mapped if each such header is found to have the given value. Expressions can be negated by using the &quot;!=&quot; operator, as in &quot;My-Header!=myValue&quot;. &quot;My-Header&quot; style expressions are also supported, with such headers having to be present in the request (allowed to have any value). Finally, &quot;!My-Header&quot; style expressions indicate that the specified header is &lt;i&gt;not&lt;i&gt; supposed to be present in the request. &lt;p&gt;Also supports media type wildcards (), for headers such as Accept and Content-Type. For instance, &lt;pre class=&quot;code&quot;&gt; &amp;#064;RequestMapping(value = &quot;something&quot;, headers = &quot;content-type=text&quot;) &lt;pre&gt; will match requests with a Content-Type of &quot;texthtml&quot;, &quot;textplain&quot;, etc. &lt;p&gt;&lt;b&gt;Supported at the type level as well as at the method level!&lt;b&gt; When used at the type level, all method-level mappings inherit this header restriction (i.e. the type-level restriction gets checked before the handler method is even resolved)." />
       <item value="When the javax.persistence.fetchgraph property is used to specify an entity graph, attributes that are specified by attribute nodes of the entity graph are treated as FetchType.EAGER and attributes that are not specified are treated as FetchType.LAZY" />
       <item value="When the javax.persistence.loadgraph property is used to specify an entity graph, attributes that are specified by attribute nodes of the entity graph are treated as FetchType.EAGER and attributes that are not specified are treated according to their specified or default FetchType." />
@@ -50,12 +51,11 @@
       <item value="Creates a link Spliterator over the elements in this list. &lt;p&gt;The code Spliterator reports link Spliterator#SIZED and link Spliterator#ORDERED. Implementations should document the reporting of additional characteristic values. implSpec The default implementation creates a &lt;em&gt;&lt;a href=&quot;Spliterator.html#binding&quot;&gt;late-binding&lt;a&gt;&lt;em&gt; spliterator from the list's code Iterator. The spliterator inherits the &lt;em&gt;fail-fast&lt;em&gt; properties of the list's iterator. implNote The created code Spliterator additionally reports link Spliterator#SUBSIZED. return a code Spliterator over the elements in this list since 1.8" />
       <item value="high endpoint (exclusive) of the subList" />
       <item value="low endpoint (inclusive) of the subList" />
-      <item value="&lt;li&gt;code #result for a reference to the result of the method invocation. For supported wrappers such as code Optional, code #result refers to the actual object, not the wrapper&lt;li&gt; &lt;li&gt;code #root.method, code #root.target, and code #root.caches for references to the link java.lang.reflect.Method method, target object, and affected cache(s) respectively.&lt;li&gt; &lt;li&gt;Shortcuts for the method name (code #root.methodName) and target class (code #root.targetClass) are also available. &lt;li&gt;Method arguments can be accessed by index. For instance the second argument can be accessed via code #root.args[1], code #p1 or code #a1. Arguments can also be accessed by name if that information is available.&lt;li&gt;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="457" />
-        <entry key="ENGLISH" value="458" />
+        <entry key="CHINESE" value="458" />
+        <entry key="ENGLISH" value="459" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
