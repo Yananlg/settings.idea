@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specify whether this resolver's cookies should be compliant with BCP 47 language tags instead of Java's legacy locale specification format. &lt;p&gt;The default is code true, as of 5.1. Switch this to code false for rendering Java's legacy locale specification format. For parsing, this resolver leniently accepts the legacy link Locale#toString format as well as BCP 47 language tags in any case." />
+      <item value="Specify whether to reject cookies with invalid content (e.g. invalid format). &lt;p&gt;The default is code true. Turn this off for lenient handling of parse failures, falling back to the default locale and time zone in such a case." />
       <item value="Set whether to ignore an invalid value for the locale parameter." />
       <item value="The headers of the mapped request, narrowing the primary mapping. &lt;p&gt;Same format for any environment: a sequence of &quot;My-Header=myValue&quot; style expressions, with a request only mapped if each such header is found to have the given value. Expressions can be negated by using the &quot;!=&quot; operator, as in &quot;My-Header!=myValue&quot;. &quot;My-Header&quot; style expressions are also supported, with such headers having to be present in the request (allowed to have any value). Finally, &quot;!My-Header&quot; style expressions indicate that the specified header is &lt;i&gt;not&lt;i&gt; supposed to be present in the request. &lt;p&gt;Also supports media type wildcards (), for headers such as Accept and Content-Type. For instance, &lt;pre class=&quot;code&quot;&gt; &amp;#064;RequestMapping(value = &quot;something&quot;, headers = &quot;content-type=text&quot;) &lt;pre&gt; will match requests with a Content-Type of &quot;texthtml&quot;, &quot;textplain&quot;, etc. &lt;p&gt;&lt;b&gt;Supported at the type level as well as at the method level!&lt;b&gt; When used at the type level, all method-level mappings inherit this header restriction (i.e. the type-level restriction gets checked before the handler method is even resolved)." />
       <item value="When the javax.persistence.fetchgraph property is used to specify an entity graph, attributes that are specified by attribute nodes of the entity graph are treated as FetchType.EAGER and attributes that are not specified are treated as FetchType.LAZY" />
@@ -49,13 +51,11 @@
       <item value="Sets the flag that controls if this cookie will be hidden from scripts on the client side. param httpOnly The new value of the flag" />
       <item value="Indicates to the browser whether the cookie should only be sent using a secure protocol, such as HTTPS or SSL. &lt;p&gt; The default value is &lt;code&gt;false&lt;code&gt;. param flag if &lt;code&gt;true&lt;code&gt;, sends the cookie from the browser to the server only when using a secure protocol; if &lt;code&gt;false&lt;code&gt;, sent on any protocol" />
       <item value="Creates a link Spliterator over the elements in this list. &lt;p&gt;The code Spliterator reports link Spliterator#SIZED and link Spliterator#ORDERED. Implementations should document the reporting of additional characteristic values. implSpec The default implementation creates a &lt;em&gt;&lt;a href=&quot;Spliterator.html#binding&quot;&gt;late-binding&lt;a&gt;&lt;em&gt; spliterator from the list's code Iterator. The spliterator inherits the &lt;em&gt;fail-fast&lt;em&gt; properties of the list's iterator. implNote The created code Spliterator additionally reports link Spliterator#SUBSIZED. return a code Spliterator over the elements in this list since 1.8" />
-      <item value="high endpoint (exclusive) of the subList" />
-      <item value="low endpoint (inclusive) of the subList" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="458" />
-        <entry key="ENGLISH" value="459" />
+        <entry key="CHINESE" value="460" />
+        <entry key="ENGLISH" value="461" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
