@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Build a new link ObjectMapper instance. &lt;p&gt;Each build operation produces an independent link ObjectMapper instance. The builder's settings can get modified, with a subsequent build operation then producing a new link ObjectMapper based on the most recent settings. return the newly built ObjectMapper" />
+      <item value="If set to code true, an link XmlMapper will be created using its default constructor. This is only applicable to link #build() calls, not to link #configure calls." />
       <item value="the target type of the join" />
       <item value="the source type of the join" />
       <item value="Specify whether this resolver's cookies should be compliant with BCP 47 language tags instead of Java's legacy locale specification format. &lt;p&gt;The default is code true, as of 5.1. Switch this to code false for rendering Java's legacy locale specification format. For parsing, this resolver leniently accepts the legacy link Locale#toString format as well as BCP 47 language tags in any case." />
@@ -49,13 +51,11 @@
       <item value="Creates a new link Sort for the given link Orders." />
       <item value="Returns whether the current link Pageable contains pagination information." />
       <item value="Returns a link Pageable instance representing no pagination setup." />
-      <item value="Returns the current link Sort or the given one if the current one is unsorted. param sort must not be literal null." />
-      <item value="Sets the flag that controls if this cookie will be hidden from scripts on the client side. param httpOnly The new value of the flag" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="462" />
-        <entry key="ENGLISH" value="463" />
+        <entry key="CHINESE" value="464" />
+        <entry key="ENGLISH" value="465" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
