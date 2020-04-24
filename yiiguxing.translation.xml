@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="&lt;li&gt;The method MUST NOT have any parameters except in the case of interceptors in which case it takes an InvocationContext object as defined by the Interceptors specification.&lt;li&gt; &lt;li&gt;The method defined on an interceptor class MUST HAVE one of the following signatures: &lt;p&gt;" />
+      <item value="The PostConstruct annotation is used on a method that needs to be executed after dependency injection is done to perform any initialization. This method MUST be invoked before the class is put into service. This annotation MUST be supported on all classes that support dependency injection. The method annotated with PostConstruct MUST be invoked even if the class does not request any resources to be injected. Only one method can be annotated with this annotation. The method on which the PostConstruct annotation is applied MUST fulfill all of the following criteria:" />
       <item value="Build a new link ObjectMapper instance. &lt;p&gt;Each build operation produces an independent link ObjectMapper instance. The builder's settings can get modified, with a subsequent build operation then producing a new link ObjectMapper based on the most recent settings. return the newly built ObjectMapper" />
       <item value="If set to code true, an link XmlMapper will be created using its default constructor. This is only applicable to link #build() calls, not to link #configure calls." />
       <item value="the target type of the join" />
@@ -49,13 +51,11 @@
       <item value="The &lt;code&gt;attributeName&lt;code&gt; element must be specified unless the &lt;code&gt;Convert&lt;code&gt; annotation is on an attribute of basic type or on an element collection of basic type. In these cases, the &lt;code&gt;attributeName&lt;code&gt; element must not be specified." />
       <item value="expecting" />
       <item value="Creates a new link Sort for the given link Orders." />
-      <item value="Returns whether the current link Pageable contains pagination information." />
-      <item value="Returns a link Pageable instance representing no pagination setup." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="464" />
-        <entry key="ENGLISH" value="465" />
+        <entry key="CHINESE" value="466" />
+        <entry key="ENGLISH" value="467" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
