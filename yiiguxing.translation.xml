@@ -1,7 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="delta" />
       <item value="Increment an integer value stored as string value under code key by code delta." />
+      <item value="Set code value of code key and return its old value." />
       <item value="proving" />
       <item value="the amount to add, may be negative" />
       <item value="Name of the target database to operate on, auto-detected by default. Can be alternatively set using the &quot;Database&quot; enum." />
@@ -49,13 +51,11 @@
       <item value="(Optional) Whether the association should be lazily loaded or must be eagerly fetched. The EAGER strategy is a requirement on the persistence provider runtime that the associated entity must be eagerly fetched. The LAZY strategy is a hint to the persistence provider runtime." />
       <item value="(Optional) The operations that must be cascaded to the target of the association. &lt;p&gt; By default no operations are cascaded." />
       <item value="(Optional) The entity class that is the target of the association. &lt;p&gt; Defaults to the type of the field or property that stores the association." />
-      <item value="typical" />
-      <item value="sort" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="481" />
-        <entry key="ENGLISH" value="482" />
+        <entry key="CHINESE" value="484" />
+        <entry key="ENGLISH" value="485" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
