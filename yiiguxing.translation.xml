@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The Generated annotation is used to mark source code that has been generated. It can also be used to differentiate user written code from generated code in a single file. When used, the value element must have the name of the code generator. The recommended convention is to use the fully qualified name of the code generator in the value field . &lt;p&gt;For example: com.company.package.classname. The date element is used to indicate the date the source was generated. The date element must follow the ISO 8601 standard. For example the date element would have the following value 2001-07-04T12:08:56.235-0700 which represents 2001-07-04 12:08:56 local time in the U.S. Pacific Time time zone.&lt;p&gt; &lt;p&gt;The comment element is a place holder for any comments that the code generator may want to include in the generated code.&lt;p&gt;" />
       <item value="delta" />
       <item value="Increment an integer value stored as string value under code key by code delta." />
       <item value="Set code value of code key and return its old value." />
@@ -50,12 +51,11 @@
       <item value="(Optional) Whether the association is optional. If set to false then a non-null relationship must always exist." />
       <item value="(Optional) Whether the association should be lazily loaded or must be eagerly fetched. The EAGER strategy is a requirement on the persistence provider runtime that the associated entity must be eagerly fetched. The LAZY strategy is a hint to the persistence provider runtime." />
       <item value="(Optional) The operations that must be cascaded to the target of the association. &lt;p&gt; By default no operations are cascaded." />
-      <item value="(Optional) The entity class that is the target of the association. &lt;p&gt; Defaults to the type of the field or property that stores the association." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="484" />
-        <entry key="ENGLISH" value="485" />
+        <entry key="CHINESE" value="485" />
+        <entry key="ENGLISH" value="486" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
