@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="charsToDelete a set of characters to delete, in addition to trimming an input String. Useful for deleting unwanted line breaks: e.g. &quot;\r\n\f&quot; will delete all new lines and line feeds in a String." />
       <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
       <item value="Indicates that a class declares one or more link Bean Bean methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime, for example:" />
       <item value="Interface to be implemented by any object that wishes to be notified of the link ApplicationContext that it runs in. &lt;p&gt;Implementing this interface makes sense for example when an object requires access to a set of collaborating beans. Note that configuration via bean references is preferable to implementing this interface just for bean lookup purposes. &lt;p&gt;This interface can also be implemented if an object needs access to file resources, i.e. wants to call code getResource, wants to publish an application event, or requires access to the MessageSource. However, it is preferable to implement the more specific link ResourceLoaderAware, link ApplicationEventPublisherAware or link MessageSourceAware interface in such a specific scenario. &lt;p&gt;Note that file resource dependencies can also be exposed as bean properties of type link org.springframework.core.io.Resource, populated via Strings with automatic type conversion by the bean factory. This removes the need for implementing any callback interface just for the purpose of accessing a specific file resource. &lt;p&gt;link org.springframework.context.support.ApplicationObjectSupport is a convenience base class for application objects, implementing this interface. &lt;p&gt;For a list of all bean lifecycle methods, see the link org.springframework.beans.factory.BeanFactory BeanFactory javadocs." />
@@ -50,12 +51,11 @@
       <item value="selection specifying the item that is to be returned in the query result" />
       <item value="For example: CriteriaQuery&amp;#060;String&amp;#062; q = cb.createQuery(String.class); Root&amp;#060;Order&amp;#062; order = q.from(Order.class); q.select(order.get(&quot;shippingAddress&quot;).&amp;#060;String&amp;#062;get(&quot;state&quot;)); CriteriaQuery&amp;#060;Product&amp;#062; q2 = cb.createQuery(Product.class); q2.select(q2.from(Order.class) .join(&quot;items&quot;) .&amp;#060;Item,Product&amp;#062;join(&quot;product&quot;));" />
       <item value="Specify the item that is to be returned in the query result. Replaces the previously specified selection(s), if any. &lt;p&gt; Note: Applications using the string-based API may need to specify the type of the select item when it results from a get or join operation and the query result type is specified." />
-      <item value="(Optional) Whether to apply the remove operation to entities that have been removed from the relationship and to cascade the remove operation to those entities." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="488" />
-        <entry key="ENGLISH" value="489" />
+        <entry key="CHINESE" value="489" />
+        <entry key="ENGLISH" value="490" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
