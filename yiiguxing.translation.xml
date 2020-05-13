@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Proving" />
       <item value="charsToDelete a set of characters to delete, in addition to trimming an input String. Useful for deleting unwanted line breaks: e.g. &quot;\r\n\f&quot; will delete all new lines and line feeds in a String." />
       <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
       <item value="Indicates that a class declares one or more link Bean Bean methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime, for example:" />
@@ -50,12 +51,11 @@
       <item value="Specifies a composite primary key class that is mapped to multiple fields or properties of the entity. &lt;p&gt; The names of the fields or properties in the primary key class and the primary key fields or properties of the entity must correspond and their types must be the same." />
       <item value="selection specifying the item that is to be returned in the query result" />
       <item value="For example: CriteriaQuery&amp;#060;String&amp;#062; q = cb.createQuery(String.class); Root&amp;#060;Order&amp;#062; order = q.from(Order.class); q.select(order.get(&quot;shippingAddress&quot;).&amp;#060;String&amp;#062;get(&quot;state&quot;)); CriteriaQuery&amp;#060;Product&amp;#062; q2 = cb.createQuery(Product.class); q2.select(q2.from(Order.class) .join(&quot;items&quot;) .&amp;#060;Item,Product&amp;#062;join(&quot;product&quot;));" />
-      <item value="Specify the item that is to be returned in the query result. Replaces the previously specified selection(s), if any. &lt;p&gt; Note: Applications using the string-based API may need to specify the type of the select item when it results from a get or join operation and the query result type is specified." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="489" />
-        <entry key="ENGLISH" value="490" />
+        <entry key="CHINESE" value="490" />
+        <entry key="ENGLISH" value="491" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
