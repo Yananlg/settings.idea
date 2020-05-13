@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the protocol (scheme) the annotated string must match, e.g. ftp or http. Per default any protocol is allowed" />
       <item value="Creates a localized description of this throwable. Subclasses may override this method in order to produce a locale-specific message. For subclasses that do not override this method, the default implementation returns the same result as code getMessage()." />
       <item value="Proving" />
       <item value="charsToDelete a set of characters to delete, in addition to trimming an input String. Useful for deleting unwanted line breaks: e.g. &quot;\r\n\f&quot; will delete all new lines and line feeds in a String." />
@@ -50,12 +51,11 @@
       <item value="Available for collections only.  When accessing a non-initialized collection, this fetch mode will trigger loading all elements of all collections of the same role for all owners associated with the persistence context using a single secondary select." />
       <item value="(Optional) The name of the primary key generator to use as specified in the link SequenceGenerator or link TableGenerator annotation. &lt;p&gt; Defaults to the id generator supplied by persistence provider." />
       <item value="Specifies a composite primary key class that is mapped to multiple fields or properties of the entity. &lt;p&gt; The names of the fields or properties in the primary key class and the primary key fields or properties of the entity must correspond and their types must be the same." />
-      <item value="selection specifying the item that is to be returned in the query result" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="491" />
-        <entry key="ENGLISH" value="492" />
+        <entry key="CHINESE" value="492" />
+        <entry key="ENGLISH" value="493" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
