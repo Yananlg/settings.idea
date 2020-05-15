@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="increment" />
       <item value="Atomically increment by one the current value." />
       <item value="Atomic long backed by Redis. Uses Redis atomic incrementdecrement and watchmultiexec operations for CAS operations." />
       <item value="Add an inline element to the MimeMessage, taking the content from a code javax.activation.DataSource. &lt;p&gt;Note that the InputStream returned by the DataSource implementation needs to be a &lt;i&gt;fresh one on each call&lt;i&gt;, as JavaMail will invoke code getInputStream() multiple times. &lt;p&gt;&lt;b&gt;NOTE:&lt;b&gt; Invoke code addInline &lt;i&gt;after&lt;i&gt; link #setText; else, mail readers might not be able to resolve inline references correctly. param contentId the content ID to use. Will end up as &quot;Content-ID&quot; header in the body part, surrounded by angle brackets: e.g. &quot;myId&quot; -&gt; &quot;&amp;lt;myId&amp;gt;&quot;. Can be referenced in HTML source via src=&quot;cid:myId&quot; expressions. param dataSource the code javax.activation.DataSource to take the content from, determining the InputStream and the content type" />
@@ -50,12 +51,11 @@
       <item value="Annotation used to indicate that associated property is part of two-way linkage between fields; and that its role is &quot;child&quot; (or &quot;back&quot;) link. Value type of the property must be a bean: it can not be a Collection, Map, Array or enumeration. Linkage is handled such that the property annotated with this annotation is not serialized; and during deserialization, its value is set to instance that has the &quot;managed&quot; (forward) link. &lt;p&gt; All references have logical name to allow handling multiple linkages; typical case would be that where nodes have both parentchild and sibling linkages. If so, pairs of references should be named differently. It is an error for a class to have multiple back references with same name, even if types pointed are different. &lt;p&gt; Note: only methods and fields can be annotated with this annotation: constructor arguments should NOT be annotated, as they can not be either managed or back references." />
       <item value="Use an outer join to load the related entities, collections or joins." />
       <item value="Use a secondary select for each individual entity, collection, or join load." />
-      <item value="Fetch options on associations. Defines more of the &quot;how&quot; of fetching, whereas JPA link javax.persistence.FetchType focuses on the &quot;when&quot;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="495" />
-        <entry key="ENGLISH" value="496" />
+        <entry key="CHINESE" value="496" />
+        <entry key="ENGLISH" value="497" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
