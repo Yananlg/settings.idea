@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="persist" />
       <item value="Gets the callback response body. The caller needs to close it. Deprecated method. Please use this.getResponse().getContent() instead." />
       <item value="The parameters code protocol, code host and code port are matched against the corresponding parts of the URL. and an additional regular expression can be specified using code regexp and code flags to further restrict the matching criteria." />
       <item value="the protocol (scheme) the annotated string must match, e.g. ftp or http. Per default any protocol is allowed" />
@@ -50,12 +51,11 @@
       <item value="The paths of attributes of this link EntityGraph to use, empty by default. You can refer to direct properties of the entity or nested properties via a code property.nestedProperty." />
       <item value="The name of the EntityGraph to use. If empty we fall-back to link JpaQueryMethod#getNamedQueryName() as the value." />
       <item value="Annotation to configure the JPA 2.1 link javax.persistence.EntityGraphs that should be used on repository methods. Since 1.9 we support the definition of dynamic link EntityGraphs by allowing to customize the fetch-graph via via link #attributePaths() ad-hoc fetch-graph configuration." />
-      <item value="unless" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="501" />
-        <entry key="ENGLISH" value="502" />
+        <entry key="CHINESE" value="502" />
+        <entry key="ENGLISH" value="503" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
