@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="ROUND ROBIN" />
+      <item value="RANDOM" />
       <item value="orchestration" />
       <item value="the names of the classes that must not be present" />
       <item value="The names of the classes that must not be present." />
@@ -49,13 +51,11 @@
       <item value="the target type of the join" />
       <item value="the source type of the join" />
       <item value="Specify whether this resolver's cookies should be compliant with BCP 47 language tags instead of Java's legacy locale specification format. &lt;p&gt;The default is code true, as of 5.1. Switch this to code false for rendering Java's legacy locale specification format. For parsing, this resolver leniently accepts the legacy link Locale#toString format as well as BCP 47 language tags in any case." />
-      <item value="Specify whether to reject cookies with invalid content (e.g. invalid format). &lt;p&gt;The default is code true. Turn this off for lenient handling of parse failures, falling back to the default locale and time zone in such a case." />
-      <item value="Set whether to ignore an invalid value for the locale parameter." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="510" />
-        <entry key="ENGLISH" value="511" />
+        <entry key="CHINESE" value="512" />
+        <entry key="ENGLISH" value="513" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
