@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Feature that may be enabled to force replacement &lt;code&gt;org.hibernate.collection.spi.PersistentCollection&lt;code&gt;, &lt;code&gt;List&lt;code&gt;, &lt;code&gt;Set&lt;code&gt;, &lt;code&gt;Map&lt;code&gt; subclasses during serialization as standard JDK link java.util.List, link java.util.Set and link java.util.Map. This is usually done to prevent issues with polymorphic handling, so that type id is generated for standard containers and NOT for Hibernate variants. &lt;p&gt;" />
+      <item value="This feature determines how link org.hibernate.collection.spi.PersistentCollections properties for which no annotation is found are handled with respect to lazy-loading: if true, lazy-loading is only assumed if annotation is used to indicate that; if false, lazy-loading is assumed to be the default. Note that link #FORCE_LAZY_LOADING has priority over this Feature; meaning that if it is defined as true, setting of this Feature has no effect. &lt;p&gt; Default value is false, meaning that laziness is considered to be the default value." />
+      <item value="Whether lazy-loaded object should be forced to be loaded and then serialized (true); or serialized as nulls (false). &lt;p&gt; Default value is false." />
+      <item value="Whether link javax.persistence.Transient annotation should be checked or not; if true, will consider code Transient to mean that property is to be ignored; if false annotation will have no effect. &lt;p&gt; Default value is true." />
+      <item value="If FORCE_LAZY_LOADING is false, this feature serializes uninitialized lazy loading proxies as &lt;code&gt;&quot;identifierName&quot;:&quot;identifierValue&quot;&lt;code&gt; rather than &lt;code&gt;null&lt;code&gt;. &lt;p&gt; Default value is false. &lt;p&gt; Note that the name of the identifier property can only be determined if &lt;ul&gt; &lt;li&gt;the link Mapping is provided to the Hibernate5Module, or &lt;li&gt; &lt;li&gt;the persistence context that loaded the proxy has not yet been closed, or&lt;li&gt; &lt;li&gt;the id property is mapped with property access (for instance because the code Id annotation is applied to a method rather than a field)&lt;li&gt; &lt;ul&gt; Otherwise, the entity name will be used instead." />
       <item value="ROUND ROBIN" />
       <item value="RANDOM" />
       <item value="orchestration" />
@@ -46,16 +51,11 @@
       <item value="Whether lazy-loaded object should be forced to be loaded and then serialized (true); or serialized as nulls (false)." />
       <item value="&lt;li&gt;The method MUST NOT have any parameters except in the case of interceptors in which case it takes an InvocationContext object as defined by the Interceptors specification.&lt;li&gt; &lt;li&gt;The method defined on an interceptor class MUST HAVE one of the following signatures: &lt;p&gt;" />
       <item value="The PostConstruct annotation is used on a method that needs to be executed after dependency injection is done to perform any initialization. This method MUST be invoked before the class is put into service. This annotation MUST be supported on all classes that support dependency injection. The method annotated with PostConstruct MUST be invoked even if the class does not request any resources to be injected. Only one method can be annotated with this annotation. The method on which the PostConstruct annotation is applied MUST fulfill all of the following criteria:" />
-      <item value="Build a new link ObjectMapper instance. &lt;p&gt;Each build operation produces an independent link ObjectMapper instance. The builder's settings can get modified, with a subsequent build operation then producing a new link ObjectMapper based on the most recent settings. return the newly built ObjectMapper" />
-      <item value="If set to code true, an link XmlMapper will be created using its default constructor. This is only applicable to link #build() calls, not to link #configure calls." />
-      <item value="the target type of the join" />
-      <item value="the source type of the join" />
-      <item value="Specify whether this resolver's cookies should be compliant with BCP 47 language tags instead of Java's legacy locale specification format. &lt;p&gt;The default is code true, as of 5.1. Switch this to code false for rendering Java's legacy locale specification format. For parsing, this resolver leniently accepts the legacy link Locale#toString format as well as BCP 47 language tags in any case." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="512" />
-        <entry key="ENGLISH" value="513" />
+        <entry key="CHINESE" value="517" />
+        <entry key="ENGLISH" value="518" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
