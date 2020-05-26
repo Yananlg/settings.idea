@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="sharding results for data sources or tables's names" />
+      <item value="sharding value" />
+      <item value="available data sources or tables's names" />
       <item value="Strategy" />
       <item value="squarely" />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
@@ -48,14 +51,11 @@
       <item value="Name of the target database to operate on, auto-detected by default. Can be alternatively set using the &quot;Database&quot; enum." />
       <item value="On input: an alignment field, if desired. On output: the offsets of the alignment field. For example, given a time text &quot;1996.07.10 AD at 15:08:56 PDT&quot;, if the given fieldPosition is DateFormat.YEAR_FIELD, the begin index and end index of fieldPosition will be set to 0 and 4, respectively. Notice that if the same time field appears more than once in a pattern, the fieldPosition will be set for the first occurrence of that time field. For instance, formatting a Date to the time string &quot;1 PM PDT (Pacific Daylight Time)&quot; using the pattern &quot;h a z (zzzz)&quot; and the alignment field DateFormat.TIMEZONE_FIELD, the begin index and end index of fieldPosition will be set to 5 and 8, respectively, for the first occurrence of the timezone pattern character 'z'. return the string buffer passed in as toAppendTo, with formatted text appended." />
       <item value="Formats a Date into a datetime string. param date a Date to be formatted into a datetime string. param toAppendTo the string buffer for the returning datetime string. param fieldPosition keeps track of the position of the field" />
-      <item value="Whether link javax.persistence.Transient annotation should be checked or not; if true, will consider code Transient to mean that property is to be ignored; if false annotation will have no effect." />
-      <item value="Using link #FORCE_LAZY_LOADING may result in `javax.persistence.EntityNotFoundException`. This flag configures Jackson to ignore the error and serialize a `null`." />
-      <item value="Default setting is false, so that no replacement occurs." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="524" />
-        <entry key="ENGLISH" value="525" />
+        <entry key="CHINESE" value="527" />
+        <entry key="ENGLISH" value="528" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
