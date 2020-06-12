@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Creates a random string whose length is the number of characters specified" />
       <item value="commander" />
       <item value="Command" />
       <item value="Commond" />
@@ -50,12 +51,11 @@
       <item value="Atomically increment by one the current value." />
       <item value="Atomic long backed by Redis. Uses Redis atomic incrementdecrement and watchmultiexec operations for CAS operations." />
       <item value="Add an inline element to the MimeMessage, taking the content from a code javax.activation.DataSource. &lt;p&gt;Note that the InputStream returned by the DataSource implementation needs to be a &lt;i&gt;fresh one on each call&lt;i&gt;, as JavaMail will invoke code getInputStream() multiple times. &lt;p&gt;&lt;b&gt;NOTE:&lt;b&gt; Invoke code addInline &lt;i&gt;after&lt;i&gt; link #setText; else, mail readers might not be able to resolve inline references correctly. param contentId the content ID to use. Will end up as &quot;Content-ID&quot; header in the body part, surrounded by angle brackets: e.g. &quot;myId&quot; -&gt; &quot;&amp;lt;myId&amp;gt;&quot;. Can be referenced in HTML source via src=&quot;cid:myId&quot; expressions. param dataSource the code javax.activation.DataSource to take the content from, determining the InputStream and the content type" />
-      <item value="Creates a localized description of this throwable. Subclasses may override this method in order to produce a locale-specific message. For subclasses that do not override this method, the default implementation returns the same result as code getMessage()." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="539" />
-        <entry key="ENGLISH" value="540" />
+        <entry key="CHINESE" value="540" />
+        <entry key="ENGLISH" value="541" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
