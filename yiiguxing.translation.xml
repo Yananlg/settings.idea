@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The annotated element must be an instant, date or time in the past" />
       <item value="detach" />
       <item value="merge" />
       <item value="persist" />
@@ -50,12 +51,11 @@
       <item value="an additional regular expression the annotated URL must match. The default is any string ('.')" />
       <item value="Cust" />
       <item value="increment" />
-      <item value="Atomically increment by one the current value." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="543" />
-        <entry key="ENGLISH" value="544" />
+        <entry key="CHINESE" value="544" />
+        <entry key="ENGLISH" value="545" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
