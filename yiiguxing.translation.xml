@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="an optional array of extensions" />
+      <item value="Limits the acceptable values for this parameter. &lt;p&gt; There are three ways to describe the allowable values: &lt;ol&gt; &lt;li&gt;To set a list of values, provide a comma-separated list. For example: code first, second, third.&lt;li&gt; &lt;li&gt;To set a range of values, start the value with &quot;range&quot;, and surrounding by square brackets include the minimum and maximum values, or round brackets for exclusive minimum and maximum values. For example: code range[1, 5], code range(1, 5), code range[1, 5).&lt;li&gt; &lt;li&gt;To set a minimummaximum value, use the same format for range but use &quot;infinity&quot; or &quot;-infinity&quot; as the second value. For example, code range[1, infinity] means the minimum allowable value of this parameter is 1.&lt;li&gt;" />
+      <item value="Allows for filtering a property from the API documentation. See io.swagger.core.filter.SwaggerSpecFilter." />
       <item value="exclusive" />
       <item value="the next pseudorandom, uniformly distributed code int value between zero (inclusive) and code bound (exclusive)" />
       <item value="the position in set of chars to end before (exclusive)" />
@@ -48,14 +51,11 @@
       <item value="orchestration" />
       <item value="the names of the classes that must not be present" />
       <item value="The names of the classes that must not be present." />
-      <item value="The optional name of a method to call on the bean instance during initialization. Not commonly used, given that the method may be called programmatically directly within the body of a Bean-annotated method." />
-      <item value="bookin" />
-      <item value="the period between successive executions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="554" />
-        <entry key="ENGLISH" value="555" />
+        <entry key="CHINESE" value="558" />
+        <entry key="ENGLISH" value="559" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
