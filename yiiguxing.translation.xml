@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The classes that must be present. Since this annotation is parsed by loading class bytecode, it is safe to specify classes here that may ultimately not be on the classpath, only if this annotation is directly on the affected component and &lt;b&gt;not&lt;b&gt; if this annotation is used as a composed, meta-annotation. In order to use this annotation as a meta-annotation, only use the link #name attribute. return the classes that must be present" />
+      <item value="The classes names that must be present." />
       <item value="rejected" />
       <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
       <item value="persist" />
@@ -49,13 +51,11 @@
       <item value="This feature determines how link org.hibernate.collection.spi.PersistentCollections properties for which no annotation is found are handled with respect to lazy-loading: if true, lazy-loading is only assumed if annotation is used to indicate that; if false, lazy-loading is assumed to be the default. Note that link #FORCE_LAZY_LOADING has priority over this Feature; meaning that if it is defined as true, setting of this Feature has no effect. &lt;p&gt; Default value is false, meaning that laziness is considered to be the default value." />
       <item value="Whether lazy-loaded object should be forced to be loaded and then serialized (true); or serialized as nulls (false). &lt;p&gt; Default value is false." />
       <item value="Whether link javax.persistence.Transient annotation should be checked or not; if true, will consider code Transient to mean that property is to be ignored; if false annotation will have no effect. &lt;p&gt; Default value is true." />
-      <item value="If FORCE_LAZY_LOADING is false, this feature serializes uninitialized lazy loading proxies as &lt;code&gt;&quot;identifierName&quot;:&quot;identifierValue&quot;&lt;code&gt; rather than &lt;code&gt;null&lt;code&gt;. &lt;p&gt; Default value is false. &lt;p&gt; Note that the name of the identifier property can only be determined if &lt;ul&gt; &lt;li&gt;the link Mapping is provided to the Hibernate5Module, or &lt;li&gt; &lt;li&gt;the persistence context that loaded the proxy has not yet been closed, or&lt;li&gt; &lt;li&gt;the id property is mapped with property access (for instance because the code Id annotation is applied to a method rather than a field)&lt;li&gt; &lt;ul&gt; Otherwise, the entity name will be used instead." />
-      <item value="ROUND ROBIN" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="564" />
-        <entry key="ENGLISH" value="565" />
+        <entry key="CHINESE" value="566" />
+        <entry key="ENGLISH" value="567" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
