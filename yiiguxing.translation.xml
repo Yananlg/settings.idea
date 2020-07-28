@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Removes the expiration (if any) of the key." />
+      <item value="Increment an integer value stored as string value under code key by code delta." />
+      <item value="Increment an integer value stored as string value under code key by one." />
       <item value="Specify whether or not datetime parsing is to be lenient. With lenient parsing, the parser may use heuristics to interpret inputs that do not precisely match this object's format. With strict parsing, inputs must match this object's format." />
       <item value="the exact expected length of the date String" />
       <item value="The classes that must be present. Since this annotation is parsed by loading class bytecode, it is safe to specify classes here that may ultimately not be on the classpath, only if this annotation is directly on the affected component and &lt;b&gt;not&lt;b&gt; if this annotation is used as a composed, meta-annotation. In order to use this annotation as a meta-annotation, only use the link #name attribute. return the classes that must be present" />
@@ -48,14 +51,11 @@
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="The name of the primary key generator to use as specified in the link SequenceGenerator or link TableGenerator annotation. &lt;p&gt; Defaults to the id generator supplied by persistence provider." />
       <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
-      <item value="Indicates that the persistence provider must assign primary keys for the entity using a database identity column." />
-      <item value="Feature that may be enabled to force replacement &lt;code&gt;org.hibernate.collection.spi.PersistentCollection&lt;code&gt;, &lt;code&gt;List&lt;code&gt;, &lt;code&gt;Set&lt;code&gt;, &lt;code&gt;Map&lt;code&gt; subclasses during serialization as standard JDK link java.util.List, link java.util.Set and link java.util.Map. This is usually done to prevent issues with polymorphic handling, so that type id is generated for standard containers and NOT for Hibernate variants. &lt;p&gt;" />
-      <item value="This feature determines how link org.hibernate.collection.spi.PersistentCollections properties for which no annotation is found are handled with respect to lazy-loading: if true, lazy-loading is only assumed if annotation is used to indicate that; if false, lazy-loading is assumed to be the default. Note that link #FORCE_LAZY_LOADING has priority over this Feature; meaning that if it is defined as true, setting of this Feature has no effect. &lt;p&gt; Default value is false, meaning that laziness is considered to be the default value." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="568" />
-        <entry key="ENGLISH" value="569" />
+        <entry key="CHINESE" value="571" />
+        <entry key="ENGLISH" value="572" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
