@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="vibration" />
       <item value="Removes the expiration (if any) of the key." />
       <item value="Increment an integer value stored as string value under code key by code delta." />
       <item value="Increment an integer value stored as string value under code key by one." />
@@ -50,12 +51,11 @@
       <item value="squarely" />
       <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
       <item value="The name of the primary key generator to use as specified in the link SequenceGenerator or link TableGenerator annotation. &lt;p&gt; Defaults to the id generator supplied by persistence provider." />
-      <item value="Indicates that the persistence provider should pick an appropriate strategy for the particular database. The &lt;code&gt;AUTO&lt;code&gt; generation strategy may expect a database resource to exist, or it may attempt to create one. A vendor may provide documentation on how to create such resources in the event that it does not support schema generation or cannot create the schema resource at runtime." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="571" />
-        <entry key="ENGLISH" value="572" />
+        <entry key="CHINESE" value="572" />
+        <entry key="ENGLISH" value="573" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
