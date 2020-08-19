@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="if interrupted while waiting" />
+      <item value="if the class of the specified element prevents it from being added to this queue" />
+      <item value="if some property of the specified element prevents it from being added to this queue" />
+      <item value="if the specified element is null" />
       <item value="Finely" />
       <item value="vibration" />
       <item value="Removes the expiration (if any) of the key." />
@@ -47,15 +51,11 @@
       <item value="length" />
       <item value="sharding results for data sources or tables's names" />
       <item value="sharding value" />
-      <item value="available data sources or tables's names" />
-      <item value="Strategy" />
-      <item value="squarely" />
-      <item value="Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="574" />
-        <entry key="ENGLISH" value="574" />
+        <entry key="CHINESE" value="578" />
+        <entry key="ENGLISH" value="579" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
