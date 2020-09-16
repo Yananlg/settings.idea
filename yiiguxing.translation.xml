@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Add given code values to set at code key." />
+      <item value="Intersect all given sets at code key and code otherKeys and store result in code destKey." />
       <item value="if interrupted while waiting" />
       <item value="if the class of the specified element prevents it from being added to this queue" />
       <item value="if some property of the specified element prevents it from being added to this queue" />
@@ -49,13 +51,11 @@
       <item value="Creates a string representation of this &lt;tt&gt;Date&lt;tt&gt; object in an implementation-dependent form. The intent is that the form should be familiar to the user of the Java application, wherever it may happen to be running. The intent is comparable to that of the &quot;&lt;code&gt;%c&lt;code&gt;&quot; format supported by the &lt;code&gt;strftime()&lt;code&gt; function of ISO&amp;nbsp;C." />
       <item value="delta" />
       <item value="length" />
-      <item value="sharding results for data sources or tables's names" />
-      <item value="sharding value" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="578" />
-        <entry key="ENGLISH" value="579" />
+        <entry key="CHINESE" value="580" />
+        <entry key="ENGLISH" value="581" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
