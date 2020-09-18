@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="White" />
+      <item value="Black" />
       <item value="unwrap" />
       <item value="Assigns an alias to the selection item. Once assigned, an alias cannot be changed or reassigned. Returns the same selection item." />
       <item value="Create an expression that returns the sum of its arguments." />
@@ -49,13 +51,11 @@
       <item value="commander" />
       <item value="Command" />
       <item value="Commond" />
-      <item value="The default implementation makes no guarantees about synchronization or atomicity properties of this method. Any implementation providing atomicity guarantees must override this method and document its concurrency properties." />
-      <item value="&lt;p&gt;Like with any annotation in Java, the mere presence of code AliasFor on its own will not enforce alias semantics. For alias semantics to be enforced, annotations must be &lt;em&gt;loaded&lt;em&gt; via the utility methods in link AnnotationUtils. Behind the scenes, Spring will &lt;em&gt;synthesize&lt;em&gt; an annotation by wrapping it in a dynamic proxy that transparently enforces &lt;em&gt;attribute alias&lt;em&gt; semantics for annotation attributes that are annotated with code AliasFor. Similarly, link AnnotatedElementUtils supports explicit meta-annotation attribute overrides when code AliasFor is used within an annotation hierarchy. Typically you will not need to manually synthesize annotations on your own since Spring will do that for you transparently when looking up annotations on Spring-managed components." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="592" />
-        <entry key="ENGLISH" value="593" />
+        <entry key="CHINESE" value="594" />
+        <entry key="ENGLISH" value="595" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
