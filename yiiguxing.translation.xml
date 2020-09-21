@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Whether the association is optional. If set to false then a non-null relationship must always exist." />
       <item value="White" />
       <item value="Black" />
       <item value="unwrap" />
@@ -50,12 +51,11 @@
       <item value="Creates a random string whose length is the number of characters specified" />
       <item value="commander" />
       <item value="Command" />
-      <item value="Commond" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="594" />
-        <entry key="ENGLISH" value="595" />
+        <entry key="CHINESE" value="595" />
+        <entry key="ENGLISH" value="596" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
