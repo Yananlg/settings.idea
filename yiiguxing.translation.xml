@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Create an expression for a literal." />
       <item value="expected result type" />
       <item value="Whether the association is optional. If set to false then a non-null relationship must always exist." />
       <item value="White" />
@@ -50,12 +51,11 @@
       <item value="Uploads the file from a specified file path to the signed URL with specified headers" />
       <item value="The annotated element must be an instant, date or time in the past" />
       <item value="Creates a random string whose length is the number of characters specified" />
-      <item value="commander" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="596" />
-        <entry key="ENGLISH" value="597" />
+        <entry key="CHINESE" value="597" />
+        <entry key="ENGLISH" value="598" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
