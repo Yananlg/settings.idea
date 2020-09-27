@@ -6,26 +6,6 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.10.184:3306/parking_report</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="H:parking_report@192.168.10.184" uuid="438bb8a3-4b10-43ae-b0bd-93149845c04f">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate
-
-F:/Workspace/parking-platform/parking-reporter/src/main/resources/META-INF/persistence.xml</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://182.168.10.184:3306/parking_report</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="H:museum_silk@182.168.10.184" uuid="c750d3ee-5463-4699-84a9-08f7aec8736c">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate
-
-F:/Workspace/museum-platform/silk/silk-common/src/main/resources/META-INF/persistence.xml</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://182.168.10.184:3306/museum_silk</jdbc-url>
-    </data-source>
     <data-source source="LOCAL" name="museum_silk@192.168.10.184" uuid="931ec87f-2cbb-4846-9aec-98b581e197af">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
