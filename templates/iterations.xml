@@ -4,6 +4,5 @@
     <variable name="ARRAY" expression="arrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
     <variable name="ELEMENT_TYPE" expression="componentTypeOf(ARRAY)" defaultValue="" alwaysStopAt="false" />
     <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
