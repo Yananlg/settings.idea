@@ -8,7 +8,9 @@
     <option name="version" value="4.2.1" />
   </component>
   <component name="MaterialThemeConfig">
+    <option name="compactStatusBar" value="true" />
     <option name="highlightColorEnabled" value="true" />
+    <option name="isHighlightColorEnabled" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
@@ -20,6 +22,6 @@
     <option name="accentColor" value="2979ff" />
     <option name="selectedTheme" value="CUSTOM" />
     <option name="userId" value="6efe8ed4:167dde00d1e:-8000" />
-    <option name="version" value="4.11.5" />
+    <option name="version" value="5.2.0" />
   </component>
 </application>
