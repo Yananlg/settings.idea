@@ -1,31 +1,5 @@
 <application>
-  <component name="VimSettings">
-    <state version="4" enabled="false" />
-    <globalmarks />
-    <filemarks>
-      <file name="F:/Workspace/parking-platform/parking-pay-linker/src/main/java/com/shimaoiot/parking/pay/common/config/WebConfigure.java" timestamp="1562548601540">
-        <mark key="[" line="89" column="59" />
-      </file>
-      <file name="F:/Workspace/parking-platform/parking-centre/src/main/java/com/shimaowy/parking/common/config/WebConfigure.java" timestamp="1562550907964" />
-      <file name="F:/Workspace/parking-platform/parking-centre/src/main/java/com/shimaowy/parking/common/config/ParkingConfigure.java" timestamp="1562550865379">
-        <mark key="[" line="13" column="0" />
-      </file>
-      <file name="/HTML File.txt.ft" timestamp="1562408012235">
-        <mark key="[" line="0" column="0" />
-      </file>
-    </filemarks>
-    <jumps />
-    <registers />
-    <search>
-      <last-dir>0</last-dir>
-      <show-last>false</show-last>
-    </search>
-    <history>
-      <history-search />
-      <history-cmd />
-      <history-expr />
-      <history-input />
-    </history>
+  <component name="VimKeySettings">
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed S</text>
@@ -37,5 +11,12 @@
         <text>ctrl pressed C</text>
       </shortcut-conflict>
     </shortcut-conflicts>
+  </component>
+  <component name="VimSettings">
+    <state version="7" enabled="false" />
+    <notifications>
+      <idea-join enabled="false" />
+      <idea-put enabled="false" />
+    </notifications>
   </component>
 </application>
