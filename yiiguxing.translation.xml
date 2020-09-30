@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Determines if the class or interface represented by this code Class object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified code Class parameter. It returns code true if so; otherwise it returns code false. If this code Class object represents a primitive type, this method returns code true if the specified code Class parameter is exactly this code Class object; otherwise it returns code false." />
       <item value="Returns the offset to be taken according to the underlying page and page size." />
       <item value="constitute the total permissions assigned directly to the account." />
       <item value="Sets the object-based permissions assigned directly to the account. The permissions set here, in addition to any link #getStringPermissions() string permissions constitute the total permissions assigned directly to the account." />
@@ -50,12 +51,11 @@
       <item value="rejected" />
       <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
       <item value="each" />
-      <item value="sharding Value" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="608" />
-        <entry key="ENGLISH" value="609" />
+        <entry key="CHINESE" value="609" />
+        <entry key="ENGLISH" value="610" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
