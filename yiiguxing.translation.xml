@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the offset to be taken according to the underlying page and page size." />
       <item value="constitute the total permissions assigned directly to the account." />
       <item value="Sets the object-based permissions assigned directly to the account. The permissions set here, in addition to any link #getStringPermissions() string permissions constitute the total permissions assigned directly to the account." />
       <item value="Allows this subject to 'run as' or 'assume' another identity indefinitely. This can only be called when the code Subject instance already has an identity (i.e. they are remembered from a previous log-in or they have authenticated during their current session). &lt;p&gt; Some notes about code runAs: &lt;ul&gt; &lt;li&gt;You can tell if a code Subject is 'running as' another identity by calling the link #isRunAs() isRunAs() method.&lt;li&gt; &lt;li&gt;If running as another identity, you can determine what the previous 'pre run as' identity was by calling the link #getPreviousPrincipals() getPreviousPrincipals() method.&lt;li&gt; &lt;li&gt;When you want a code Subject to stop running as another identity, you can return to its previous 'pre run as' identity by calling the link #releaseRunAs() releaseRunAs() method.&lt;li&gt; &lt;ul&gt;" />
@@ -50,12 +51,11 @@
       <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
       <item value="each" />
       <item value="sharding Value" />
-      <item value="an optional array of extensions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="607" />
-        <entry key="ENGLISH" value="608" />
+        <entry key="CHINESE" value="608" />
+        <entry key="ENGLISH" value="609" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
