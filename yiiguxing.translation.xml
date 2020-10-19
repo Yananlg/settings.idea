@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Axis" />
+      <item value="Realm" />
       <item value="detach" />
       <item value="Gets a calendar using the default time zone and locale. The &lt;code&gt;Calendar&lt;code&gt; returned is based on the current time in the default time zone with the default" />
       <item value="Determines if the class or interface represented by this code Class object is either the same as, or is a superclass or superinterface of, the class or interface represented by the specified code Class parameter. It returns code true if so; otherwise it returns code false. If this code Class object represents a primitive type, this method returns code true if the specified code Class parameter is exactly this code Class object; otherwise it returns code false." />
@@ -49,13 +51,11 @@
       <item value="the exact expected length of the date String" />
       <item value="The classes that must be present. Since this annotation is parsed by loading class bytecode, it is safe to specify classes here that may ultimately not be on the classpath, only if this annotation is directly on the affected component and &lt;b&gt;not&lt;b&gt; if this annotation is used as a composed, meta-annotation. In order to use this annotation as a meta-annotation, only use the link #name attribute. return the classes that must be present" />
       <item value="The classes names that must be present." />
-      <item value="rejected" />
-      <item value="Whether user credentials are supported. &lt;p&gt;By default this is not set (i.e. user credentials are not supported)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="611" />
-        <entry key="ENGLISH" value="612" />
+        <entry key="CHINESE" value="613" />
+        <entry key="ENGLISH" value="614" />
         <entry key="GERMAN" value="4" />
         <entry key="FRENCH" value="1" />
         <entry key="PORTUGUESE" value="1" />
